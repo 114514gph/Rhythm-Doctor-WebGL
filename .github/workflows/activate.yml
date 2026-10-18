@@ -29,7 +29,7 @@ jobs:
             -v ${{ github.workspace }}:/project \
             -w /project \
             unityci/editor:ubuntu-2022.3.62f1-webgl-3.2.2 \
-            Unity -batchmode -nographics -createManualActivationFile -quit -logFile -
+            /opt/unity/Editor/Unity -batchmode -nographics -createManualActivationFile -quit -logFile -
 
       - name: List Alf Files
         run: ls -la *.alf
