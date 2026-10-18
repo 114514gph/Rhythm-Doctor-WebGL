@@ -10,6 +10,12 @@ public class WebGLBuilder
     {
         Debug.Log("=== WebGLBuilder: Build START ===");
 
+        // Disable light baking to reduce memory usage during build
+        Debug.Log("Disabling light baking to save memory...");
+        Lightmapping.giWorkflowMode = Lightmapping.GIWorkflowMode.OnDemand;
+        Lightmapping.realtimeGI = false;
+        Lightmapping.bakedGI = false;
+
         string[] scenes = new string[]
         {
             "Assets/Fizzd/Scenes/scnLogo.unity",

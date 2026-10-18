@@ -21,7 +21,7 @@
 
 部分浏览器（Chrome、Edge）会阻止直接通过 `file://` 打开 Unity WebGL 内容。请使用附带的本地服务器：
 
-- **Windows：** 双击 `启动游戏.bat`（或用 PowerShell 运行 `start-server.ps1`）
+- **Windows：** 双击 `start_game.bat`（或用 PowerShell 运行 `start-server.ps1`）
 - 服务器将在 `http://localhost:8080/` 启动并自动打开浏览器
 - 关闭终端窗口即可停止服务器
 

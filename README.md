@@ -21,7 +21,7 @@ A WebGL port of the rhythm puzzle game *Rhythm Doctor*, rebuilt from decompiled 
 
 Some browsers (Chrome, Edge) block Unity WebGL content when opened directly via `file://`. Use the included local server instead:
 
-- **Windows:** Double-click `启动游戏.bat` (or run `start-server.ps1` with PowerShell)
+- **Windows:** Double-click `start_game.bat` (or run `start-server.ps1` with PowerShell)
 - The server starts at `http://localhost:8080/` and opens your browser automatically
 - Close the terminal window to stop the server
 
