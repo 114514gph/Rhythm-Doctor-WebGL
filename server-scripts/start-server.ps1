@@ -19,6 +19,41 @@ Write-Host ""
 # Open browser
 Start-Process "http://localhost:$port/"
 
+function Get-ContentType($filePath) {
+    $fileName = [System.IO.Path]::GetFileName($filePath)
+    $extension = [System.IO.Path]::GetExtension($filePath)
+    
+    # Special handling for .gz files - check the underlying extension
+    if ($extension -eq ".gz") {
+        $baseName = $fileName -replace '\.gz$', ''
+        $baseExt = [System.IO.Path]::GetExtension($baseName)
+        switch ($baseExt) {
+            ".wasm" { return @("application/wasm", $true) }
+            ".js" { return @("application/javascript", $true) }
+            ".data" { return @("application/octet-stream", $true) }
+            ".json" { return @("application/json", $true) }
+            ".html" { return @("text/html", $true) }
+            ".css" { return @("text/css", $true) }
+            default { return @("application/gzip", $true) }
+        }
+    }
+    
+    switch ($extension) {
+        ".html" { return @("text/html", $false) }
+        ".js" { return @("application/javascript", $false) }
+        ".css" { return @("text/css", $false) }
+        ".json" { return @("application/json", $false) }
+        ".png" { return @("image/png", $false) }
+        ".jpg" { return @("image/jpeg", $false) }
+        ".gif" { return @("image/gif", $false) }
+        ".svg" { return @("image/svg+xml", $false) }
+        ".ico" { return @("image/x-icon", $false) }
+        ".wasm" { return @("application/wasm", $false) }
+        ".data" { return @("application/octet-stream", $false) }
+        default { return @("application/octet-stream", $false) }
+    }
+}
+
 try {
     while ($listener.IsListening) {
         $context = $listener.GetContext()
@@ -32,25 +67,11 @@ try {
         
         if (Test-Path $filePath -PathType Leaf) {
             $content = [System.IO.File]::ReadAllBytes($filePath)
-            $extension = [System.IO.Path]::GetExtension($filePath)
+            $ctResult = Get-ContentType $filePath
+            $response.ContentType = $ctResult[0]
             
-            switch ($extension) {
-                ".html" { $response.ContentType = "text/html" }
-                ".js" { $response.ContentType = "application/javascript" }
-                ".css" { $response.ContentType = "text/css" }
-                ".json" { $response.ContentType = "application/json" }
-                ".png" { $response.ContentType = "image/png" }
-                ".jpg" { $response.ContentType = "image/jpeg" }
-                ".gif" { $response.ContentType = "image/gif" }
-                ".svg" { $response.ContentType = "image/svg+xml" }
-                ".ico" { $response.ContentType = "image/x-icon" }
-                ".wasm" { $response.ContentType = "application/wasm" }
-                ".data" { $response.ContentType = "application/octet-stream" }
-                ".gz" { 
-                    $response.ContentType = "application/gzip"
-                    $response.AddHeader("Content-Encoding", "gzip")
-                }
-                default { $response.ContentType = "application/octet-stream" }
+            if ($ctResult[1]) {
+                $response.AddHeader("Content-Encoding", "gzip")
             }
             
             $response.ContentLength64 = $content.Length
