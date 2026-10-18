@@ -11,7 +11,7 @@ A WebGL port of the rhythm puzzle game *Rhythm Doctor*, rebuilt from decompiled 
 3. Open `index.html` in Chrome or Edge
 4. Wait for assets to load (~328 MB data file)
 
-**Controls:** `Z` (primary action) · `Arrow Keys` (navigation) · `Enter` (confirm) · `Esc` (pause/back)
+**Controls:** `Enter` (Player 1 defibrillate) · `Z` (Player 2 defibrillate) · `Arrow Keys` (navigation) · `Esc` (pause/back)
 
 ---
 
