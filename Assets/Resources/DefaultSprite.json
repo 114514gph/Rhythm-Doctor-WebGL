@@ -1,0 +1,6 @@
+{
+    "size": [0,0],
+    "clips": [
+        { "name": "neutral", "frames": [0], "loop": "yes", "fps": 0, "portraitOffset": [8, 11], "portraitSize": [40, 40] }
+    ]
+}

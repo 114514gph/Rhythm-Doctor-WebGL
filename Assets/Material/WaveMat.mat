@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaveMat
+  m_Shader: {fileID: 4800000, guid: 95f1e489a1d2ea04da1204f60a55cca1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: b0a6d071170253b46a47811c9c44f4a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OverlayTexture:
+        m_Texture: {fileID: 2800000, guid: 3f09f6c0bfc256c4a96d93bb31363fe3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _CanvasHeight: 100
+      _CanvasWidth: 144
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _Flash: 0
+      _FlashPower: 2
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _GlowPower: 0.76
+      _Height: 60
+      _Hue: 25
+      _LockOffset: 1
+      _Metallic: 0
+      _Mode: 0
+      _NoiseSpeed: 5
+      _NoiseTexturePower: 0
+      _OcclusionStrength: 1
+      _Opacity: 1
+      _Outline: 0
+      _OverlayTexturePower: 0
+      _Parallax: 0.02
+      _PixelArtScale: 4
+      _PixelScale: 4
+      _SineHeight: 0
+      _SineHeight1: 0
+      _SineHeight2: 0
+      _SineWidth: 24
+      _SineWidth1: 24
+      _SineWidth2: 24
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _TriangleFrequency: 0.25
+      _TriangleFrequency1: 0.25
+      _TriangleFrequency2: 0.25
+      _TriangleOffset: 3.8
+      _TriangleOffset1: 3.8
+      _TriangleOffset2: 3.8
+      _TriangleOffsetLock: 0
+      _TriangleOffsetLock1: 0
+      _TriangleOffsetLock2: 0
+      _UVSec: 0
+      _WaveHeight: 34
+      _WaveSpeed: 0.20624998
+      _WaveTime: 0
+      _WaveTime1: 0
+      _WaveTime2: 0
+      _WaveWidth: 21.4
+      _Width: 144
+      _ZWrite: 1
+    m_Colors:
+      _AdditiveColor: {r: 0, g: 0, b: 0, a: 0}
+      _BrighterCol: {r: 1, g: 0.5294118, b: 0, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorOverlay: {r: 0, g: 0, b: 0, a: 0}
+      _DarkerCol: {r: 0.94509804, g: 0.22745098, b: 0, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+      _MiddleCol: {r: 1, g: 0.4, b: 0, a: 1}
+      _SineHeight: {r: 40, g: 40, b: 40, a: 40}
+      _SineWidth: {r: 40, g: 40, b: 40, a: 40}
+      _TriangleFrequency: {r: 0.2, g: 0.2, b: 0.2, a: 0.2}
+      _TriangleOffset: {r: 0, g: 0, b: 0, a: 0}
+      _TriangleOffsetLock: {r: 0, g: 0, b: 0, a: 0}
+      _WaveColor: {r: 0, g: 0.654902, b: 0, a: 1}
+      _WaveHighlightColor: {r: 0.8784314, g: 0.047058802, b: 0.20701724, a: 1}
+      _WaveTime: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

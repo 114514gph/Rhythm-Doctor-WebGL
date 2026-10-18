@@ -1,0 +1,29 @@
+{
+	"size": [ 1, 1 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 0 ],
+			"loop": "no",
+			"fps": 0
+		},
+		{
+			"name": "barely",
+			"frames": [ 0 ],
+			"loop": "no",
+			"fps": 1.0
+		},
+		{
+			"name": "missed",
+			"frames": [ 0 ],
+			"loop": "no",
+			"fps": 1.0
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"size": [ 50, 48 ],
+	"portraitOffset": [ 14, 8 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 1, 2, 3, 4 ],
+			"loop": "yes",
+			"fps": 6.6666
+		},
+		{
+			"name": "open",
+			"frames": [ 6, 7, 8, 9, 10, 11 ],
+			"loop": "yes",
+			"loopStart": 5,
+			"fps": 6.6666
+		},
+		{
+			"name": "static",
+			"frames": [ 6 ],
+			"loop": "onBeat",
+			"fps": 0
+		}
+	]
+}

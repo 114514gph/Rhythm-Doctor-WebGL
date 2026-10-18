@@ -1,0 +1,49 @@
+{
+	"settings":
+	{
+		"version": 43, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 1, 
+		"songNameHue": 0.5915049, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"customClass": "OrientalTechno", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [25, 20, 15, 5], 
+
+		"rankDescription":
+		[
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"rows":
+	[
+	],
+	"events":
+	[
+		{ "bar": 1, "y": 0, "type": "PlaySong", "active": false, "song": {"filename": "sndOrientalTechno"}, "bpm": 200.095, "loop": false }
+	],
+	"conditionals":
+	[
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"size": [ 104, 100 ],
+	"portraitOffset": [ 28, 24 ],
+	"rowPreviewOffset": [0, -15],
+	"rowPreviewScale": 0.5,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 1 ],
+			"loop": "onBeat",
+			"fps": 5
+		},
+		{
+			"name": "open",
+			"frames": [ 2, 3, 4, 5, 6 ],
+			"loop": "onBeat",
+			"fps": 5
+		},
+		{
+			"name": "closed_static",
+			"frames": [ 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "open_static",
+			"frames": [ 2 ],
+			"loop": "onBeat",
+			"fps": 0
+		}
+	]
+}

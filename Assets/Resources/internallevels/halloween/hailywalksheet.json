@@ -1,0 +1,131 @@
+{
+    "size": [
+        750,
+        750
+    ],
+    "rowPreviewFrame": 0,
+    "rowPreviewOffset": [
+        0,
+        0
+    ],
+    "clips": [
+        {
+            "name": "neutral",
+            "frames": [],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "happy",
+            "frames": [],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "barely",
+            "frames": [],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "missed",
+            "frames": [],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "walk1",
+            "frames": [
+                0
+            ],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "walk2",
+            "frames": [
+                1
+            ],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "spoop",
+            "frames": [
+                2
+            ],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        }
+    ]
+}

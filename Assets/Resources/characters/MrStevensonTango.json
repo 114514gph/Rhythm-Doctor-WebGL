@@ -1,0 +1,115 @@
+{
+	"size": [ 58, 56 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"pivotOffset": [ 0, -1 ],
+	"portraitOffset": [ 16, 15 ],
+	"reflectionOffset": 46,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [6, 7, 8, 5],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [17, 17, 18, 19, 20, 21, 22, 22, 23, 24, 25, 25, 25, 25],
+			"events": {"12": {"playClip": "abrazoLoop"}},
+			"pivotOffset": [ 4, -1 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "barely",
+			"frames": [10, 11, 12, 13, 14, 15, 10, 11, 12, 13],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "missed",
+			"frames": [10, 11, 12, 13, 14, 15],
+			"loop": "onBeat",
+			"fps": 6
+		},
+		{
+			"name": "abrazoLoop",
+			"frames": [0, 1, 2, 3],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "abrazo",
+			"frames": [1, 2, 3, 0],
+			"loop": "yes",
+			"loopStart": 3,
+			"fps": 10
+		},
+		{
+			"name": "changeToPair",
+			"frames": [0],
+			"events": {"0": {"changeExpressionPrefix": "pair"}},
+			"loop": "no",
+			"fps": 0
+		},
+		{
+			"name": "pair_neutral",
+			"frames": [27, 28, 29, 30, 31, 32],
+			"loop": "onBeat",
+			"fps": 3
+		},
+		{
+			"name": "pair_kiss",
+			"frames": [34, 34, 34, 34, 35, 35, 35, 35, 36, 36, 36, 36, 37, 37, 38, 38, 39, 40, 41, 41, 42, 42, 43, 43, 44, 44, 45, 45, 46, 46, 47, 47, 47, 47, 47, 47],
+			"loop": "no",
+			"fps": 20
+		},
+		{
+			"name": "pair_kiss_hold",
+			"frames": [34, 34, 34, 34, 35, 35, 35, 35, 36, 36, 36, 36, 37, 37, 38, 38, 39, 40, 41, 41, 42, 42, 43, 43, 44, 44, 45, 45, 46, 46, 47, 47, 47, 47, 47, 47],
+			"loop": "yes",
+			"loopStart": -1,
+			"fps": 20,
+			"portraitOffset": [0, 0],
+			"portraitSize": [0, 0],
+			"portraitScale": 2
+		},
+		{
+			"name": "pair_happy",
+			"frames": [49, 49, 50, 50, 51, 52, 53, 54, 54, 54, 54, 54, 54],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "pair_happy_hold",
+			"frames": [51, 52, 53, 54],
+			"loop": "yes",
+			"fps": 10,
+			"loopStart": -1
+		},
+		{
+			"name": "pose1",
+			"frames": [17],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "pose2",
+			"frames": [25],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "pairPose1",
+			"frames": [31],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "pairPose2",
+			"frames": [49],
+			"loop": "yes",
+			"fps": 0
+		}
+	]
+}

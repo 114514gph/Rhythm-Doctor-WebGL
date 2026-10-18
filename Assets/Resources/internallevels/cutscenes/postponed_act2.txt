@@ -1,0 +1,49 @@
+{
+	"settings":
+	{
+		"version": 44, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.02463043, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunEventsOnPrebar", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetTheme", "rooms": [0], "preset": "ColeWardSunrise" },
+		{ "bar": 1, "beat": 3, "y": 0, "type": "ShowDialogue", "text": "[[ink:Act2CutsceneA]]", "panelSide": "Bottom", "portraitSide": "Left", "speed": 1, "playTextSounds": true },
+	],
+	"conditionals":
+	[
+	]
+}

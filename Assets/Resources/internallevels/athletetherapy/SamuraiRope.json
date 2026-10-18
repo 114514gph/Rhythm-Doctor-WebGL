@@ -1,0 +1,49 @@
+{
+    "size": [
+        40,
+        40
+    ],
+    "rowPreviewFrame": 0,
+    "rowPreviewOffset": [
+        0,
+        12
+    ],
+    "clips": [
+        {
+            "name": "neutral",
+            "frames": [
+                0
+            ],
+            "loop": "yes",
+            "fps": 4,
+            "loopStart": 0
+        },
+		{
+            "name": "tighten",
+            "frames": [
+                1
+            ],
+            "loop": "yes",
+            "fps": 4,
+            "loopStart": 0
+        },
+		{
+            "name": "neutralHeavy",
+            "frames": [
+                2
+            ],
+            "loop": "yes",
+            "fps": 4,
+            "loopStart": 0
+        },
+		{
+            "name": "tightenHeavy",
+            "frames": [
+                3
+            ],
+            "loop": "yes",
+            "fps": 4,
+            "loopStart": 0
+        }
+    ]
+}

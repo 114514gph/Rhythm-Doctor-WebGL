@@ -1,0 +1,55 @@
+{
+	"size": [ 65, 58 ],
+	"rowPreviewFrame": 1,
+	"rowPreviewOffset": [ -5, 5.5 ],
+	"portraitOffset": [ 22, 23 ],
+	"pivotOffset": [ 0, -4 ],
+	"reflectionOffset": 40,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [  1, 2, 3, 4, 5, 0 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		
+		{
+			"name": "samuraiRight",
+			"frames": [ 1, 2, 3, 4, 5, 0 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "samuraiLeft",
+			"frames": [ 8, 9, 10, 11, 12, 7 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		
+		{
+			"name": "baseballRight",
+			"frames": [ 15, 16, 17, 18, 19, 14 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "baseballLeft",
+			"frames": [ 22, 23, 24, 25, 26, 21 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		
+		{
+			"name": "minerRight",
+			"frames": [ 29, 30, 31, 32, 33, 28 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "minerLeft",
+			"frames": [ 36, 37, 38, 39, 40, 35 ],
+			"loop": "yes",
+			"fps": 6
+		}
+	]
+}

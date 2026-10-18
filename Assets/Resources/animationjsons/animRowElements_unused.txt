@@ -1,0 +1,97 @@
+[ 
+	{
+		"name" : "Beatbox",
+		"collection" : "RowElements",
+		"clips" : [
+			{ "name" : "die",  "frames" : [7, 8 , 9, 10, 11, 12], "loop" : "no", "fps" : 60 },
+			{ "name" : "dieUpArrow",  "frames" : [55,56 ,57, 58, 59, 60], "loop" : "no", "fps" : 60 },
+			{ "name" : "dieDownArrow",  "frames" : [61, 62 , 63, 64, 65, 66], "loop" : "no", "fps" : 60 },
+			{ "name" : "flat", "frames" : [0], "loop" : "no", "fps" : 60 },
+			{ "name" : "hold2", "frames" : [1, 4, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], "loop" : "no", "fps" : 30 },
+			{ "name" : "hold", "frames" : [18, 19, 20, 21, 22, 23], "loop" : "no", "fps" : 60 },
+			{ "name" : "pulse_old",   "frames" : [0, 1, 2, 3, 4, 5, 6, 6, 6, 6, 7], "loop" : "no", "fps" : 60 },
+			{ "name" : "pulse",   "frames" : [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40], "loop" : "no", "fps" : 60 },
+      		{ "name" : "pulseUpArrow",   "frames" : [47,42,41,42,43,44,45,46,47], "loop" : "no", "fps" : 60 },
+      		{ "name" : "pulseDownArrow",   "frames" : [54,49,48,49,50,51,52,53,54], "loop" : "no", "fps" : 60 },
+			{ "name" : "pulseAndDie",  "frames" : [1, 2, 3, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 8, 9, 10, 11, 12, 0], "loop" : "no", "fps" : 60 },
+			{ "name" : "pulseAndDieLong",  "frames" : [0, 1, 2, 3, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7,7,7,7,7,7,7,7,7,7,7,7, 8, 9, 10, 11, 12, 0], "loop" : "no", "fps" : 60 },
+			{ "name" : "pulseInstant",   "frames" : [28, 29, 30, 32, 33, 35, 36, 37, 38, 40], "loop" : "no", "fps" : 60 },
+			{ "name" : "release", "frames" : [2, 3, 4, 5, 6], "loop" : "no", "fps" : 60 },
+			{ "name" : "X_on",  "frames" : [13, 14, 15, 16], "loop" : "no", "fps" : 60 },
+			{ "name" : "X_off",  "frames" : [15, 16, 14, 13, 96], "loop" : "no", "fps" : 60 },
+      {
+        "name": "X_on_off",
+        "frames": [ 13,14,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,15, 16, 14, 13, 96 ],
+        "loop": "no",
+        "fps": 60
+      },
+			{ "name" : "pulseInstantDouble", "frames": [72,73,74,75,76,77,78,79,80,81], "loop" : "no", "fps" : 60 },
+			{ "name" : "pulseInstantTriple", "frames": [82,83,84,85,86,87,88,89,90,91,92], "loop" : "no", "fps" : 60 },
+		]
+	},
+	{
+		"name" : "Heart",
+		"collection" : "Heart",
+		"clips" : [
+			{ "name" : "slowdamage", "frames" : [0, 1, 2, 3, 4], "loop" : "no", "fps" : 0 },
+			{ "name" : "fastfracture",   "frames" : [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "loop" : "no", "fps" : 20 },
+			{ "name" : "chickling",  "frames" : [14, 13], "loop" : "no", "fps" : 10 },
+		]
+	},
+
+	{
+		"name" : "HandBig",
+		"collection" : "RowElements",
+		"clips" : [
+			{ "name" : "notpress", "frames" : [0], "loop" : "no", "fps" : 0 },
+			{ "name" : "press",   "frames" : [1, 1, 1, 1, 1], "loop" : "no", "fps" : 30 },
+		]
+	},
+
+	{
+		"name" : "HandButton",
+		"collection" : "RowElements",
+		"clips" : [
+			{ "name" : "notpress", "frames" : [0], "loop" : "no", "fps" : 0 },
+			{ "name" : "press",   "frames" : [1, 2, 3, 4, 5], "loop" : "no", "fps" : 30 },
+		]
+	},
+
+	{
+		"name" : "HandSr",
+		"collection" : "RowElements",
+		"clips" : [
+			{ "name" : "notpress", "frames" : [1], "loop" : "no", "fps" : 0 },
+			{ "name" : "press",   "frames" : [0], "loop" : "no", "fps" : 30 },
+		]
+	},
+
+	{
+		"name" : "HandGrey",
+		"collection" : "RowElements",
+		"clips" : [
+			{ "name" : "notpress", "frames" : [1], "loop" : "no", "fps" : 0 },
+			{ "name" : "press",   "frames" : [0], "loop" : "no", "fps" : 30 },
+		]
+	},
+  {
+    "name" : "HandGreyButton",
+    "collection" : "RowElements",
+    "clips" : [
+      { "name" : "notpress", "frames" : [1], "loop" : "no", "fps" : 0 },
+      { "name" : "press",   "frames" : [0], "loop" : "no", "fps" : 30 },
+    ]
+  },
+	{
+		"name" : "HeartBlue",
+		"collection" : "Heart",
+		"clips" : [
+			{ "name" : "infection",  "frames" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38], "loop" : "no", "fps" : 10 },
+			{ "name" : "slowdamage", "frames" : [40, 41, 42, 43, 44], "loop" : "no", "fps" : 0 },
+			{ "name" : "fastfracture",   "frames" : [45, 46, 47, 48, 49, 50, 51, 52, 53, 54], "loop" : "no", "fps" : 20 },
+			{ "name" : "chickling",   "frames" : [56, 57, 58, 59], "loop" : "yes", "fps" : 5 },
+		]
+	}
+
+
+]

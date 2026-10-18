@@ -1,0 +1,91 @@
+{
+    "size": [
+        100,
+        100
+    ],
+    "rowPreviewFrame": 0,
+    "rowPreviewOffset": [
+        0,
+        0
+    ],
+    "clips": [
+        {
+            "name": "neutral",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "happy",
+            "frames": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "loop": "yes",
+            "fps": 10,
+            "loopStart": 4,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "barely",
+            "frames": [
+                4,
+                3,
+                2,
+                1,
+                0
+            ],
+            "loop": "yes",
+            "fps": 10,
+            "loopStart": 4,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "missed",
+            "frames": [],
+            "loop": "no",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        }
+    ]
+}

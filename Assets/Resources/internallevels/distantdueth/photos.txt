@@ -1,0 +1,25 @@
+{
+    "size": [150,150],
+    "clips": [
+		{ "name": "neutral", "frames": [0], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "happy", "frames": [0], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "barely", "frames": [0], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "missed", "frames": [0], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+        { "name": "grey1", "frames": [0], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "grey2", "frames": [2], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "grey3", "frames": [4], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "grey4", "frames": [6], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "grey5", "frames": [8], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "grey6", "frames": [10], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "grey7", "frames": [12], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "grey8", "frames": [14], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored1", "frames": [1], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored2", "frames": [3], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored3", "frames": [5], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored4", "frames": [7], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored5", "frames": [9], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored6", "frames": [11], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored7", "frames": [13], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+		{ "name": "colored8", "frames": [15], "loop": "yes", "fps": 1, "portraitOffset": [8, 11], "portraitSize": [40, 40] },
+    ]
+}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnLogo.unity
+    guid: dd8b943e92291534189bad6d9d91c8b2
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnCLS.unity
+    guid: d683f8de1f73f2141b36fb6f52b990c6
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnCalibration.unity
+    guid: 2e3ee1ecb3225bc4eb22df4fb7e99ca8
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnEditor.unity
+    guid: 65e1057bab51eab45bfa36e8fd318000
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnGame.unity
+    guid: d3ee475340db69549ace3491cf2e3212
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnLevelSelect.unity
+    guid: fbd064fe0983fe34483f2983f1a1dab0
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnMenu.unity
+    guid: 8e1632f57207a5549b04846499707e57
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnSleevePaint.unity
+    guid: 8278ca0094d70514cbd634504247f835
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnIanDesktop.unity
+    guid: d0ea47b6b370c3a4982adf049aab93fc
+  - enabled: 1
+    path: Assets/Fizzd/Scenes/scnRhythmWeightlifter.unity
+    guid: 919ebead8b21aab4f965855236404e67
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

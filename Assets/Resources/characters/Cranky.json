@@ -1,0 +1,14 @@
+{
+	"size": [48, 48],
+    "rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 6, -3 ],
+	"pivotOffset": [ 6, -6 ],
+	"portraitOffset": [ 14, 8 ],
+	"clips": [
+		{ "name": "neutral", "frames": [3, 2, 1, 0, 0, 0, 0, 0], "loop": "onBeat", "fps": 0, "loopStart": 0 },
+		{ "name": "happy", "frames": [7, 8, 9, 10, 11, 12, 9, 13], "loop": "no", "fps": 12, "loopStart": 0 },
+		{ "name": "barely", "frames": [18, 19, 20, 20, 20], "loop": "no", "fps": 11, "loopStart": 0 },
+		{ "name": "missed", "frames": [14, 15, 16, 17, 18, 19, 20], "loop": "no", "fps": 12, "loopStart": 0 },
+		{ "name": "still", "frames": [0], "loop": "onBeat", "fps": 0, "loopStart": 0 }
+	]
+}

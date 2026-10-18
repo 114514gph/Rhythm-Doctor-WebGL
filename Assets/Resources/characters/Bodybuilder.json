@@ -1,0 +1,80 @@
+{
+	"size": [ 60, 56 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"pivotOffset": [ 0, -4 ],
+	"portraitOffset": [ 17, 15 ],
+	"reflectionOffset": 32,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 1, 2, 3, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 15, 16 ],
+			"events": { "0": {"changeExpressionPrefix": "unleashed" }},
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "unleashed_neutral",
+			"frames": [ 19, 20, 21, 18 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "unleashed_happy",
+			"frames": [ 24, 25, 26, 23 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "unleashed_barely",
+			"frames": [ 28, 29, 30, 31 ],
+			"events": { "0": {"changeExpressionPrefix": "unleashedToothless" }},
+			"loop": "no",
+			"fps": 5
+		},
+		{
+			"name": "unleashed_missed",
+			"frames": [ 28, 29, 30, 31 ],
+			"events": { "0": {"changeExpressionPrefix": "unleashedToothless" }},
+			"loop": "no",
+			"fps": 5
+		},
+		{
+			"name": "loseTooth",
+			"frames": [ 31 ],
+			"loop": "no",
+			"events": { "0": {"changeExpressionPrefix": "unleashedToothless" }},
+			"fps": 999
+		},
+		{
+			"name": "unleashedToothless_neutral",
+			"frames": [ 34, 35, 36, 33 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "unleashedToothless_happy",
+			"frames": [ 39, 40, 41, 38 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "unleashedToothless_barely",
+			"frames": [ 28, 29, 30, 31 ],
+			"loop": "no",
+			"fps": 5
+		},
+		{
+			"name": "unleashedToothless_missed",
+			"frames": [ 28, 29, 30, 31 ],
+			"loop": "no",
+			"fps": 5
+		}
+	]
+}

@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: SoftLights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdeae9d602cd966a5a5b6272023866be, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: AthleteWard_Lighting_Floor/0
+    boundsData:
+    - {x: -15, y: -53.5, z: 0}
+    - {x: 1052, y: 91, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 1085, y: 198, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -541, y: -99, z: 0}
+    - {x: 511, y: -99, z: 0}
+    - {x: -541, y: -8.000002, z: 0}
+    - {x: 511, y: -8.000002, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.09863379, y: 0.0009770507}
+    - {x: 0.09863379, y: 0.51464796}
+    - {x: 0.18749902, y: 0.0009770507}
+    - {x: 0.18749902, y: 0.51464796}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 0}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 1b715208e19611a45baf180d08f8f02b
+    extractRegion: 1
+    regionX: 0
+    regionY: 0
+    regionW: 1085
+    regionH: 198
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: AthleteWard_Lighting_Outside/0
+    boundsData:
+    - {x: 501, y: -29, z: 0}
+    - {x: 83.99997, y: 140, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 1085, y: 198, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: 459.00003, y: -99, z: 0}
+    - {x: 543, y: -99, z: 0}
+    - {x: 459.00003, y: 41, z: 0}
+    - {x: 543, y: 41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.50634813}
+    - {x: 0.0839834, y: 0.50634813}
+    - {x: 0.0019541015, y: 0.57470655}
+    - {x: 0.0839834, y: 0.57470655}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 0}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: 0a469ca736385ac42bab8bbfd4e0f39e
+    extractRegion: 1
+    regionX: 0
+    regionY: 0
+    regionW: 1085
+    regionH: 198
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: AthleteWard_Lighting_Wall/0
+    boundsData:
+    - {x: -26.5, y: 35.499996, z: 0}
+    - {x: 1031, y: 94.99999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.5, y: 0, z: 0}
+    - {x: 1085, y: 198, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -542, y: -12, z: 0}
+    - {x: 489, y: -12, z: 0}
+    - {x: -542, y: 82.99999, z: 0}
+    - {x: 489, y: 82.99999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0009770507}
+    - {x: 0.0019541015, y: 0.50439405}
+    - {x: 0.09472559, y: 0.0009770507}
+    - {x: 0.09472559, y: 0.50439405}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 0}
+    materialId: 0
+    materialIndexData: 000000000000000006000000
+    sourceTextureGUID: da9098329bb6abe4491b831181a71358
+    extractRegion: 1
+    regionX: 0
+    regionY: 0
+    regionW: 1085
+    regionH: 198
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 0}
+  textures:
+  - {fileID: 2800000, guid: 74e11253f985b3147b9e083553e4af9b, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 535c447255749654e94b222b5e0d24f2
+  spriteCollectionName: SoftLights
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 265779538
+  dataGuid: 8808afe6f1d545345b179dbfc212e6c1
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

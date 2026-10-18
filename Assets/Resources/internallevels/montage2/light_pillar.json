@@ -1,0 +1,9 @@
+{
+    "size": [352, 198],
+    "clips": [
+        { "name": "neutral", "frames": [0], "loop": "yes", "fps": 1 },
+        { "name": "happy", "frames": [1], "loop": "yes", "fps": 1 }, 
+        { "name": "3", "frames": [2], "loop": "yes", "fps": 1 }, 
+        { "name": "4", "frames": [3], "loop": "yes", "fps": 1 }
+    ]
+}

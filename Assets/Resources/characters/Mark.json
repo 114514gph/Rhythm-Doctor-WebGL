@@ -1,0 +1,180 @@
+{
+	"size": [ 80, 84 ],
+	"rowPreviewFrame": 19,
+	"rowPreviewOffset": [ -7, -15 ],
+	"portraitOffset": [ 17, 15 ],
+	"reflectionOffset": 28,
+	"clips": [
+		{
+			"name": "neutral",
+			"pivotOffset": [-6, -20],
+			"frames": [ 20, 21, 22, 23, 24, 19 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "neutralNoBooks",
+			"pivotOffset": [-6, -20],
+			"frames": [ 63, 64, 65, 66, 67, 68 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "crawl",
+			"pivotOffset": [-1, -23],
+			"portraitOffset": [ 20, 10 ],
+			"frames": [ 0,0,  1,1,  2,2,  3,  4 ],
+			"loop": "yes",
+			"fps": 13.333
+		},
+		{
+			"name": "happy",
+			"pivotOffset": [-6, -20],
+			"portraitOffset": [ 18, 16 ],
+			"frames": [ 7, 8, 9, 10, 11, 6 ],
+			"loop": "onBeat",
+			"fps": 6
+		},
+		{
+			"name": "happyOnce",
+			"pivotOffset": [-6, -20],
+			"portraitOffset": [ 18, 16 ],
+			"frames": [ 7, 8, 9, 10, 11, 6, 7 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "happyNoBooks",
+			"pivotOffset": [-6, -20],
+			"portraitOffset": [ 18, 16 ],
+			"frames": [ 103, 104, 105, 106, 107, 108 ],
+			"loop": "onBeat",
+			"fps": 6
+		},
+		{
+			"name": "barely",
+			"pivotOffset": [-6, -20],
+			"frames": [ 20, 21, 22, 23, 24, 19 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "missed",
+			"pivotOffset": [-6, -20],
+			"portraitOffset": [ 35, 16 ],
+			"frames": [ 15, 16, 17, 13, 14 ],
+			"loop": "onBeat",
+			"fps": 5
+		},
+		{
+			"name": "missedNoBooks",
+			"pivotOffset": [-6, -20],
+			"portraitOffset": [ 35, 16 ],
+			"frames": [ 110, 111, 112, 113, 114 ],
+			"loop": "onBeat",
+			"fps": 5
+		},
+		{
+			"name": "scared_neutral",
+			"pivotOffset": [0, -16],
+			"frames": [ 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 26, 27, 28, 29, 30 ],
+			"loop": "onBeat",
+			"fps": 6
+		},
+		{
+			"name": "scaredMiddle",
+			"pivotOffset": [0, -16],
+			"portraitOffset": [ 30, 18 ],
+			"frames": [ 35, 36, 37, 38, 39, 40, 41, 42 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "scaredLeft",
+			"pivotOffset": [0, -16],
+			"portraitOffset": [ 18, 18 ],
+			"frames": [ 26, 27, 28 ],
+			"loop": "onBeat",
+			"fps": 3
+		},
+		{
+			"name": "scaredRight",
+			"pivotOffset": [0, -16],
+			"portraitOffset": [ 33, 21 ],
+			"frames": [ 31, 32, 33 ],
+			"loop": "onBeat",
+			"fps": 3
+		},
+		{
+			"name": "talking",
+			"pivotOffset": [-6, -20],
+			"frames": [ 45, 46, 47, 48 ],
+			"loop": "yes",
+			"fps": 10
+		},
+		{
+			"name": "explaining",
+			"pivotOffset": [-6, -20],
+			"frames": [ 50, 51, 52, 53 ],
+			"loop": "yes",
+			"fps": 10
+		},
+		
+		{
+			"name": "books",
+			"pivotOffset": [-6, -20],
+			"frames": [ 62 ],
+			"loop": "yes",
+			"fps": 1
+		},
+		
+		{
+			"name": "young_walk",
+			"pivotOffset": [-7, -16],
+			"portraitOffset": [ 22, 19 ],
+			"frames": [ 70, 71, 72, 73, 74, 75, 76, 77 ],
+			"loop": "yes",
+			"fps": 7
+		},
+		{
+			"name": "young_neutral",
+			"pivotOffset": [-7, -16],
+			"portraitOffset": [ 22, 19 ],
+			"frames": [ 80, 81, 82, 79 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "young_happy",
+			"pivotOffset": [-7, -16],
+			"portraitOffset": [ 22, 19 ],
+			"frames": [ 85, 86, 87, 84 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "young_cheer",
+			"pivotOffset": [-7, -16],
+			"portraitOffset": [ 22, 19 ],
+			"frames": [ 89, 90, 91, 92, 93 ],
+			"loop": "yes",
+			"fps": 7
+		},
+		{
+			"name": "young_approve",
+			"pivotOffset": [-7, -16],
+			"portraitOffset": [ 22, 19 ],
+			"frames": [ 95, 96, 97, 98, 99, 100, 101 ],
+			"loop": "yes",
+			"fps": 7
+		},
+		{
+			"name": "young_approveOnce",
+			"pivotOffset": [-7, -16],
+			"portraitOffset": [ 22, 19 ],
+			"frames": [ 95, 96, 97, 98, 99, 100, 101 ],
+			"loop": "no",
+			"fps": 7
+		}
+	]
+}

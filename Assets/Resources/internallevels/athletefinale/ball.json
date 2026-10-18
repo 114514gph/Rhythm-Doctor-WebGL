@@ -1,0 +1,21 @@
+{
+    "size": [
+        104,
+        100
+    ],
+    "clips": [
+        {
+			"name": "neutral",
+			"frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+			"loop": "yes",
+			"fps": 40,
+			"loopStart": 0
+		},
+		{
+			"name": "hit",
+			"frames": [ 10, 11, 12, 13, 14 ],
+			"loop": "no",
+			"fps": 10
+		}
+    ]
+}

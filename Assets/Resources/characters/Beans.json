@@ -1,0 +1,11 @@
+{
+    "size": [38, 37],
+    "portraitOffset": [4, 6],
+    "portraitSize": [29, 40],
+    "portraitScale": 1.75,
+	"rowPreviewOffset": [ 0, 5.5 ],
+    "reflectionOffset": 28,
+    "clips": [
+        { "name": "neutral", "frames": [0], "loop": "yes", "fps": 0 }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+	"settings":
+	{
+		"version": 43, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.3635884, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "character": "HoodieBoy", "rowType": "Oneshot", "row": 0, "rooms": [0], "player": "P1", "pulseSound": "KickChroma", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "Farmer", "rowType": "Classic", "row": 1, "rooms": [0], "player": "P1", "hideAtStart": true, "pulseSound": "ClosedHatOld", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 1, "type": "PlaySong", "filename": "sndOrientalTechno", "volume": 31, "pitch": 100, "pan": 0, "offset": 0, "bpm": 100, "loop": false },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "CallCustomMethod", "methodName": "bombBeats = true", "executionTime": "OnPrebar", "sortOffset": -1 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetClapSounds", "rowType": "Classic", "p1Sound": "ClapHit", "p1Volume": 0, "p1Pitch": 100, "p1Pan": 0, "p1Offset": 0, "p2Sound": "ClapHit", "p2Volume": 100, "p2Pitch": 100, "p2Pan": 0, "p2Offset": 0 },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "HideRow", "row": 1, "show": "Hidden", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "CallCustomMethod", "methodName": "SetMistakeWeight(1,6)", "executionTime": "OnBar", "sortOffset": 0 },
+		{ "bar": 1, "beat": 7, "y": 0, "type": "SayReadyGetSetGo", "phraseToSay": "SayGetSetGo", "voiceSource": "Nurse", "tick": 1, "volume": 100 },
+		{ "bar": 2, "beat": 1, "y": 0, "type": "AddOneshotBeat", "active": false, "row": 0, "pulseType": "Wave", "subdivisions": 0, "skipshot": true, "tick": 1 },
+		{ "bar": 2, "beat": 4, "y": 2, "type": "AddFreeTimeBeat", "row": 1, "hold": 0, "pulse": 6 },
+		{ "bar": 2, "beat": 5, "y": 0, "type": "FinishLevel" },
+		{ "bar": 2, "beat": 5.5, "y": 1, "type": "FinishLevel" },
+		{ "bar": 2, "beat": 6, "y": 2, "type": "FinishLevel" },
+		{ "bar": 4, "beat": 1, "y": 0, "type": "CallCustomMethod", "tag": "[onMiss][row1]ow", "methodName": "MistakeSilent(0)", "executionTime": "OnBar", "sortOffset": 0 },
+		{ "bar": 4, "beat": 1, "y": 1, "type": "CallCustomMethod", "tag": "[onMiss][row1]ow", "methodName": "DamageHeart(0, 1)", "executionTime": "OnBar", "sortOffset": 0 },
+		{ "bar": 4, "beat": 1, "y": 2, "type": "ShakeScreen", "tag": "[onMiss][row1]ow", "rooms": [0], "shakeLevel": "Low" },
+		{ "bar": 4, "beat": 1, "y": 3, "type": "PlayExpression", "tag": "[onMiss][row1]ow", "row": 0, "expression": "missed", "replace": false },
+	],
+	"conditionals":
+	[
+		{ "id": 1, "type": "Custom", "name": "i1 == 1", "expression": "i1 == 1" },
+	]
+}

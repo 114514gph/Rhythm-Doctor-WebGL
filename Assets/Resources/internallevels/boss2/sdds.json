@@ -1,0 +1,45 @@
+{
+	"settings":
+	{
+		"version": 40, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.5150582, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+	],
+	"events":
+	[
+	],
+	"conditionals":
+	[
+	]
+}

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d6f1d0058a46b463169e03032a0a333, type: 3}
+  m_Name: EditorLevelErrorData
+  m_EditorClassIdentifier:
+  showableErrors:
+  - settingNameToken: editor.LevelSettings.songArtist
+    settingName: 0
+    required: 1
+    errors:
+    - name: 10
+      type: 0
+      recommended: 0
+    - name: 11
+      type: 1
+      recommended: 1
+  - settingNameToken: editor.LevelSettings.songName
+    settingName: 1
+    required: 1
+    errors:
+    - name: 20
+      type: 0
+      recommended: 0
+    - name: 21
+      type: 1
+      recommended: 1
+  - settingNameToken: editor.LevelSettings.previewImage
+    settingName: 4
+    required: 1
+    errors:
+    - name: 50
+      type: 0
+      recommended: 0
+    - name: 51
+      type: 2
+      recommended: 1
+    - name: 52
+      type: 3
+      recommended: 0
+    - name: 53
+      type: 4
+      recommended: 1
+  - settingNameToken: editor.LevelSettings.previewSong
+    settingName: 6
+    required: 1
+    errors:
+    - name: 71
+      type: 2
+      recommended: 1
+    - name: 72
+      type: 3
+      recommended: 0
+  - settingNameToken: editor.LevelSettings.levelAuthor
+    settingName: 2
+    required: 1
+    errors:
+    - name: 30
+      type: 0
+      recommended: 0
+    - name: 31
+      type: 1
+      recommended: 1
+  - settingNameToken: editor.LevelSettings.syringeIcon
+    settingName: 5
+    required: 0
+    errors:
+    - name: 60
+      type: 0
+      recommended: 0
+    - name: 61
+      type: 3
+      recommended: 0
+    - name: 62
+      type: 2
+      recommended: 0
+    - name: 63
+      type: 4
+      recommended: 0
+    - name: 64
+      type: 8
+      recommended: 1
+  - settingNameToken: editor.PublishLevel.2pSeparateLevel
+    settingName: 13
+    required: 1
+    errors:
+    - name: 120
+      type: 0
+      recommended: 0
+    - name: 121
+      type: 2
+      recommended: 0
+    - name: 122
+      type: 3
+      recommended: 0
+    - name: 123
+      type: 9
+      recommended: 0
+  - settingNameToken: editor.LevelSettings.previewSongDuration
+    settingName: 8
+    required: 0
+    errors:
+    - name: 74
+      type: 6
+      recommended: 1
+  - settingNameToken: editor.events
+    settingName: 15
+    required: 1
+    errors:
+    - name: 130
+      type: 7
+      recommended: 0
+    - name: 131
+      type: 11
+      recommended: 0

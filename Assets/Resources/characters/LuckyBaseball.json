@@ -1,0 +1,31 @@
+{
+	"size": [ 104, 100 ],
+	"pivotOffset": [ -2, -11 ],
+	"portraitOffset": [ 32, 32 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+			"loop": "onBeat",
+			"fps": 5
+		},
+		{
+			"name": "static",
+			"frames": [ 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "flying",
+			"frames": [ 10, 11, 12, 13, 14 ],
+			"loop": "onBeat",
+			"fps": 5
+		},
+		{
+			"name": "reflect",
+			"frames": [ 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ],
+			"loop": "onBeat",
+			"fps": 5
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+	"settings":
+	{
+		"version": 65, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.5, 
+		"songLabelGrayscale": false, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunEventsOnPrebar", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "rooms": [0], "row": 0, "rowType": "Classic", "player": "P1", "character": "Paige", "pulseSound": "Shaker" },
+		{ "rooms": [0], "row": 1, "rowType": "Classic", "player": "P1", "character": "Edega", "pulseSound": "ClavesLow" },
+		{ "rooms": [0], "row": 2, "rowType": "Classic", "player": "P1", "character": "Ian", "pulseSound": "Shaker" }
+	],
+	"decorations":
+	[
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetTheme", "rooms": [0], "preset": "HospitalWard", "variant": 0, "enablePosition": true, "positionX": -490, "positionDuration": 0, "positionEase": "Linear", "skipPaintEffects": false },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetBeatsPerMinute", "beatsPerMinute": 70 },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "SetGameSound", "soundType": "Hand1PopSound", "filename": "", "volume": 0 },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "SetGameSound", "soundType": "Hand2PopSound", "filename": "" },
+		{ "bar": 1, "beat": 1, "y": 7, "type": "HideRow", "row": 0, "show": "OnlyCharacter", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 4, "type": "TintRows", "rooms": [4], "row": -1, "border": "None", "tint": false, "opacity": 100, "duration": 0, "ease": "Linear", "effect": "None" },
+		{ "bar": 1, "beat": 1, "y": 6, "type": "MoveCamera", "rooms": [0], "cameraPosition": [34, 48], "zoom": 150, "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 5, "type": "CustomFlash", "rooms": [0], "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 0, "background": false, "duration": 6, "ease": "InCubic" },
+		{ "bar": 1, "beat": 1, "y": 7, "type": "HideRow", "row": 1, "show": "OnlyCharacter", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 7, "type": "HideRow", "row": 2, "show": "OnlyCharacter", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [23, 34], "scale": [1, 1], "pivot": 0, "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 3, "type": "MoveRow", "row": 2, "target": "WholeRow", "customPosition": true, "rowPosition": [42, 38], "scale": [-1, 1], "pivot": 0, "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [11, 30], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 8, "type": "PlayExpression", "row": 1, "expression": "bed", "replace": false },
+		{ "bar": 1, "beat": 2, "y": 0, "type": "ReadNarration", "text": "[[cutscene_edega.desc1]]", "category": "Description" },
+		{ "bar": 1, "beat": 6, "y": 0, "type": "ShowDialogue", "if": "1d0", "rooms": [4], "text": "[[ink:EdegaCutscene]]", "speed": 1, "panelSide": "Top", "portraitSide": "Left", "playTextSounds": true },
+		{ "bar": 3, "beat": 1, "y": 2, "type": "PlayExpression", "tag": "paige_walking", "row": 0, "expression": "walking", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 3, "type": "PlayExpression", "tag": "paige_asking", "row": 0, "expression": "asking", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 4, "type": "PlayExpression", "tag": "paige_consoling", "row": 0, "expression": "consolingStanding", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 1, "type": "PlayExpression", "tag": "paige_conversing", "row": 0, "expression": "conversing", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 0, "type": "PlayExpression", "tag": "paige_neutral", "row": 0, "expression": "neutral", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 5, "type": "CustomFlash", "rooms": [0], "startColor": "000000", "startOpacity": 0, "endColor": "000000", "endOpacity": 0, "background": false, "duration": 0, "ease": "InCubic" },
+		{ "bar": 3, "beat": 2, "y": 0, "type": "MoveRow", "tag": "paige_flip", "row": 0, "target": "Character", "scale": [-1, 1], "duration": 0, "ease": "Linear" },
+		{ "bar": 3, "beat": 2, "y": 1, "type": "MoveRow", "tag": "paige_unflip", "row": 0, "target": "Character", "scale": [1, 1], "duration": 0, "ease": "Linear" },
+		{ "bar": 3, "beat": 4, "y": 0, "type": "PlayExpression", "tag": "ian_neutral", "row": 2, "expression": "neutral", "replace": false },
+		{ "bar": 3, "beat": 4, "y": 1, "type": "PlayExpression", "tag": "ian_explaining", "row": 2, "expression": "explaining", "replace": false },
+		{ "bar": 3, "beat": 5, "y": 0, "type": "MoveRow", "tag": "ian_flip", "row": 2, "target": "Character", "scale": [-1, 1], "duration": 0, "ease": "Linear" },
+		{ "bar": 3, "beat": 5, "y": 1, "type": "MoveRow", "tag": "ian_unflip", "row": 2, "target": "Character", "scale": [1, 1], "duration": 0, "ease": "Linear" },
+		{ "bar": 4, "beat": 1, "y": 1, "type": "TagAction", "tag": "ian_leaves", "Action": "Run", "Tag": "ian_flip" },
+		{ "bar": 4, "beat": 1, "y": 2, "type": "PlayExpression", "tag": "ian_leaves", "row": 2, "expression": "walking", "replace": false },
+		{ "bar": 4, "beat": 1, "y": 0, "type": "MoveRow", "tag": "ian_leaves", "row": 2, "target": "WholeRow", "customPosition": true, "rowPosition": [120, 34], "duration": 5, "ease": "Linear" },
+		{ "bar": 4, "beat": 1.5, "y": 0, "type": "ReadNarration", "tag": "ian_leaves", "text": "[[cutscene_edega.desc2]]", "category": "Description" },
+		{ "bar": 4, "beat": 4, "y": 0, "type": "TagAction", "tag": "ian_leaves", "Action": "Run", "Tag": "paige_unflip" },
+		{ "bar": 5, "beat": 1, "y": 0, "type": "CustomFlash", "tag": "end", "rooms": [0], "startColor": "000000", "startOpacity": 0, "endColor": "000000", "endOpacity": 100, "background": false, "duration": 2, "ease": "Linear" },
+		{ "bar": 5, "beat": 1, "y": 1, "type": "CallCustomMethod", "tag": "end", "methodName": "level.FadeOutMusic(1)", "executionTime": "OnBar", "sortOffset": 0 },
+		{ "bar": 5, "beat": 3, "y": 1, "type": "CallCustomMethod", "tag": "end", "methodName": "level.GoToLevel(\"HelpingHands\")", "executionTime": "OnBar", "sortOffset": 0 }
+	],
+	"conditionals":
+	[
+		{ "type": "TimesExecuted", "tag": "1", "name": "ActivateOnceOnly", "id": 1, "maxTimes": 1, }
+	],
+	"bookmarks":
+	[
+	],
+	"colorPalette":
+	[
+		"000000ff",
+		"ffffffff",
+		"7f7f7fff",
+		"c3c3c3ff",
+		"880015ff",
+		"b97a57ff",
+		"ff0000ff",
+		"ffaec9ff",
+		"ff7f27ff",
+		"ffc90eff",
+		"fff200ff",
+		"efe4b0ff",
+		"22b14cff",
+		"b5e61dff",
+		"00a2e8ff",
+		"99d9eaff",
+		"3f48ccff",
+		"7092beff",
+		"a349a4ff",
+		"c8bfe7ff",
+		"00000000"
+	]
+}

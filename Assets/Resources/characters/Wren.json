@@ -1,0 +1,45 @@
+{
+	"size": [ 40, 40 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"portraitOffset": [ 10, 10 ],
+	"reflectionOffset": 26,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 1, 2, 3, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 5, 6, 7, 8 ],
+			"loop": "no",
+			"fps": 4
+		},
+		{
+			"name": "missed",
+			"frames": [ 10, 11, 12, 13, 13 ],
+			"loop": "no",
+			"fps": 5
+		},
+		{
+			"name": "barely",
+			"frames": [ 15, 16, 17, 18, 18 ],
+			"loop": "no",
+			"fps": 5
+		},
+		{
+			"name": "chirp",
+			"frames": [ 20, 21 ],
+			"loop": "no",
+			"fps": 6
+		},
+		{
+			"name": "chirpLoop",
+			"frames": [ 20, 21 ],
+			"loop": "yes",
+			"fps": 6
+		}
+	]
+}

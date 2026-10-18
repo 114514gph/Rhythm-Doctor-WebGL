@@ -1,0 +1,95 @@
+{
+	"settings":
+	{
+		"version": 56, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.4927011, 
+		"songLabelGrayscale": false, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+	],
+	"decorations":
+	[
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetTheme", "rooms": [0], "preset": "OrientalTechno" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "SetTheme", "rooms": [2], "preset": "Garden" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "PlaySong", "song": {"filename": "sndOrientalTechno", "volume": 100, "pitch": 100, "pan": 0, "offset": 0}, "loop": false, "bpm": 100 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "MoveRoom", "roomPosition": [50, 50], "scale": [100, 100], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "MoveRoom", "roomPosition": [50, 50], "scale": [100, 100], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 3, "type": "MoveRoom", "roomPosition": [50, 50], "scale": [100, 100], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "ReorderRooms", "order": [0, 1, 2, 3] },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "MaskRoom", "maskType": "Room", "alphaMode": "Normal", "sourceRoom": 3, "image": ["maskBench.png"], "fps": 30, "keyColor": "000000", "colorCutoff": 0, "colorFeathering": 0, "contentMode": "ScaleToFill" },
+		{ "bar": 1, "beat": 1, "y": 4, "type": "SetForeground", "active": false, "rooms": [3], "contentMode": "ScaleToFill", "tilingType": "Scroll", "color": "FFFFFFFF", "image": ["mask2.png"], "fps": 30, "scrollX": 0, "scrollY": 0, "duration": 0, "interval": 1, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 3, "type": "SetBackgroundColor", "rooms": [3], "ease": "Linear", "contentMode": "ScaleToFill", "filter": "NearestNeighbor", "color": "FFFFFFFF", "interval": 1, "backgroundType": "Image", "duration": 0, "fps": 130, "image": ["mask1.png"], "scrollX": 0, "scrollY": 0, "tilingType": "Scroll" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "SetBackgroundColor", "rooms": [3], "ease": "Linear", "contentMode": "ScaleToFill", "filter": "NearestNeighbor", "color": "00000000", "interval": 1, "backgroundType": "Color", "duration": 0, "image": [], "scrollX": 0, "scrollY": 0, "tilingType": "Scroll" },
+		{ "bar": 2, "beat": 1, "y": 3, "type": "SetVFXPreset", "rooms": [3], "preset": "ScreenWaves", "intensity": 1, "duration": 0, "ease": "Linear", "enable": true },
+		{ "bar": 2, "beat": 1, "y": 4, "type": "SetVFXPreset", "active": false, "rooms": [3], "preset": "Mosaic", "intensity": 100, "duration": 0, "ease": "Linear", "enable": true },
+		{ "bar": 2, "beat": 1, "y": 2, "type": "SetVFXPreset", "active": false, "rooms": [3], "preset": "JPEG", "intensity": 12, "duration": 0, "ease": "Linear", "enable": true },
+		{ "bar": 2, "beat": 1, "y": 0, "type": "SetVFXPreset", "rooms": [3], "preset": "Matrix", "enable": true },
+		{ "bar": 2, "beat": 1, "y": 5, "type": "SetVFXPreset", "active": false, "rooms": [3], "preset": "Rain", "intensity": 140, "duration": 0, "ease": "Linear", "enable": true },
+		{ "bar": 2, "beat": 1, "y": 1, "type": "SetVFXPreset", "rooms": [3], "preset": "VHS", "enable": true },
+	],
+	"conditionals":
+	[
+	],
+	"bookmarks":
+	[
+	],
+	"colorPalette":
+	[
+		"000000ff",
+		"ffffffff",
+		"7f7f7fff",
+		"c3c3c3ff",
+		"880015ff",
+		"b97a57ff",
+		"ff0000ff",
+		"ffaec9ff",
+		"ff7f27ff",
+		"ffc90eff",
+		"fff200ff",
+		"efe4b0ff",
+		"22b14cff",
+		"b5e61dff",
+		"00a2e8ff",
+		"99d9eaff",
+		"3f48ccff",
+		"7092beff",
+		"a349a4ff",
+		"c8bfe7ff",
+		"00000000"
+	]
+}

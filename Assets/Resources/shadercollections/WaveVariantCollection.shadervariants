@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaveVariantCollection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 95f1e489a1d2ea04da1204f60a55cca1, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: GLOW
+        passType: 0
+      - keywords: GLOW HEART
+        passType: 0
+      - keywords: GLOW HEART _2WAVES
+        passType: 0
+      - keywords: GLOW HEART _3WAVES
+        passType: 0
+      - keywords: GLOW HEART _4WAVES
+        passType: 0
+      - keywords: GLOW _2WAVES
+        passType: 0
+      - keywords: GLOW _3WAVES
+        passType: 0
+      - keywords: GLOW _4WAVES
+        passType: 0
+      - keywords: HEART
+        passType: 0
+      - keywords: HEART OUTLINE
+        passType: 0
+      - keywords: HEART OUTLINE _2WAVES
+        passType: 0
+      - keywords: HEART OUTLINE _3WAVES
+        passType: 0
+      - keywords: HEART OUTLINE _4WAVES
+        passType: 0
+      - keywords: HEART SHADOW
+        passType: 0
+      - keywords: HEART _2WAVES
+        passType: 0
+      - keywords: HEART _3WAVES
+        passType: 0
+      - keywords: HEART _4WAVES
+        passType: 0
+      - keywords: OUTLINE
+        passType: 0
+      - keywords: OUTLINE _2WAVES
+        passType: 0
+      - keywords: OUTLINE _3WAVES
+        passType: 0
+      - keywords: OUTLINE _4WAVES
+        passType: 0
+      - keywords: SHADOW
+        passType: 0
+      - keywords: _2WAVES
+        passType: 0
+      - keywords: _3WAVES
+        passType: 0
+      - keywords: _4WAVES
+        passType: 0

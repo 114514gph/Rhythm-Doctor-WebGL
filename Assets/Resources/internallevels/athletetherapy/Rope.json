@@ -1,0 +1,209 @@
+{
+    "size": [
+        190,
+        60
+    ],
+    "clips": [
+		{
+			"name": "neutral",
+            "frames": [
+                0
+            ],
+            "loop": "yes",
+            "fps": 4,
+            "loopStart": 0
+		},
+        {
+            "name": "pull0",
+            "frames": [
+                2,3, 3, 5, 5, 5, 5, 6,
+6, 6, 6, 7, 7, 7, 7, 8,
+8, 9, 10, 11, 12, 13, 14, 15
+],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 16
+        },
+		{
+			"name": "release0",
+            "frames": [
+                7, 6, 5, 5, 5, 0
+            ],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 6
+		},
+		{
+			"name": "releaseEarly0",
+            "frames": [
+                5, 4, 0
+            ],
+            "loop": "yes",
+            "fps": 15,
+            "loopStart": 2
+		},
+
+
+		{
+			"name": "neutral1",
+			"frames": [
+				17
+			],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 0
+		},
+		{
+            "name": "pull1",
+            "frames": [
+                19, 20, 20, 22, 22, 22, 22, 23,
+23, 23, 23, 24, 24, 24, 24, 25,
+25, 26, 27, 28, 29, 30, 31, 32
+
+
+],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 16
+        },
+		{
+			"name": "release1",
+            "frames": [
+                24, 23, 22, 22, 22, 17
+            ],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 6
+		},
+		{
+			"name": "releaseEarly1",
+            "frames": [
+                22, 21, 17
+            ],
+            "loop": "yes",
+            "fps": 15,
+            "loopStart": 2
+		},
+
+
+		{
+			"name": "neutral2",
+			"frames": [
+				34
+			],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 0
+		},
+		{
+            "name": "pull2",
+            "frames": [
+                36, 37, 37, 39, 39, 39, 39, 40,
+40, 40, 40, 41, 41, 41, 41, 42,
+42, 43, 44, 45, 46, 47, 48, 49
+],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 16
+        },
+		{
+			"name": "release2",
+            "frames": [
+                41, 40, 39, 39, 39, 34
+            ],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 6
+		},
+		{
+			"name": "releaseEarly2",
+            "frames": [
+                39, 38, 34
+            ],
+            "loop": "yes",
+            "fps": 15,
+            "loopStart": 2
+		},
+
+
+		{
+			"name": "neutral3",
+            "frames": [
+                51
+            ],
+            "loop": "yes",
+            "fps": 4,
+            "loopStart": 0
+		},
+		{
+            "name": "pull3",
+            "frames": [
+                53, 54, 54, 56, 56, 56, 56, 57,
+57, 57, 57, 58, 58, 58, 58, 59,
+59, 60, 61, 62, 63, 64, 65, 66],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 16
+        },
+		{
+			"name": "release3",
+            "frames": [
+                58, 57, 56, 56, 56, 51
+            ],
+            "loop": "yes",
+            "fps": 30,
+            "loopStart": 6
+		},
+		{
+			"name": "releaseEarly3",
+            "frames": [
+                56, 55, 51
+            ],
+            "loop": "yes",
+            "fps": 15,
+            "loopStart": 2
+		},
+
+
+		{
+			"name": "neutralSlow",
+            "frames": [
+                68
+            ],
+            "loop": "yes",
+            "fps": 4,
+            "loopStart": 0
+		},
+		{
+            "name": "pullSlow",
+            "frames": [
+                69, 70, 71, 71, 72, 73, 73, 73,
+73, 73, 73, 74, 74, 74, 74, 74,
+74, 75, 75, 75, 75, 76, 77, 78,
+79, 80, 81, 82, 83
+
+],
+            "loop": "yes",
+            "fps": 15,
+            "loopStart": 21
+        },
+		{
+			"name": "releaseSlow",
+            "frames": [
+                74, 73, 72, 72, 72, 68
+            ],
+            "loop": "yes",
+            "fps": 15,
+            "loopStart": 6
+		},
+		{
+			"name": "releaseEarlySlow",
+            "frames": [
+                72, 71, 68
+            ],
+            "loop": "yes",
+            "fps": 15,
+            "loopStart": 2
+		}
+    ]
+}

@@ -1,0 +1,31 @@
+{
+	"size": [ [sizeX], [sizeY] ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 0 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 0 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "barely",
+			"frames": [ 0 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "missed",
+			"frames": [ 0 ],
+			"loop": "no",
+			"fps": 10
+		}
+	]
+}

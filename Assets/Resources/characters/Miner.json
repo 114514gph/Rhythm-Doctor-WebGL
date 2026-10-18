@@ -1,0 +1,91 @@
+{
+	"size": [ 67, 66 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"portraitOffset": [ 21, 21 ],
+	"reflectionOffset": 38,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 1, 2, 3, 4 ],
+			"loop": "onBeat",
+			"fps": 6
+		},
+		{
+			"name": "happy",
+			"frames": [ 6, 7, 8, 9, 10, 11, 12, 13 ],
+			"loop": "no",
+			"fps": 7
+		},
+		{
+			"name": "barely",
+			"frames": [ 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "missed",
+			"frames": [ 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "walking",
+			"frames": [ 49, 50, 51, 52 ],
+			"loop": "yes",
+			"fps": 8
+		},
+		{
+			"name": "trainer_neutral",
+			"frames": [ 39, 36, 37, 38 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "trainer_jump",
+			"frames": [ 41, 42, 43, 44, 45, 46, 47 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "trainer_cheer",
+			"frames": [ 55, 54 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "changeToTrainer",
+			"frames": [ 0 ],
+			"events": { "0": {"changeExpressionPrefix": "trainer" }},
+			"loop": "no",
+			"fps": 9999
+		},
+		{
+			"name": "pickaxeThrow",
+			"frames": [ 57,57,    58,58,    59,    60,    61,61,    62,62 ],
+			"loop": "yes",
+			"fps": 10,
+			"loopStart": 8
+		},
+		{
+			"name": "pickaxeThrowStart",
+			"frames": [ 57,57,    58,58 ],
+			"loop": "yes",
+			"fps": 10,
+			"loopStart": 2
+		},
+		{
+			"name": "ballThrow",
+			"frames": [ 69, 70, 71, 72 ],
+			"loop": "no",
+			"fps": 6.66
+		},
+		{
+			"name": "ballThrowStart",
+			"frames": [ 67, 68 ],
+			"loop": "yes",
+			"fps": 6.66,
+			"loopStart": 1
+		}
+	]
+}

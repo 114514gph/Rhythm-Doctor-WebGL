@@ -1,0 +1,31 @@
+{
+	"size": [ 104, 100 ],
+	"pivotOffset": [ -2, -8 ],
+	"portraitOffset": [ 32, 32 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 1, 2, 3, 4, 5, 6, 7 ],
+			"loop": "onBeat",
+			"fps": 8
+		},
+		{
+			"name": "coach",
+			"frames": [ 9, 10, 11, 12, 13, 14, 15, 16 ],
+			"loop": "onBeat",
+			"fps": 8
+		},
+		{
+			"name": "static",
+			"frames": [ 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "static_coach",
+			"frames": [ 9 ],
+			"loop": "onBeat",
+			"fps": 0
+		}
+	]
+}

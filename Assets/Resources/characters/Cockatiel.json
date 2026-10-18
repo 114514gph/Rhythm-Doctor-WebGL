@@ -1,0 +1,81 @@
+{
+	"size": [ 40, 40 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 4 ],
+	"portraitOffset": [ 8, 10 ],
+	"reflectionOffset": 28,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 1 ],
+			"loop": "onBeat",
+			"fps": 0,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "happy",
+			"frames": [ 3, 4 ],
+			"loop": "no",
+			"fps": 2,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "barely",
+			"frames": [ 7, 6 ],
+			"loop": "onBeat",
+			"fps": 0,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "missed",
+			"frames": [ 10, 9 ],
+			"loop": "onBeat",
+			"fps": 0,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "flying",
+			"frames": [ 14, 15 ],
+			"loop": "yes",
+			"fps": 6,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "flyingSad",
+			"frames": [ 12, 13 ],
+			"loop": "yes",
+			"fps": 6,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "flyingHappy",
+			"frames": [ 16, 17, 18, 19 ],
+			"loop": "no",
+			"fps": 6,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "chirp",
+			"frames": [ 21, 20 ],
+			"loop": "no",
+			"fps": 6,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		},
+		{
+			"name": "chirpLoop",
+			"frames": [ 21, 20 ],
+			"loop": "yes",
+			"fps": 6,
+			"portraitSize": [ 25, 25 ],
+			"portraitScale": 2
+		}
+	]
+}

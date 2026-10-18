@@ -1,0 +1,129 @@
+{
+	"$schema": "./LevelEditorPropertiesSchema.json",
+
+	"tabs": {
+		"Song":
+		{
+			"PlaySong":{"key":"P"},
+			"SetCrotchetsPerBar":{"key":"C"},
+			"PlaySound":{"key":"S"},
+			"SetBeatsPerMinute":{"key":"B"},
+			"SetClapSounds":{"key":"L"},
+			"SetHeartExplodeVolume":{"key":"H"},
+			"SetHeartExplodeInterval":{"key":"I"},
+			"SayReadyGetSetGo":{"key":"R"},
+			"SetGameSound":{"key":"G"},
+			"SetBeatSound":{"key":"T"},
+			"SetCountingSound":{"key":"U"},
+			"ReadNarration":{"key": "N"},
+			"NarrateRowInfo":{"key": "F"},
+			"Comment":{"key":"M"}
+		},
+		"Rows":
+		{
+			"AddClassicBeat":{},
+			"AddOneshotBeat":{},
+			"SetRowXs":{},
+			"AddFreeTimeBeat":{},
+			"PulseFreeTimeBeat":{},
+			"SetOneshotWave":{}
+		},
+		"Actions":
+		{
+			"SetTheme":{"key":"T"},
+			"SetVFXPreset":{"key":"V"},
+			"SetBackgroundColor":{"key":"B"},
+			"SetForeground":{"key":"B", "shift": true},
+			"SetSpeed":{"key":"S"},
+			"CustomFlash":{"key":"F"},
+			"Flash":{"key":"F", "shift": true},
+			"MoveCamera":{"key":"C"},
+			"PulseCamera":{"key":"C", "shift": true},
+			"HideRow":{"key":"X"},
+			"MoveRow":{"key":"O"},
+			"ReorderRow":{"key":"O", "shift": true},
+			"PlayExpression":{"key":"J"},
+			"ChangeCharacter":{"key":"J", "shift": true },
+			"SpinningRows":{"key":"S", "shift": true, "advanced": true},
+			"TintRows":{"key":"R"},
+			"LinkRows":{"key":"R", "shift": true, "advanced": true},
+			"BassDrop":{"key":"K"},
+			"ShakeScreenCustom":{"key":"H"},
+			"ShakeScreen":{"key":"H", "shift": true},
+			"InvertColors":{"key":"I"},
+			"FlipScreen":{"key":"I", "shift": true},
+			"ShowDialogue":{"key":"D"},
+			"ShowStatusSign":{"key":"D", "shift": true},
+			"FloatingText":{"key":"A"},
+			"AdvanceText":{"unlisted": true},
+			"TextExplosion":{"key":"A", "shift": true},
+			"ChangePlayersRows":{"key":"Y"},
+			"FinishLevel":{"key":"L"},
+			"GoToLevel":{"key":"L", "shift": true},
+			"Stutter":{"key":"E"},
+			"ShowHands":{"key":"U"},
+			"PaintHands":{"key":"U", "shift": true},
+			"SetHandOwner":{"key":"Y", "shift": true},
+			"NewWindowDance":{"key":"W"},
+			"WindowResize":{"unlisted": true },
+			"TagAction":{"key":"Alpha0"},
+			"CallCustomMethod":{"key":"Z"},
+			"SetPlayStyle":{"key":"Z", "shift": true},
+			"Comment":{"key":"M"},
+			"CommentShow":{"unlisted": true}
+		},
+		"Rooms":
+		{
+			"ShowRooms":{"key":"S"},
+			"MoveRoom":{"key":"M"},
+			"ReorderRooms":{"key":"O"},
+			"SetRoomContentMode":{"key":"C"},
+			"MaskRoom":{"key":"K"},
+			"FadeRoom":{"key":"F"},
+			"SetRoomPerspective":{"key":"P"},
+			"Comment":{"key":"T"}
+		},
+		"Decorations":
+		{
+			"Sprite":{"key":"S"},
+			"Text":{"key":"A"},
+			"SetText":{"key":"A"},
+			"AdvanceTextDecoration":{"key":"A", "shift": true},
+			"SetFont":{"key":"F"},
+			"Move":{"key":"O"},
+			"Tint":{"key":"R"},
+			"TintText":{"key":"R"},
+			"PlayAnimation":{"key":"J"},
+			"SetVisible":{"key":"X"},
+			"ReorderDecoration":{"key":"O", "shift": true},
+			"Tile":{"key":"I"},
+			"Blend":{"key":"B"},
+			"Comment":{"key":"M"}
+		},
+		"Windows":
+		{
+			"NewWindowDance":{"key":"W"},
+			"WindowResize":{"key":"R" },
+			"SetWindowContent":{"key":"C" },
+			"ReorderWindows":{"key":"O" },
+			"HideWindow":{"key":"H" },
+			"SetMainWindow":{"key":"U" },
+			"RenameWindow":{"key":"N" },
+			"DesktopColor":{"key":"D" },
+			"Comment":{"key":"M"}
+		}
+
+	},
+	"conditionals": {},
+	"levelEvents": {},
+	"gameSoundGroups":
+	{
+		"ClapSoundHold": ["ClapSoundHoldLongEnd", "ClapSoundHoldLongStart", "ClapSoundHoldShortEnd", "ClapSoundHoldShortStart"],
+		"PulseSoundHold": ["PulseSoundHoldStart", "PulseSoundHoldShortEnd", "PulseSoundHoldEnd", "PulseSoundHoldStartAlt", "PulseSoundHoldShortEndAlt", "PulseSoundHoldEndAlt"],
+		"ClapSoundHoldP2": ["ClapSoundHoldLongEndP2", "ClapSoundHoldLongStartP2", "ClapSoundHoldShortEndP2", "ClapSoundHoldShortStartP2"],
+		"PulseSoundHoldP2": ["PulseSoundHoldStartP2", "PulseSoundHoldShortEndP2", "PulseSoundHoldEndP2", "PulseSoundHoldStartAltP2", "PulseSoundHoldShortEndAltP2", "PulseSoundHoldEndAltP2"],
+		"FreezeshotSound": ["FreezeshotSoundCueLow", "FreezeshotSoundCueHigh", "FreezeshotSoundRiser", "FreezeshotSoundCymbal"],
+		"BurnshotSound": ["BurnshotSoundCueLow", "BurnshotSoundCueHigh", "BurnshotSoundRiser", "BurnshotSoundCymbal"],
+		"HoldshotSound": ["HoldshotSoundCue", "HoldshotSoundClapStart", "HoldshotSoundClapShortEnd", "HoldshotSoundClapLongEnd"]
+	}
+}

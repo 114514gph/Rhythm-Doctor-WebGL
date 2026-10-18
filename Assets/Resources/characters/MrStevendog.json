@@ -1,0 +1,32 @@
+{
+	"size": [ 46, 40 ],
+	"portraitOffset": [ 21, 8 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 5, 7 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 5, 4 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 0, 1, 2 ],
+			"loop": "no",
+			"fps": 6
+		},
+		{
+			"name": "barely",
+			"frames": [ 7, 8, 9 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "missed",
+			"frames": [ 7, 8, 9 ],
+			"loop": "yes",
+			"fps": 6
+		}
+	]
+}

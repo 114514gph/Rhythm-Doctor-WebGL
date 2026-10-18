@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: VfxController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 185.35986, y: 271.3593, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cef87b5641156a31c68ded520f5a74, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  scBackground: {fileID: 114724804207875695, guid: bc5ace092619e8b4d9e1b514aad4ab1f, type: 2}
+  scLevelElements: {fileID: 114724804207875695, guid: 683b721d014015d45a7cda7a516fdad9, type: 2}
+  quad: {fileID: 1709254077376921, guid: 329de3f6c4c078c46b9eac3a5ae3ed3e, type: 2}
+  hitStripPrefab: {fileID: 0}
+  spotlightPrefab: {fileID: 1709254077376921, guid: 2550e027e7090fe46874790476ba102b, type: 2}
+  letterboxPrefab: {fileID: 1709254077376921, guid: 0fdde5d5d3bf0414585f21083d9a4d68, type: 2}
+  matrixModePrefab: {fileID: 1709254077376921, guid: 9d553c9cf4c1c8b42a791699775ade17, type: 2}
+  shadowModePrefab: {fileID: 1709254077376921, guid: 70f538884749bfe47aa1c47be51f9223, type: 2}
+  shockwavePrefab: {fileID: 1709254077376921, guid: c0098e9aac6217f40a84236d4143e000, type: 2}
+  lyricsPrefab: {fileID: 1709254077376921, guid: c1923e13bb3ce774f8225f9380d09bc8, type: 2}
+  lyricsSmallPrefab: {fileID: 1709254077376921, guid: db5da3f0ab970bb408e51ab7b4a0a439, type: 2}
+  particleSpawnerPrefab: {fileID: 1709254077376921, guid: e080a68a5f0bd6b44b1f52340827d646, type: 2}
+  invertedSpotlightsPrefab: {fileID: 1709254077376921, guid: d60cdb220834c384092bbbe011e8569b, type: 2}
+  sevenBeatArmyPrefab: {fileID: 1709254077376921, guid: 9981041e2850464438c50bb5e0d095b5, type: 2}
+  scrollyTextPrefab: {fileID: 1709254077376921, guid: 1674ccba3b4e0f6428e0b5d8924a05b9, type: 2}
+  lightStripPrefab: {fileID: 1709254077376921, guid: 4b889ba79c4b5654e917aaf9c5841e77, type: 2}
+  snowPrefab: {fileID: 1709254077376921, guid: d85a9fed9edc1f34f99d2f53125172d8, type: 2}
+  diamondsParticleSystemPrefab: {fileID: 1709254077376921, guid: 6641031d35e7da5439bff1b5d8378d31, type: 2}
+  sparklineBalloonsPrefab: {fileID: 1709254077376921, guid: e9faa5b52254db043963008ce7d4f2d8, type: 2}
+  uiFxGlitch: {fileID: 0}
+  flashText: []
+  globalShaderData:
+    uid: 0
+    _overlayColor: {r: 0, g: 0, b: 0, a: 0}
+    _additiveColor: {r: 0, g: 0, b: 0, a: 0}
+    _borderColor: {r: 0, g: 0, b: 0, a: 0}
+    _glowPower: 1
+    _opacity: 1
+    _outline: 0
+    _black: 0
+    _greyscale: 0
+    _overlayTexturePower: 0
+    _noiseTexturePower: 0
+    _overlayTexture: {fileID: 0}
+    _noiseTexture: {fileID: 0}
+    _blendFirst: 1
+    _blendSecond: 10
+    _blendOp: 0
+  _matrixModeColor: {r: 0, g: 0, b: 0, a: 0}
+  oneshotSpotlights: {fileID: 0}
+  sevenBeatArmy: {fileID: 0}

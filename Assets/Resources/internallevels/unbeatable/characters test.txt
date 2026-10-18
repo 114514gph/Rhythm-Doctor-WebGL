@@ -1,0 +1,60 @@
+{
+	"settings":
+	{
+		"version": 44, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.3762829, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "character": "custom:treble", "rowType": "Classic", "row": 0, "rooms": [0], "player": "P1", "pulseSound": "None", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "custom:beat", "rowType": "Classic", "row": 1, "rooms": [0], "player": "P1", "pulseSound": "None", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "custom:clef", "rowType": "Classic", "row": 2, "rooms": [0], "player": "P1", "pulseSound": "None", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "Quaver", "rowType": "Classic", "row": 3, "rooms": [0], "player": "P1", "pulseSound": "None", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 1, "type": "SetBeatsPerMinute", "beatsPerMinute": 149 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "ShowDialogue", "active": false, "text": "clef: a", "panelSide": "Bottom", "portraitSide": "Left", "speed": 1, "playTextSounds": true },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetCrotchetsPerBar", "crotchetsPerBar": 8, "visualBeatMultiplier": 2 },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "SetBackgroundColor", "rooms": [0], "backgroundType": "Image", "contentMode": "ScaleToFill", "color": "272727FF", "image": ["unknown.png"], "fps": 30, "filter": "NearestNeighbor", "scrollX": 0, "scrollY": 0 },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "TintRows", "row": -1, "border": "Outline", "borderColor": "000000", "borderOpacity": 100, "tint": false, "tintColor": "FFFFFF", "tintOpacity": 100 },
+		{ "bar": 2, "beat": 1, "y": 0, "type": "AddClassicBeat", "active": false, "row": 0, "tick": 1, "swing": 0, "hold": 0 },
+		{ "bar": 2, "beat": 1, "y": 1, "type": "AddClassicBeat", "active": false, "row": 1, "tick": 1, "swing": 0, "hold": 0 },
+		{ "bar": 2, "beat": 1, "y": 2, "type": "AddClassicBeat", "active": false, "row": 2, "tick": 1, "swing": 0, "hold": 0 },
+		{ "bar": 2, "beat": 1, "y": 3, "type": "AddClassicBeat", "active": false, "row": 3, "tick": 1, "swing": 0, "hold": 0 },
+	],
+	"conditionals":
+	[
+	]
+}

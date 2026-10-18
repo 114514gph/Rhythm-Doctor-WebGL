@@ -1,0 +1,37 @@
+{
+	"settings":
+	{
+		"version": 19, 
+		"levelName": "", 
+		"author": "", 
+   		"customClass": "Lofi",
+    	"multiplayerAppearance": "HorizontalStrips", 
+		"rankMaxMistakes": [40, 30, 15, 5],
+    	"firstBeatBehavior": "RunEventsOnPrebar",
+		"rankDescription":
+		[
+			"copyright struck",
+			"1 hour study beats",
+			"2 hour study beats",
+			"10 hour study beats",
+			"24/7 study beats",
+			"25/7 chill beats"
+		]
+	},
+	"rows":
+	[
+		{ "character": "Samurai", "rowType": "Classic", "row": 0, "rooms": [1], "player": "P1", "pulseSound": "Chuck", "pulseSoundVolume": 10, "pulseSoundOffset": 0 }, 
+		{ "character": "HoodieBoy", "rowType": "Oneshot", "row": 1, "rooms": [2], "player": "P1", "pulseSound": "Shaker", "pulseSoundVolume": 60, "pulseSoundOffset": 0 }, 
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 0, "type": "PlaySong", "filename": "studybeats.ogg", "volume": 100, "offset": 40, "bpm": 75 }, 
+		{ "bar": 1, "beat": 1, "y": 2, "type": "SetHeartExplodeVolume", "volume": 0 }, 
+		{ "bar": 1, "beat": 1, "y": 3, "type": "SetHeartExplodeInterval", "intervalType": "Instant", "interval": 0, }, 
+		{ "bar": 1, "beat": 1, "y": 0, "type": "ShowRooms", "rooms": [2], "transitionTime": 0, "heights": [0, 0, 0, 0] }, 
+		{ "bar": 1, "beat": 1, "y": 1, "type": "SetCrotchetsPerBar", "crotchetsPerBar": 4 }, 
+		{ "bar": 1, "beat": 1, "y": 2, "type": "TintRows", "row": -1, "border": "Glow", "borderColor": "000000", "borderOpacity": 40, "tint": true, "tintColor": "6E1F1F", "tintOpacity": 10 }, 
+		{ "bar": 1, "beat": 3, "y": 2, "type": "SetClapSounds", "rowType": "Oneshot", "p1Sound": "ClapHitEcho", "p1Volume": 80, "p1Offset": 0, "p2Sound": "ClapHit", "p2Volume": 100, "p2Offset": 0 }, 
+		{ "bar": 2, "beat": 1, "y": 2, "type": "SetSpeed", "speed": 0.5 }, 
+	]
+}

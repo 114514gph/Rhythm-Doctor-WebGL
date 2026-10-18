@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: RDGameSounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d95b499cf3a25e288a6a1a1e975237, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  sounds:
+  - type: 0
+    filename: sndClapHit
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 1
+    filename: sndClapHitP2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 2
+    filename: sndClapHit
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 3
+    filename: sndClapHitP2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 4
+    filename: sndMistakeSmall3
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 5
+    filename: sndMistakeBig
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 6
+    filename: sndMenuPop
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 7
+    filename: sndMenuPop2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 8
+    filename: sndExplodeNewv1_1
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 9
+    filename: sndExplodeNewv1_2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 10
+    filename: sndExplodeNewv1_3
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 13
+    filename: sndHoldWindupShortEnd
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 14
+    filename: sndHoldWindupShortStart
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 11
+    filename: sndHoldWindupLongEnd
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 12
+    filename: sndHoldWindupLongStart
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 15
+    filename: sndHoldStartTamb
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 16
+    filename: sndHoldEndTambShort
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 17
+    filename: sndHoldEndTamb
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 18
+    filename: sndHoldStartTambAlt
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 19
+    filename: sndHoldEndTambShortAlt
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 20
+    filename: sndHoldEndTambAlt
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 21
+    filename: sndClapHitCPU
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 22
+    filename: sndClapHitCPU
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 23
+    filename: sndHoldWindupLongEndP2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 24
+    filename: sndHoldWindupLongStartP2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 25
+    filename: sndHoldWindupShortEndP2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 26
+    filename: sndHoldWindupShortStartP2
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 27
+    filename: sndHoldStartShaker
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 28
+    filename: sndHoldEndShakerShort
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 29
+    filename: sndHoldEndShaker
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 30
+    filename: sndHoldStartShakerAlt
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 31
+    filename: sndHoldEndShakerShortAlt
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 32
+    filename: sndHoldEndShakerAlt
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 33
+    filename: sndFreezeshotCueLow
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 34
+    filename: sndFreezeshotCueHigh
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 35
+    filename: sndFreezeshotRiser
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 36
+    filename: sndFreezeshotCymbal
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 37
+    filename: sndBurnshotCueLow
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 38
+    filename: sndBurnshotCueHigh
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 39
+    filename: sndBurnshotRiser
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 40
+    filename: sndBurnshotCymbal
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 47
+    filename: sndVibraslap
+    volume: 1.2
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 49
+    filename: sndHoldshotCue
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 50
+    filename: sndHoldshotClapStart
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 51
+    filename: sndHoldshotClapLongEnd
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0
+  - type: 52
+    filename: sndHoldshotClapShortEnd
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    pan: 0

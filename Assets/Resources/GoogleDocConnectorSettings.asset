@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17c921b5cda648e42ca2912d94c86a68, type: 3}
+  m_Name: GoogleDocConnectorSettings
+  m_EditorClassIdentifier:
+  CachePath: Plugins/StansAssets/GoogleDocConnector/
+  docs:
+  - key: 1nHwvYH8xJJmID1Vz2DmmeRjA1_VFyxvQz1iq1zCFwtU
+    _worksheets:
+    - listName: Translations
+      listId: 0
+    - listName: Levels
+      listId: 1722499391
+    - listName: Gameplay
+      listId: 1497459383
+    - listName: CustomLevelSelect
+      listId: 509037862
+    - listName: LevelEditor
+      listId: 133416470
+    - listName: Enums
+      listId: 406837824
+    - listName: LevelSelect
+      listId: 455063813
+    - listName: LevelDescriptions
+      listId: 1065242360
+    - listName: Spoiler
+      listId: 1834608321
+    - listName: Credits
+      listId: 825164209
+    - listName: CustomMethods
+      listId: 1753966121
+    name: RDLocalization
+    IsTableListOpen: 1
+    IsOpen: 1
+    docName:
+    docIndex: 0
+    selectedWorksheet: 0
+  - key: 1FDfTCY1-UURWpD8cZOncb_cwzkFR_KE_i6SXDkbORnA
+    _worksheets:
+    - listName: Calibration
+      listId: 1325036594
+    - listName: ExpoLevelSelect
+      listId: 1031055293
+    - listName: Insomniac
+      listId: 991644871
+    - listName: InsomniacHard
+      listId: 1189691765
+    - listName: Intro
+      listId: 1553448151
+    - listName: Intimate
+      listId: 2009471703
+    - listName: TutorialIntimate
+      listId: 1077000587
+    - listName: TutorialSVT
+      listId: 577693068
+    - listName: TutorialLofi
+      listId: 543944408
+    - listName: TutorialDistantDuet
+      listId: 467650801
+    - listName: Warning
+      listId: 143188582
+    - listName: Boss2
+      listId: 1335566167
+    - listName: Cutscenes
+      listId: 1156214553
+    - listName: Lofi
+      listId: 277511307
+    - listName: SVT
+      listId: 239008896
+    - listName: TutorialClassy
+      listId: 1763662955
+    - listName: TutorialHeldbeats
+      listId: 857784934
+    - listName: TutorialRollerdisco
+      listId: 749545167
+    - listName: TutorialCareless
+      listId: 1766003948
+    - listName: TutorialSmokin
+      listId: 2035796088
+    - listName: TutorialKnowYou
+      listId: 1631241560
+    - listName: LevelSelect
+      listId: 2086566137
+    - listName: DistantDuet
+      listId: 1825450176
+    - listName: Unreachable
+      listId: 542448414
+    - listName: Garden
+      listId: 128678590
+    - listName: Lounge
+      listId: 195309291
+    - listName: GAndTonic
+      listId: 836183981
+    - listName: Pomeranian
+      listId: 1502563685
+    - listName: Heldbeats
+      listId: 1337684129
+    - listName: Careless
+      listId: 1230400156
+    - listName: CutscenesMuseDash
+      listId: 1573434908
+    - listName: BlackestLuxuryCar
+      listId: 330215940
+    - listName: TapeStopNight
+      listId: 2042582347
+    - listName: The90sDecision
+      listId: 928700112
+    - listName: Tutorial90sDecision
+      listId: 1892246575
+    - listName: TutorialLuxuryCar
+      listId: 2033503259
+    - listName: TutorialGarden
+      listId: 10458560
+    - listName: TutorialBoss2
+      listId: 1067688832
+    - listName: TutorialBitsAndBops
+      listId: 1755042161
+    - listName: TutorialLuckyBreak
+      listId: 124561460
+    - listName: TutorialFreezeshot
+      listId: 1980913540
+    - listName: AthleteTherapy
+      listId: 1800717574
+    - listName: LuckyBreak
+      listId: 1565198807
+    - listName: Freezeshot
+      listId: 976667546
+    - listName: TutorialFreezeshotH
+      listId: 35790715
+    - listName: TutorialStevensonsTango
+      listId: 261384771
+    - listName: TutorialFreezeshotBooth
+      listId: 2002162297
+    - listName: FreezeshotBooth
+      listId: 923856489
+    - listName: TutorialAthleteFinale
+      listId: 1477203544
+    - listName: Murmurs
+      listId: 1148649790
+    - listName: AthleteFinale
+      listId: 1609669791
+    - listName: RhythmWeightlifter
+      listId: 2113350396
+    - listName: VividStasis
+      listId: 1151204775
+    - listName: SparkLine
+      listId: 1039616577
+    - listName: TutorialSomethingToTellYou
+      listId: 1794869195
+    - listName: TutorialBlurred
+      listId: 1799060217
+    - listName: Blurred
+      listId: 1207725987
+    - listName: PaigesReckoning
+      listId: 21637826
+    - listName: EdegaPerformance
+      listId: 966937998
+    - listName: TutorialEdegaRave
+      listId: 725600468
+    - listName: StevensonsTango
+      listId: 1621996236
+    - listName: EdegaRave
+      listId: 825055347
+    - listName: Montage
+      listId: 1676554656
+    - listName: Bitterness
+      listId: 673522848
+    name: InkLocalization
+    IsTableListOpen: 1
+    IsOpen: 0
+    docName:
+    docIndex: 0
+    selectedWorksheet: 0

@@ -1,0 +1,102 @@
+{
+	"settings":
+	{
+		"version": 65, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.5, 
+		"songLabelGrayscale": false, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunEventsOnPrebar", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+		"mods": ["cutsceneLevel"], 
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "rooms": [0], "row": 0, "rowType": "Classic", "player": "P1", "character": "Ian", "pulseSound": "Shaker" },
+		{ "rooms": [0], "row": 1, "rowType": "Classic", "player": "P1", "character": "Paige", "pulseSound": "Stick" }
+	],
+	"decorations":
+	[
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 4, "type": "SetTheme", "rooms": [0], "preset": "Rooftop", "variant": 0, "skipPaintEffects": false },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "SetGameSound", "soundType": "Hand2PopSound", "filename": "" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [30, 40], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "MoveCamera", "rooms": [0], "cameraPosition": [45, 60], "zoom": 125, "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "HideRow", "row": 1, "show": "OnlyCharacter", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetGameSound", "soundType": "Hand1PopSound", "filename": "", "volume": 0 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "HideRow", "row": 0, "show": "OnlyCharacter", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [43, 39], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 3, "type": "CustomFlash", "rooms": [0], "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 0, "background": false, "duration": 6, "ease": "Linear" },
+		{ "bar": 1, "beat": 1.25, "y": 2, "type": "ReadNarration", "text": "[[RooftopCutscene.desc1b]]", "category": "Description" },
+		{ "bar": 1, "beat": 2, "y": 2, "type": "MoveCamera", "rooms": [0], "cameraPosition": [45, 45], "zoom": 125, "duration": 8, "ease": "InOutCubic" },
+		{ "bar": 1, "beat": 7, "y": 0, "type": "ShowDialogue", "rooms": [4], "text": "[[ink:RooftopCutscene_PaigeStays]]", "speed": 1, "panelSide": "Bottom", "portraitSide": "Left", "playTextSounds": true },
+		{ "bar": 2, "beat": 1, "y": 0, "type": "PlaySound", "tag": "play_tram", "sound": {"filename": "sndRooftopTram"}, "customSoundType": "OtherSound" },
+		{ "bar": 3, "beat": 1, "y": 2, "type": "PlayExpression", "tag": "ian_explaining", "row": 0, "expression": "explaining", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 0, "type": "PlayExpression", "tag": "ian_idle", "row": 0, "expression": "idle", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 1, "type": "PlayExpression", "tag": "ian_sighing", "row": 0, "expression": "sighing", "replace": false },
+		{ "bar": 3, "beat": 1, "y": 3, "type": "PlayExpression", "tag": "ian_back", "row": 0, "expression": "back", "replace": false },
+		{ "bar": 3, "beat": 2, "y": 1, "type": "MoveRow", "tag": "ian_unflip", "row": 0, "target": "WholeRow", "customPosition": true, "scale": [1, null], "duration": 0, "ease": "Linear" },
+		{ "bar": 3, "beat": 2, "y": 0, "type": "MoveRow", "tag": "ian_flip", "row": 0, "target": "WholeRow", "customPosition": true, "scale": [-1, null], "duration": 0, "ease": "Linear" },
+		{ "bar": 3, "beat": 4, "y": 1, "type": "MoveRow", "tag": "paige_unflip", "row": 1, "target": "WholeRow", "customPosition": true, "scale": [1, null], "duration": 0, "ease": "Linear" },
+		{ "bar": 3, "beat": 4, "y": 0, "type": "MoveRow", "tag": "paige_flip", "row": 1, "target": "WholeRow", "customPosition": true, "scale": [-1, null], "duration": 0, "ease": "Linear" }
+	],
+	"conditionals":
+	[
+		{ "type": "Custom", "tag": "1", "name": "Paige still walking", "id": 1, "expression": "b1 == true", }
+	],
+	"bookmarks":
+	[
+	],
+	"colorPalette":
+	[
+		"000000ff",
+		"ffffffff",
+		"7f7f7fff",
+		"c3c3c3ff",
+		"880015ff",
+		"b97a57ff",
+		"ff0000ff",
+		"ffaec9ff",
+		"ff7f27ff",
+		"ffc90eff",
+		"fff200ff",
+		"efe4b0ff",
+		"22b14cff",
+		"b5e61dff",
+		"00a2e8ff",
+		"99d9eaff",
+		"3f48ccff",
+		"7092beff",
+		"a349a4ff",
+		"c8bfe7ff",
+		"00000000"
+	]
+}

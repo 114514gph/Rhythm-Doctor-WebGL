@@ -1,0 +1,51 @@
+{
+    "size": [
+        352,
+        264
+    ],
+    "clips": [
+        {
+            "name": "neutral",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0
+        },
+        {
+            "name": "happy",
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0
+        },
+        {
+            "name": "barely",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0
+        },
+        {
+            "name": "missed",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0
+        }
+    ]
+}

@@ -1,0 +1,912 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10abe3ffadedb90339e87a10232243e2, type: 3}
+  m_Name: RDConstants
+  m_EditorClassIdentifier:
+  forceNewWindowEnabled: 0
+  booth: 0
+  mobile: 2
+  nx: 2
+  defaultCustomWindowIcon: {fileID: 2800000, guid: 15aee25f1c5926f448406c174ddb664b, type: 3}
+  forceLanguage: 0
+  forcedLanguage: 18
+  retrieveEnglishOnly: 0
+  retrieveKoreanOnly: 0
+  retrieveChineseOnly: 0
+  compileOnlyLastImportedInk: 0
+  soundData: {fileID: 11400000, guid: 37051f360e981844a91f9e00779c481d, type: 2}
+  customSpeed: 1.4
+  volTrackerMultiplier: 1.2
+  rewiredManager: {fileID: 114724804207875695, guid: 63a17cc5237e01e41a4aa158b2dd4460, type: 2}
+  narration: {fileID: 114724804207875695, guid: 0a77bb12916906e4fb679380aac83769, type: 2}
+  instantPulses: 0
+  playExplosionFileVariations: 1
+  playExplosionPitchVariations: 0
+  blurDecayDuration: 2
+  bladeRotationDuration: 0.8
+  blurDecayEase: 30
+  bladeRotationEase: 13
+  bladeRotationCloseEase: 7
+  bladeRotationCloseDuration: 0.5
+  bladeSpritesFinalAngle: 75
+  transitionBars_animationDuration: 0.6
+  transitionBars_animationDelay: 0.3
+  transitionBars_animationEase: 5
+  rowSeparationTiedWithRoomEase: 9
+  armSkin_paige:
+    sleeveColor: {r: 0.95, g: 0.95, b: 0.95, a: 1}
+    skinColor: {r: 0.98039216, g: 0.6901961, b: 0.52156866, a: 1}
+    nailsColor: {r: 0.9372549, g: 0.8352941, b: 0.8, a: 1}
+    palmLightness: 0
+    drawing: {fileID: 0}
+  armSkin_ian:
+    sleeveColor: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 1}
+    skinColor: {r: 0.8509804, g: 0.627451, b: 0.4, a: 1}
+    nailsColor: {r: 0.93333334, g: 0.7294118, b: 0.6431373, a: 1}
+    palmLightness: 0
+    drawing: {fileID: 0}
+  armSkin_edega:
+    sleeveColor: {r: 0.9490197, g: 0.9490197, b: 0.9490197, a: 1}
+    skinColor: {r: 0.9803922, g: 0.6901961, b: 0.52156866, a: 1}
+    nailsColor: {r: 0.93725497, g: 0.8352942, b: 0.8000001, a: 1}
+    palmLightness: 0
+    drawing: {fileID: 0}
+  armSkin_politician:
+    sleeveColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    skinColor: {r: 1, g: 0.6784314, b: 0.25882354, a: 1}
+    nailsColor: {r: 0.9372549, g: 0.8352941, b: 0.8, a: 1}
+    palmLightness: 0
+    drawing: {fileID: 0}
+  transDrawing: {fileID: 2800000, guid: 3988b727822f18e4284b6795a18b2779, type: 3}
+  nbDrawing: {fileID: 2800000, guid: 0d18e46df71ac8542b33231be30142f4, type: 3}
+  freezeshot_textures:
+  - {fileID: 2800000, guid: 250494b357bbd3d40a28a5974639e4bd, type: 3}
+  - {fileID: 2800000, guid: 3f09f6c0bfc256c4a96d93bb31363fe3, type: 3}
+  - {fileID: 2800000, guid: 468f56f75fe35764eb8802744646ff53, type: 3}
+  - {fileID: 2800000, guid: 607944bf23a211648aae773b2e66538e, type: 3}
+  - {fileID: 2800000, guid: 4f3f1b5537abc6045b8f4aab18f7abee, type: 3}
+  - {fileID: 2800000, guid: d35dcf4a0c37ea348b23fb0550b951d0, type: 3}
+  - {fileID: 2800000, guid: 55346ca353a6fac439315d81b03a52e7, type: 3}
+  - {fileID: 2800000, guid: a8e0260dbb083db4d96b00b6f850758a, type: 3}
+  freezeshot_animationFPS: 20
+  beatSoundMode: 0
+  beat_audibleSkipBeatGainMultiplier: 0.25
+  beat_firstBeatPitch: 1.3
+  beat_firstBeatVolume: 1
+  beat_customBeatPitches:
+  - 0
+  - 1
+  - 1.1
+  - 1.2
+  - 1.3
+  - 1.4
+  - 1.5
+  - 1.6
+  beat_customBeatVolumes:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  simulatedDesktopColor: {r: 0.5137255, g: 0.30588236, b: 0.5921569, a: 1}
+  bossHPBarColor: {r: 1, g: 1, b: 1, a: 1}
+  player1HPBarColor: {r: 0, g: 0.9241887, b: 0.9241887, a: 1}
+  player2HPBarColor: {r: 0.9485294, g: 0.055795845, b: 0.14814727, a: 1}
+  lowHealthHPBarColor: {r: 1, g: 0.37800002, b: 0.37800002, a: 1}
+  rdsrtEarlyColor: {r: 1, g: 0.7518382, b: 0.007352948, a: 1}
+  rdsrtLateColor: {r: 0.909, g: 0.39518774, b: 0.113625, a: 1}
+  rdsrtPerfectColor: {r: 0, g: 0.86551726, b: 0.2008001, a: 1}
+  colorPalette:
+  - {r: 0.8490566, g: 0.14017442, b: 0.20123832, a: 1}
+  - {r: 0.17434119, g: 0.30958405, b: 0.85882354, a: 1}
+  - {r: 0.7735849, g: 0.26637593, b: 0.70078987, a: 1}
+  - {r: 0.84599996, g: 0.7231238, b: 0.06514197, a: 1}
+  - {r: 0, g: 0.77, b: 0.34964278, a: 1}
+  - {r: 0.34117648, g: 0.7137255, b: 0.83137256, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.86, g: 0.86, b: 0.86, a: 1}
+  - {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
+  - {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+  - {r: 0.9490196, g: 0.9019608, b: 0.26666668, a: 1}
+  - {r: 0.9632353, g: 0.8749225, b: 0.16290008, a: 1}
+  brushColors:
+  - {r: 0.5411765, g: 0.2509804, b: 0.2392157, a: 1}
+  - {r: 0.5019608, g: 0.9803922, b: 0.5019608, a: 1}
+  - {r: 0.4156863, g: 0.89019614, b: 0.67058825, a: 1}
+  - {r: 0.7411765, g: 0.19215688, b: 0.41176474, a: 1}
+  - {r: 0.9215687, g: 0.31764707, b: 0.28627452, a: 1}
+  - {r: 0.14117648, g: 0.3254902, b: 0.47058827, a: 1}
+  - {r: 0.36862746, g: 0.5019608, b: 0.8941177, a: 1}
+  - {r: 0.9490197, g: 0.6431373, b: 0.23529413, a: 1}
+  - {r: 0.9843138, g: 0.9176471, b: 0.34901962, a: 1}
+  - {r: 0.5019608, g: 0.46274513, b: 0.5921569, a: 1}
+  - {r: 0.38823533, g: 0.23137257, b: 0.43137258, a: 1}
+  - {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+  - {r: 0.69803923, g: 0.69803923, b: 0.69803923, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  sleeveColors:
+  - {r: 0.7794118, g: 0.1260813, b: 0.1260813, a: 1}
+  - {r: 0.9338235, g: 0.57014376, b: 0.10986158, a: 1}
+  - {r: 0.88235295, g: 0.83089733, b: 0.1362457, a: 1}
+  - {r: 0.40275025, g: 0.8602941, b: 0.13916521, a: 1}
+  - {r: 0.29273343, g: 0.101643614, b: 0.6911765, a: 1}
+  - {r: 0.16470589, g: 0.7725491, b: 0.64705884, a: 1}
+  - {r: 0.029736139, g: 0.4219665, b: 0.8088235, a: 1}
+  - {r: 0.49803925, g: 0.03529412, b: 0.6627451, a: 1}
+  - {r: 0.7058823, g: 0.083044976, b: 0.3806838, a: 1}
+  - {r: 0.18431373, g: 0.039215688, b: 0.039215688, a: 1}
+  - {r: 0.16911763, g: 0.16911763, b: 0.16911763, a: 1}
+  - {r: 0.38235295, g: 0.38235295, b: 0.38235295, a: 1}
+  - {r: 0.69803923, g: 0.69803923, b: 0.69803923, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  skinColors:
+  - {r: 0.99607843, g: 0.8901961, b: 0.77254903, a: 1}
+  - {r: 0.9852941, g: 0.8626896, b: 0.8259083, a: 1}
+  - {r: 0.9264706, g: 0.7306174, b: 0.6880406, a: 1}
+  - {r: 0.9764706, g: 0.8313726, b: 0.6235294, a: 1}
+  - {r: 0.9254902, g: 0.7529412, b: 0.5686275, a: 1}
+  - {r: 0.9529412, g: 0.7607843, b: 0.5019608, a: 1}
+  - {r: 0.83137256, g: 0.61960787, b: 0.47843137, a: 1}
+  - {r: 0.8078431, g: 0.5882353, b: 0.3686275, a: 1}
+  - {r: 0.6745098, g: 0.5411765, b: 0.3764706, a: 1}
+  - {r: 0.69803923, g: 0.4, b: 0.26666668, a: 1}
+  - {r: 0.5764706, g: 0.37254903, b: 0.21568628, a: 1}
+  - {r: 0.4980392, g: 0.2666667, b: 0.1333333, a: 1}
+  - {r: 0.372549, g: 0.2, b: 0.0627451, a: 1}
+  - {r: 0.1568628, g: 0.09019608, b: 0.03137255, a: 1}
+  nailColors:
+  - {r: 0.9372549, g: 0.5294118, b: 0.43529412, a: 1}
+  - {r: 0.9372549, g: 0.72156864, b: 0.73333335, a: 1}
+  - {r: 0.9372549, g: 0.8352941, b: 0.8, a: 1}
+  - {r: 0.93333334, g: 0.7294118, b: 0.6431373, a: 1}
+  - {r: 0.8509804, g: 0.67058825, b: 0.5764706, a: 1}
+  - {r: 0.9019608, g: 0.6313726, b: 0.5019608, a: 1}
+  - {r: 0.68235296, g: 0.4627451, b: 0.37254903, a: 1}
+  - {r: 0.78039217, g: 0.1254902, b: 0.1254902, a: 1}
+  - {r: 0.7058824, g: 0.08235294, b: 0.38039216, a: 1}
+  - {r: 0.40392157, g: 0.85882354, b: 0.13725491, a: 1}
+  - {r: 0.03137255, g: 0.42352942, b: 0.80784315, a: 1}
+  - {r: 0.49803922, g: 0.03529412, b: 0.6627451, a: 1}
+  - {r: 0.72156864, g: 0.7019608, b: 0.58431375, a: 1}
+  - {r: 0.19607843, g: 0.17254902, b: 0.1254902, a: 1}
+  defaultP1SleeveColor: 060000000300000008000000
+  defaultP1SkinColor: 00000000050000000a000000
+  defaultP1NailColor: 000000000600000004000000
+  defaultP1PalmLightness:
+  - 0
+  - 0
+  - 0.15
+  defaultP2SleeveColor: 000000000100000002000000
+  defaultP2SkinColor: 00000000050000000a000000
+  defaultP2NailColor: 000000000600000004000000
+  defaultP2PalmLightness:
+  - 0
+  - 0
+  - 0.15
+  player1StripColor: {r: 0, g: 0.3130746, b: 1, a: 1}
+  player2StripColor: {r: 0.8784314, g: 0.047058802, b: 0.20701724, a: 1}
+  playerCPUStripColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+  beatboxColor: {r: 0.007843138, g: 0.85490197, b: 0.21568628, a: 1}
+  playerboxColor: {r: 1, g: 0.92156863, b: 0.09411765, a: 1}
+  playerboxP1Color: {r: 0.41037738, g: 0.6510577, b: 1, a: 1}
+  playerboxP2Color: {r: 1, g: 0.4292453, b: 0.535282, a: 1}
+  playerboxCPUColor: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
+  oneshotSquareDefaultTint: {r: 0, g: 0.8039216, b: 0, a: 1}
+  oneshotWaveNormalColor: {r: 0, g: 0.654902, b: 0, a: 1}
+  particleColor: {r: 0.1273585, g: 1, b: 0.12929922, a: 0.6901961}
+  rowHeaderDefaultColor: {r: 0.27367392, g: 0.7735849, b: 0.29366913, a: 1}
+  rowHeaderIncompatibleColor: {r: 0.8745099, g: 0.19215688, b: 0.16470589, a: 1}
+  hitStripDefaultColor: {r: 0.019607844, g: 0.92941177, b: 1, a: 1}
+  hitStripP1Color: {r: 0, g: 0, b: 0, a: 0}
+  hitStripP2Color: {r: 0, g: 0, b: 0, a: 0}
+  hitStripHoldColor: {r: 1, g: 0, b: 0.5176471, a: 0.5882353}
+  hitStripHoldParticleColor: {r: 0, g: 0, b: 0, a: 0}
+  bananaPullMaxDuration: 0.2
+  bananaReleaseMaxDuration: 0.2
+  bananaReleaseNoSpringMaxDuration: 0.04
+  bananaBeatboxDelay: 0
+  beatboxColorSmoke: {r: 0, g: 1, b: 0.53587365, a: 1}
+  techno_additive0: {r: 0.654902, g: 0.20784314, b: 0.078431375, a: 0.17254902}
+  techno_additive1: {r: 0.6627451, g: 0.21176471, b: 0.078431375, a: 0.11764706}
+  techno_overlay0: {r: 0.23529412, g: 0.12156863, b: 0, a: 0.31764707}
+  techno_overlay1: {r: 0.5137255, g: 0.30980393, b: 0.1764706, a: 0.2901961}
+  techno_glow0: {r: 0, g: 0, b: 0, a: 0}
+  techno_glow1: {r: 0, g: 0, b: 0, a: 0}
+  techno_openDoorsBeat: 7.5
+  techno_rowFlyDuration: 0.6
+  techno_rowFlyEase: 17
+  techno_rowFlyBeat: 4
+  techno_rowFly2Duration: 0.6
+  techno_rowFly2Ease: 18
+  techno_rowFly2Beat: 0
+  svt_slowDownDuration: 0.05
+  svt_slowDownTo: 0.1
+  svt_ease: 6
+  intimate_skyScrollX: -0.005
+  intimate_cityBackScrollX: -0.03
+  intimate_cityFrontScrollX: -0.08
+  intimate_shadowDelayDenominator: 2.2
+  theme: 11
+  allSilhouettes: 0
+  noiseMultiplier: 5
+  changeRandomCharEveryBeat: 0
+  opening_rooftopYDistance: -23
+  opening_rooftopYDuration: 5
+  opening_rooftopYEase: 1
+  playground_pulse_ease: 9
+  playground_pulse_tick: 0.3
+  playground_pulse_zoom: 0.2
+  playground_pulse_count: 8
+  pulseCam:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 27.70612
+      outSlope: 27.70612
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.03224887
+      value: 0.893491
+      inSlope: 1.9001129
+      outSlope: 1.6138762
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5085945
+      value: 0.45387548
+      inSlope: -1.4169261
+      outSlope: -1.4169261
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.14159323
+    - serializedVersion: 3
+      time: 0.9856262
+      value: 0
+      inSlope: 0.0952595
+      outSlope: 0.0952595
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  beatPull:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.994812
+      value: 0.69760513
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  beatRelease:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 5
+      outSlope: 5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: -2.125
+      outSlope: -2.125
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4
+      value: -0.85
+      inSlope: -0.87500024
+      outSlope: -0.87500024
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6
+      value: 0.65
+      inSlope: 0.99999976
+      outSlope: 0.99999976
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8
+      value: -0.45
+      inSlope: 0.7500012
+      outSlope: 0.7500012
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9
+      value: 0.25
+      inSlope: 2.2500014
+      outSlope: 2.2500014
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.4999995
+      outSlope: -2.4999995
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  beatPullQuick:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.994812
+      value: 0.69760513
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  beatReleaseNoSpring:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 4.058563
+      outSlope: 4.058563
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.06129797
+      value: 0.24878168
+      inSlope: 4.058563
+      outSlope: 4.058563
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  curveInfiniteZoomPulse:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -0.010204081
+      inSlope: 0.54940987
+      outSlope: 0.54940987
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.452381
+      value: 1.1020408
+      inSlope: 1.6888278
+      outSlope: 1.6888278
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.58503395
+      value: 0.86224484
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8673468
+      value: 0.9846939
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  curveLinear:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  renderTextureShader: {fileID: 4800000, guid: 97f2682149fa3a84ba9a57a00db0b565, type: 3}
+  copiedLabel_animDistance: 10
+  copiedLabel_animDuration: 0.3
+  copiedLabel_animEase: 10
+  roomsSelectionPopup_showAnimDuration: 0.15
+  roomsSelectionPopup_showAnimEase: 27
+  roomsSelectionPopup_hideAnimDuration: 0.15
+  roomsSelectionPopup_hideAnimEase: 26
+  metronome_onColor: {r: 0, g: 0.8, b: 1, a: 1}
+  metronome_offColor: {r: 0, g: 0.56078434, b: 0.8117647, a: 1}
+  metronomeXmas_onColor: {r: 1, g: 1, b: 1, a: 1}
+  metronomeXmas_offColor: {r: 0.52156866, g: 0.52156866, b: 0.52156866, a: 1}
+  twoPlayer_onColor: {r: 0.9764706, g: 0.8392157, b: 0.05882353, a: 1}
+  twoPlayer_offColor: {r: 0.49411765, g: 0.42352942, b: 0.03529412, a: 1}
+  autoplay_onColor: {r: 0.25490198, g: 0.84705883, b: 0.105882354, a: 1}
+  autoplay_offColor: {r: 0.16862746, g: 0.3764706, b: 0.11764706, a: 1}
+  followPlayhead_onColor: {r: 0.8745099, g: 0.19215688, b: 0.16470589, a: 1}
+  followPlayhead_offColor: {r: 0.47794116, g: 0.47794116, b: 0.47794116, a: 1}
+  selectBookmark_onColor: {r: 0.043137256, g: 0.49019608, b: 0.80784315, a: 1}
+  selectBookmark_offColor: {r: 0.47843137, g: 0.47843137, b: 0.47843137, a: 1}
+  eventTagStripColor: {r: 1, g: 0.78039217, b: 0.5254902, a: 1}
+  eventTagRunStripColor: {r: 0.40856808, g: 1, b: 0.36037737, a: 1}
+  beatControl_yellowPulseNormal: {r: 0, g: 0, b: 0, a: 0}
+  beatControl_yellowPulseHighlighted: {r: 0, g: 0, b: 0, a: 0}
+  beatControl_greenPulseNormal: {r: 0, g: 0, b: 0, a: 0}
+  beatControl_greenPulseHighlighted: {r: 0, g: 0, b: 0, a: 0}
+  addFreetimeControlColor: {r: 0.38039216, g: 0.8980392, b: 0.28235295, a: 0.29803923}
+  pulseFreetimeControlColor: {r: 0.28235295, g: 0.8980392, b: 0.49019608, a: 0.29803923}
+  toolsSleepingFrames:
+  - {fileID: 21300000, guid: 24379c783168602438a92e2367023fe3, type: 2}
+  - {fileID: 21300000, guid: ee55d618b86993549beda111ec56d64a, type: 2}
+  - {fileID: 21300000, guid: 96f65a663452d604bbae18696e9bc593, type: 2}
+  timeForToolsToSleep: 300
+  allowedColor: {r: 0.16862746, g: 0.69411767, b: 0.15294118, a: 1}
+  mostlyAllowedColor: {r: 0.61940503, g: 0.8113208, b: 0.12629052, a: 1}
+  declinedColor: {r: 0.69411767, g: 0.20000002, b: 0.15294118, a: 1}
+  particallyDeclinedColor: {r: 0.86274517, g: 0.6117647, b: 0.25490198, a: 1}
+  propertyPrefab: {fileID: 1709254077376921, guid: fa97331af91dbe349ae9c16596880e7b, type: 2}
+  propertiesList: {fileID: 1709254077376921, guid: b2568c17b79917847bc1ba357e0345f3, type: 2}
+  rowPrefab: {fileID: 1709254077376921, guid: 39edc658e510d8548b5bb492ba04c185, type: 2}
+  descriptionControlPrefab: {fileID: 1709254077376921, guid: 2ba34f3e66d56e64d8eaeb028978f458, type: 2}
+  buttonControlPrefab: {fileID: 1709254077376921, guid: 43306d2ac31335b4990c109947910411, type: 2}
+  colorControlPrefab: {fileID: 1709254077376921, guid: 6f67affc836b3c84a824f0e0b38e7734, type: 2}
+  dropdownControlPrefab: {fileID: 1709254077376921, guid: 6024657baec49584c85f10f1502d5266, type: 2}
+  rowControlPrefab: {fileID: 1709254077376921, guid: fadef5b74ff77164c96bbcb4e75c3da0, type: 2}
+  roomControlPrefab: {fileID: 1709254077376921, guid: e1a6accbc148c394fac8672c8e2f063d, type: 2}
+  inputFieldControlPrefab: {fileID: 1709254077376921, guid: 0bb428f242a2d3e428ccc2cf4936380f, type: 2}
+  checkboxControlPrefab: {fileID: 1709254077376921, guid: 827204b80df640546b2fadc2b424e636, type: 2}
+  toggleGroupControlPrefab: {fileID: 1709254077376921, guid: 6077b7ccb9a03da4eb5f4fcb100b3b87, type: 2}
+  toggleControlPrefab: {fileID: 1709254077376921, guid: 766fe8d4d679e824b943543ba9a31383, type: 2}
+  sliderControlPrefab: {fileID: 1709254077376921, guid: 32b70f1ea69e60d4d9ecec2bfeae3ec9, type: 2}
+  sliderAlphaControlPrefab: {fileID: 1709254077376921, guid: b15dc86d26742684a8164f5454f99953, type: 2}
+  sliderPercentControlPrefab: {fileID: 1709254077376921, guid: 193d17b5fd4147f40bdcb4e3a7c7ceb3, type: 2}
+  sliderDescriptionControlPrefab: {fileID: 1709254077376921, guid: 59a41d47a6d80f8428d5458693c2b4e3, type: 2}
+  positionPickerControlPrefab: {fileID: 1709254077376921, guid: 5f319badc6a9cfc409764fa8c32b14c0, type: 2}
+  expPositionPickerControlPrefab: {fileID: 1709254077376921, guid: 323d7cb9402c85d45968942984a4e7a5, type: 2}
+  characterPickerControlPrefab: {fileID: 1709254077376921, guid: 9115867a3b125144e9a46202909b4c0b, type: 2}
+  handControlPrefab: {fileID: 1709254077376921, guid: 89c6b8d94a1095b4ea42d19a7e46a3d4, type: 2}
+  soundInputControlPrefab: {fileID: 0}
+  soundControlPrefab: {fileID: 1709254077376921, guid: 615f9fee035d7dd4eaa012541dfa38e6, type: 2}
+  imageControlPrefab: {fileID: 1709254077376921, guid: 755b0768614654943a04142b8b993f36, type: 2}
+  reorderRoomsControlPrefab: {fileID: 1709254077376921, guid: 591585022e00c6a4599f43b9051884d8, type: 2}
+  showRoomsControlPrefab: {fileID: 1709254077376921, guid: 52cf680f5fc206d4c8afa7acd08ac613, type: 2}
+  setRoomPerspectiveControlPrefab: {fileID: 1709254077376921, guid: 6701a85494673cd449837ec06636cdc5, type: 2}
+  flipScreenControlPrefab: {fileID: 1709254077376921, guid: bc9e93a57adb46a4eb6955dee72ae0c8, type: 2}
+  pulsePickerControlPrefab: {fileID: 1709254077376921, guid: 21c3bbe7b32683e4f8cd10cfdc03f1c8, type: 2}
+  bpmCalculatorControlPrefab: {fileID: 1709254077376921, guid: 1aa5a84467202324f8ffaa2e5edd38d6, type: 2}
+  beatModifiersControlPrefab: {fileID: 1709254077376921, guid: ed140fb4cb796f049a91bfebc168f5af, type: 2}
+  showDialogueControlPrefab: {fileID: 1709254077376921, guid: 3e50d7fc4711c1b4f85752047f9d0631, type: 2}
+  setCountingSoundControlPrefab: {fileID: 1709254077376921, guid: 75a3feece4b29e84285edb0f8ddaf087, type: 2}
+  gameSoundControlPrefab: {fileID: 1709254077376921, guid: 5ffe8909f95dbd042851a13ecfb571b0, type: 2}
+  setGameSoundControlPrefab: {fileID: 1709254077376921, guid: 9d6b1909b864957488389323cc62f26c, type: 2}
+  useShadows: 1
+  shadowsNumber: 30
+  rushAnimMinPercentage: 0.7
+  rushAnimMaxPercentage: 1
+  shadowFadeDuration: 0.3
+  shadowDurationDifference: 0.01
+  shadowFadeEase: 1
+  shadowStartMinAlpha: 0.2
+  shadowStartMaxAlpha: 0.6
+  shadowOffsetPer: 3
+  minOneshotLengthForShadows: 0.5
+  chineseTradFontPack:
+    language: 6
+    usePixelFont: 0
+    vectorFont:
+      font: {fileID: 12800000, guid: 9e42435d8990244448ef614951cfb9a9, type: 3}
+      size: 1
+      lineHeight: 1
+    pixelFont:
+      font: {fileID: 12800000, guid: 623f6a0b5f91f8b40a8adaa7fc824ac0, type: 2}
+      size: 1
+      lineHeight: 1
+    flashFont:
+      font: {fileID: 12800000, guid: ea2f6f5228c7fd044aaa64e38dd9796a, type: 3}
+      size: 1
+      lineHeight: 1
+    vectorFontAsset: {fileID: 11400000, guid: 5e77c1fb15ad52a418c42d885eb44bac, type: 2}
+    pixelFontAsset: {fileID: 0}
+    flashFontAsset: {fileID: 11400000, guid: ec6b93c40d0553547a6608d3f1c0592b, type: 2}
+  chineseSimpFontPack:
+    language: 6
+    usePixelFont: 0
+    vectorFont:
+      font: {fileID: 12800000, guid: 27739d474b4cf404ca2c8cd32a74fe3c, type: 3}
+      size: 1
+      lineHeight: 1
+    pixelFont:
+      font: {fileID: 12800000, guid: 623f6a0b5f91f8b40a8adaa7fc824ac0, type: 2}
+      size: 1
+      lineHeight: 1
+    flashFont:
+      font: {fileID: 12800000, guid: ea2f6f5228c7fd044aaa64e38dd9796a, type: 3}
+      size: 1
+      lineHeight: 1
+    vectorFontAsset: {fileID: 11400000, guid: 0e0be18494eeb3a4e98e8255d3fb17e8, type: 2}
+    pixelFontAsset: {fileID: 0}
+    flashFontAsset: {fileID: 11400000, guid: ec6b93c40d0553547a6608d3f1c0592b, type: 2}
+  japaneseFontPack:
+    language: 22
+    usePixelFont: 0
+    vectorFont:
+      font: {fileID: 12800000, guid: c6afb7217c2f3f3458427ef6b2b8ffd5, type: 3}
+      size: 1
+      lineHeight: 1
+    pixelFont:
+      font: {fileID: 12800000, guid: edec7606c52f8d44d8ada95f0520c927, type: 2}
+      size: 1
+      lineHeight: 1
+    flashFont:
+      font: {fileID: 12800000, guid: fec56620c8b194e4786865e872a5999c, type: 3}
+      size: 1
+      lineHeight: 1
+    vectorFontAsset: {fileID: 11400000, guid: 766fd49b80eb251438b10a3d17306270, type: 2}
+    pixelFontAsset: {fileID: 0}
+    flashFontAsset: {fileID: 11400000, guid: 2b5aaa69f1394474cb607c6177e6d7ba, type: 2}
+  koreanFontPack:
+    language: 23
+    usePixelFont: 0
+    vectorFont:
+      font: {fileID: 12800000, guid: 0c9f42b0e43c9e745a8db6d11cf243e2, type: 3}
+      size: 1
+      lineHeight: 1
+    pixelFont:
+      font: {fileID: 12800000, guid: abb47a3841c32934b912d4e479ca2aa9, type: 2}
+      size: 1
+      lineHeight: 1
+    flashFont:
+      font: {fileID: 12800000, guid: 765379544e6790a44a740ea2922e83ba, type: 3}
+      size: 1
+      lineHeight: 1
+    vectorFontAsset: {fileID: 11400000, guid: 00e4e2773b0cc0b41bd41d525f8b2983, type: 2}
+    pixelFontAsset: {fileID: 0}
+    flashFontAsset: {fileID: 11400000, guid: e4a13a4013b39f04bb18aadf67cd759c, type: 2}
+  latinFontPack:
+    language: 42
+    usePixelFont: 1
+    vectorFont:
+      font: {fileID: 12800000, guid: 9e42435d8990244448ef614951cfb9a9, type: 3}
+      size: 1
+      lineHeight: 1
+    pixelFont:
+      font: {fileID: 12800000, guid: 4bdb5d33e0d567242be9f573ca1ff9ed, type: 2}
+      size: 1
+      lineHeight: 1
+    flashFont:
+      font: {fileID: 12800000, guid: fec56620c8b194e4786865e872a5999c, type: 3}
+      size: 1
+      lineHeight: 1
+    vectorFontAsset: {fileID: 11400000, guid: 5e77c1fb15ad52a418c42d885eb44bac, type: 2}
+    pixelFontAsset: {fileID: 11400000, guid: e226215ba75faa047a1321a7dcfe8db6, type: 2}
+    flashFontAsset: {fileID: 11400000, guid: 2b5aaa69f1394474cb607c6177e6d7ba, type: 2}
+  dontplaysametime: 1
+  windowEase: 10
+  windowAnimation_duration: 1
+  pulse_ease: 5
+  ink_punctuationMarkFastMultiplier: 1.5
+  ink_baseTimePerCharacterPassive: 0.05
+  ink_baseTimePerCharacterActive: 0.04
+  ink_baseTime_CJK_multiplier: 1.7
+  ink_minTimeBetweenLinesPassive: 1
+  ink_maxTimeBetweenLinesPassive: 3
+  ink_passiveReadingTimePerCharacter: 0.06
+  ink_bigPause: 2
+  ink_smallPause: 0.5
+  ink_vslow_Dialogue_Speed: 0.25
+  ink_slow_Dialogue_Speed: 0.5
+  ink_normal_Dialogue_Speed: 1
+  ink_fast_Dialogue_Speed: 2
+  ink_vfast_Dialogue_Speed: 3
+  ink_vvvfast_Dialogue_Speed: 10
+  ink_shout_Dialogue_Speed: 5
+  ink_ian_Dialogue_Speed: 1
+  ink_paige_Dialogue_Speed: 1
+  ink_excited_Dialogue_Speed: 100
+  ink_fastforward: 15
+  ink_PauseTimeBeforePortrait: 0
+  ink_PauseTimeAfterPortrait: 0
+  levelSelect_notPassedLevelTextOutline: {r: 0.9191176, g: 0.9933063, b: 1, a: 1}
+  levelSelect_passedLevelTextOutline: {r: 0.41568628, g: 0.9490196, b: 0.9411765, a: 1}
+  levelSelect_perfectLevelTextOutline: {r: 0.97794116, g: 0.8029829, b: 0.071907446, a: 1}
+  levelSelect_lockedLevelTextOutline: {r: 0.9338235, g: 0.9338235, b: 0.9338235, a: 1}
+  startLocalizations:
+  - language: 34
+    sprite: {fileID: 21300000, guid: f233a9de5601a8844bb7b1ae424f62a2, type: 2}
+  - language: 28
+    sprite: {fileID: 21300000, guid: a38112d81b15c854299ba711e9dc6277, type: 2}
+  - language: 40
+    sprite: {fileID: 21300000, guid: 69938dc7100baf445b7fa68966056bca, type: 2}
+  - language: 41
+    sprite: {fileID: 21300000, guid: 0daa7ff37e490fe44af4ead36257d79e, type: 2}
+  - language: 10
+    sprite: {fileID: 21300000, guid: ec871ed4bfaeae24dbfe86db63eee5b8, type: 2}
+  start2PLocalizations:
+  - language: 34
+    sprite: {fileID: 21300000, guid: 5f2302b218f4c8849b9e031acf906e37, type: 2}
+  - language: 28
+    sprite: {fileID: 21300000, guid: e9f0c64d52f1d7e41adc4ab849b40028, type: 2}
+  - language: 40
+    sprite: {fileID: 21300000, guid: f467b4d1c38d215448b66436d98ef297, type: 2}
+  - language: 41
+    sprite: {fileID: 21300000, guid: 68b1afa6192e6f2408316eeb6ea097e1, type: 2}
+  - language: 10
+    sprite: {fileID: 21300000, guid: 0c1ff6a05abdcbe499664fc41e72fe51, type: 2}
+  errorCanvas: {fileID: 1709254077376921, guid: b8adf8a51ed6e974a97258b3fbdfe43a, type: 2}
+  emptyTexture: {fileID: 2800000, guid: 2afe6d5ce6f72424baa306b1090449c8, type: 3}
+  beatboxSmokeTexture: {fileID: 2800000, guid: b692161def633dc4bb524210a4058a43, type: 3}
+  beatboxSmokeSpeed: {x: 0.2, y: 0.2}
+  coffeeShop: {fileID: 1709254077376921, guid: c06eddab2f1908d4f90d04ed6bb503b4, type: 2}
+  rooftop: {fileID: 1709254077376921, guid: f84e622099b5d7c4da8f6b7baf6e2ffa, type: 2}
+  garden: {fileID: 1709254077376921, guid: 26c88d05a8d9b3647b8c70423b4a9eb9, type: 2}
+  hospitalWard: {fileID: 1709254077376921, guid: 9e279af59823a3745a85e6760915fc44, type: 2}
+  paigeFire: {fileID: 1709254077376921, guid: d53108acb7915be479ab62a3b7795d4d, type: 2}
+  UIPaletteMaterial: {fileID: 2100000, guid: d500a45fc2a773a44b93d79621b100df, type: 2}
+  RDSpriteMaterial: {fileID: 2100000, guid: 930e64685dc669b4f80d58cc2ebb34a4, type: 2}
+  keyHelperInfos:
+  - type: 0
+    guids: []
+    bottomAction:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftAction:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    topAction:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightAction:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    upDirection:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    downDirection:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftDirection:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightDirection:
+      sprite: {fileID: 21300000, guid: 9235d1a2fa94ddd4f81a4b8383369025, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 1
+    guids:
+    - cd9718bf-a87a-44bc-8716-60a0def28a9f
+    - 71dfe6c8-9e81-428f-a58e-c7e664b7fbed
+    - c3ad3cad-c7cf-4ca8-8c2e-e3df8d9960bb
+    bottomAction:
+      sprite: {fileID: 21300000, guid: 601c22ba85b3eed4998f96242bfe3df2, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftAction:
+      sprite: {fileID: 21300000, guid: dc415cf768e74e84081ddf17ca862608, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    topAction:
+      sprite: {fileID: 21300000, guid: e56a282c7027cdb4bb9e5c37084a525e, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightAction:
+      sprite: {fileID: 21300000, guid: 73aae3618e7a98c49a047fe311db4283, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    upDirection:
+      sprite: {fileID: 21300000, guid: 2bd5b5fc7022c7f4aadffaae660684f9, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    downDirection:
+      sprite: {fileID: 21300000, guid: 73f477e3ddb500344b2619a9da020a95, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftDirection:
+      sprite: {fileID: 21300000, guid: 7ba20a880066d4f498b5c94151fbf04a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightDirection:
+      sprite: {fileID: 21300000, guid: b73446d53e8fbb746a211485c796da42, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 2
+    guids:
+    - 7bf3154b-9db8-4d52-950f-cd0eed8a5819
+    - 605dc720-1b38-473d-a459-67d5857aa6ea
+    - 3eb01142-da0e-4a86-8ae8-a15c2b1f2a04
+    - 521b808c-0248-4526-bc10-f1d16ee76bf1
+    - 1fbdd13b-0795-4173-8a95-a2a75de9d204
+    bottomAction:
+      sprite: {fileID: 21300000, guid: b2a46e858eea3574db0ad8f74a3f544c, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftAction:
+      sprite: {fileID: 21300000, guid: 2132c3477318bd547b820bff95c52cdd, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    topAction:
+      sprite: {fileID: 21300000, guid: dfb8bd2d396c9fb41bdfe56a3f7258b8, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightAction:
+      sprite: {fileID: 21300000, guid: e324776520b44514a9f0b1349a0bb96b, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    upDirection:
+      sprite: {fileID: 21300000, guid: 8fca18021362e4148a787c2fd76a58d0, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    downDirection:
+      sprite: {fileID: 21300000, guid: a3707eeaded33de46a01c01352107cd6, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftDirection:
+      sprite: {fileID: 21300000, guid: fa277f04bcfa7aa4b9c23abc2ca93b4d, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightDirection:
+      sprite: {fileID: 21300000, guid: 9ee29e9661f7e3249bd4b41d0803b48e, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 3
+    guids:
+    - d74a350e-fe8b-4e9e-bbcd-efff16d34115
+    - 19002688-7406-4f4a-8340-8d25335406c8
+    - 2694f4b9-9d84-4f55-9ee8-78fbba744b7d
+    bottomAction:
+      sprite: {fileID: 21300000, guid: d5a825b5266c6e845aadc1c6fe04ed2a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftAction:
+      sprite: {fileID: 21300000, guid: 88384fd5f0971314b9bb212a5db458b3, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    topAction:
+      sprite: {fileID: 21300000, guid: 831c3aa80ddfc0b4587d706caa55460d, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightAction:
+      sprite: {fileID: 21300000, guid: 9896f57610407e746bec10cba04e0f9a, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    upDirection:
+      sprite: {fileID: 21300000, guid: 8fca18021362e4148a787c2fd76a58d0, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    downDirection:
+      sprite: {fileID: 21300000, guid: a3707eeaded33de46a01c01352107cd6, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftDirection:
+      sprite: {fileID: 21300000, guid: fa277f04bcfa7aa4b9c23abc2ca93b4d, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightDirection:
+      sprite: {fileID: 21300000, guid: 9ee29e9661f7e3249bd4b41d0803b48e, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 5
+    guids:
+    - 5286706d-19b4-4a45-b635-207ce78d8394
+    bottomAction:
+      sprite: {fileID: 21300000, guid: 7be4a4341c7114a4e9d361f0fc409715, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftAction:
+      sprite: {fileID: 21300000, guid: 5e5d033cdd01c204294ac7a4ba2a267c, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    topAction:
+      sprite: {fileID: 21300000, guid: 742a61455a0de9e4898fee827fc7bed4, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightAction:
+      sprite: {fileID: 21300000, guid: aadd801a19b65084ea37613a2bb12f89, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    upDirection:
+      sprite: {fileID: 21300000, guid: b10f12ebac18d3f4e9d3584512dedd7f, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    downDirection:
+      sprite: {fileID: 21300000, guid: 7d112eec5adcd3f48b9467951dd837e9, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftDirection:
+      sprite: {fileID: 21300000, guid: 59adf3e10fd35a746b247ab984baa456, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightDirection:
+      sprite: {fileID: 21300000, guid: 1e14922c2f9b90848a3d5148e64bf4c7, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 6
+    guids: []
+    bottomAction:
+      sprite: {fileID: 21300000, guid: b2a46e858eea3574db0ad8f74a3f544c, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftAction:
+      sprite: {fileID: 21300000, guid: dfb8bd2d396c9fb41bdfe56a3f7258b8, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    topAction:
+      sprite: {fileID: 21300000, guid: 2132c3477318bd547b820bff95c52cdd, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightAction:
+      sprite: {fileID: 21300000, guid: e324776520b44514a9f0b1349a0bb96b, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    upDirection:
+      sprite: {fileID: 21300000, guid: 8fca18021362e4148a787c2fd76a58d0, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    downDirection:
+      sprite: {fileID: 21300000, guid: a3707eeaded33de46a01c01352107cd6, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    leftDirection:
+      sprite: {fileID: 21300000, guid: fa277f04bcfa7aa4b9c23abc2ca93b4d, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+    rightDirection:
+      sprite: {fileID: 21300000, guid: 9ee29e9661f7e3249bd4b41d0803b48e, type: 2}
+      color: {r: 1, g: 1, b: 1, a: 1}
+  customSprite: {fileID: 1709254077376921, guid: 7d5b6713a76af824b8ad9b05227bd891, type: 2}
+  desktop_green: {r: 0.7254902, g: 0.9803922, b: 0.7960784, a: 1}
+  desktop_yellow: {r: 0.9803922, g: 1, b: 0.6901961, a: 1}
+  desktop_purple: {r: 0.4078431, g: 0.2509804, b: 0.7921569, a: 1}
+  desktop_violet: {r: 0.6862745, g: 0.3607843, b: 0.827451, a: 1}
+  collection_char: {fileID: 0}
+  animations_char: {fileID: 0}

@@ -1,0 +1,29 @@
+namespace OggVorbisEncoder.Setup.Templates.Residue
+{
+	internal class Shared
+	{
+		internal static readonly Mapping[] MapNominal_Coupled = new Mapping[2]
+		{
+			new Mapping(1, new int[2], new int[1], new int[1], 1, new int[1], new int[1] { 1 }),
+			new Mapping(1, new int[2], new int[1] { 1 }, new int[1] { 1 }, 1, new int[1], new int[1] { 1 })
+		};
+
+		internal static readonly Mapping[] MapNominal_Uncoupled = new Mapping[2]
+		{
+			new Mapping(1, new int[6], new int[1], new int[1], 0, new int[1], new int[1]),
+			new Mapping(1, new int[6], new int[1] { 1 }, new int[1] { 1 }, 0, new int[1], new int[1])
+		};
+
+		internal static readonly ResidueEntry Residue44Low_Coupled = new ResidueEntry(0, -1, -1, 9, -1, -1, new int[1], new int[1] { -1 }, new int[8] { 0, 1, 2, 2, 4, 8, 16, 32 }, new int[8] { 0, 0, 0, 999, 4, 8, 16, 32 }, ResidueType.Zero);
+
+		internal static readonly ResidueEntry Residue44Medium_Coupled = new ResidueEntry(0, -1, -1, 10, -1, -1, new int[1], new int[1] { -1 }, new int[9] { 0, 1, 1, 2, 2, 4, 8, 16, 32 }, new int[9] { 0, 0, 999, 0, 999, 4, 8, 16, 32 }, ResidueType.Zero);
+
+		internal static readonly ResidueEntry Residue44High_Coupled = new ResidueEntry(0, -1, -1, 9, -1, -1, new int[1], new int[1] { -1 }, new int[8] { 0, 1, 2, 2, 4, 8, 16, 32 }, new int[8] { 0, 0, 0, 999, 4, 8, 16, 32 }, ResidueType.Zero);
+
+		internal static readonly ResidueEntry Residue44Low_Uncoupled = new ResidueEntry(0, -1, -1, 8, -1, -1, new int[1], new int[1] { -1 }, new int[7] { 0, 1, 1, 2, 2, 4, 28 }, new int[7] { -1, 25, -1, 45, -1, -1, -1 }, ResidueType.Zero);
+
+		internal static readonly ResidueEntry Residue44Medium_Uncoupled = new ResidueEntry(0, -1, -1, 10, -1, -1, new int[1], new int[1] { -1 }, new int[9] { 0, 1, 1, 2, 2, 4, 4, 16, 60 }, new int[9] { -1, 30, -1, 50, -1, 80, -1, -1, -1 }, ResidueType.Zero);
+
+		internal static readonly ResidueEntry Residue44High_Uncoupled = new ResidueEntry(0, -1, -1, 10, -1, -1, new int[1], new int[1] { -1 }, new int[9] { 0, 1, 2, 4, 8, 16, 32, 71, 157 }, new int[9] { -1, -1, -1, -1, -1, -1, -1, -1, -1 }, ResidueType.Zero);
+	}
+}

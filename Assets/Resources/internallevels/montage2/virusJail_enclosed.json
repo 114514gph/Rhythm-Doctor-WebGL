@@ -1,0 +1,6 @@
+{
+    "size": [186, 198],
+    "clips": [
+        { "name": "neutral", "frames": [0, 1, 2, 3, 4], "loop": "yes", "fps": 9 }
+    ]
+}

@@ -1,0 +1,393 @@
+Rhythm Doctor Credits,
+,
+,
+credits.7thBeatGameIs,
+credits.hafizAzman,Hafiz Azman (fizzd)
+credits.winstonLee,Winston Lee
+credits.giacomoPreciado,Giacomo Preciado
+credits.kyleLabriola,Kyle Labriola
+credits.s9menine,celesti whispers
+credits.jennyCrowe,Jenny Crowe
+credits.morphious86,V. Lupu (Morphious86)
+credits.joseCahuana,Jose Cahuana
+credits.davidLi,David Li (huantian)
+credits.antonioSalazar,Antonio Salazar
+credits.randomGuyJCI,Random Guy JCI
+credits.danielWong,Daniel Wong (WOPUNK!)
+credits.fancybread,Fancybread
+credits.gdColon,Craig T. (GDColon)
+credits.thefinals,thefinals
+credits.albertoGonzalez,Alberto Gonzalez
+credits.paring,paring
+credits.riya,Riya
+credits.auth,auth
+credits.craft,craft (Indienova)
+credits.nocallia,Nocallia
+credits.heySora,Sora de Sousa Pereira (HeySora)
+credits.sebastianSalazar,Sebastián Salazar
+,
+credits.collaborators,
+credits.dvdfu,dvdfu
+credits.auburnsummer,auburnsummer
+credits.imbaInteractive,IMBA Interactive
+credits.davidSalsburg,David Salsburg (SomeGuyNamedDavid)
+credits.hyonsu,hyonsu
+credits.diegoLombardi,Diego Lombardi
+credits.caelan,Caelan O'Toole (Klyzx)
+credits.redWK,RedWK
+credits.patexum,Winston Lee
+credits.patexum,Patexum
+credits.jyiSim,Jyi Sim
+credits.looHanRong,Loo Han Rong
+credits.101Studios,101 Studios
+credits.nadirStudios,Nadir Studios
+credits.nicoleTee,Nicole Tee (Amico)
+credits.manuelPanduro,Manuel Panduro
+credits.jackSutter,Jack Sutter
+credits.adipemDragon,Găvănescu Matei (AdipemDragon)
+credits.leongWaiYin,Leong Wai Yin
+credits.deadlySprinklez,DeadlySprinklez
+credits.tak,Tak
+credits.natalieSillato,Natalie Sillato (Kabii-Kins)
+credits.notDonte,notDonte
+credits.kevinWong,Kevin Wong
+credits.rjlake,rj lake
+,
+credits.localization,
+credits.craft.localization,craft
+credits.auth.localization,auth
+credits.gabrielaArraga,Gabriela Arraga (Coffee)
+credits.pedroLeal,Pedro Leal (Gordo)
+credits.marcosYan,Marcos Yan (Blooky)
+credits.kacperStawicki,Kacper Stawicki (Szprycha)
+credits.kabanFriends,KabanFriends
+credits.tonami,Tonami
+credits.phrygia,Phrygia
+credits.purplpasta,purplpasta
+credits.guigui,Guillaume Grosjean (#Guigui)
+credits.sora.localization,Sora de Sousa Pereira (HeySora)
+,
+credits.organizations,
+credits.indienova,Indienova
+credits.mdec,Malaysia Digital Economy Corporation (MDEC)
+credits.innovatePeru,Innóvate Perú
+,
+,
+credits.originalMusicandSounds,
+,
+::credits.careless,
+credits.composer,fizzd
+credits.vocalsAndMix,Yeo
+,
+::credits.att,
+credits.composer,fizzd
+credits.lyrics,Winston Lee and fizzd
+credits.leadVocalsAndMix,foxi
+credits.supportingVocals,Dianna
+,
+::credits.attChineseVersion,
+credits.lyricsLocalization,Vangel
+credits.leadVocalsAndMix,Jyi Sim
+,
+::credits.osm,
+credits.composer,fizzd
+credits.paige,Kaisha Zawawi
+credits.mrStevenson,Hameer Zawawi
+credits.mrsStevenson,Melani Delilkan
+credits.mrStevensonVO,Dean T. Moody
+credits.richardHugh,Scott McFall
+credits.ian,Loo Han Rong
+credits.vocalRecording,Hameer Zawawi
+credits.mixing,Hameer Zawawi and Jyi Sim
+,
+::credits.osmChineseVersion,
+credits.leadVocalsRecordingMixing,Jyi Sim
+credits.lyricsLocalization,Fall Ark
+credits.lyricsLocalization,Vangel
+,
+::credits.helpingHands,
+credits.composerAndPiano,fizzd
+credits.vocalsGuitarProduction,dvdfu
+credits.lyrics,fizzd and Winston Lee
+credits.paigeVocals,Kai Zawawi
+credits.medicalConsultant,Drs Ashley Lee and Marcus Sim
+,
+::credits.puffPiece,
+credits.composer,fizzd
+credits.melodica,Duncan Soo
+,
+::credits.luckyBreak,
+credits.composer,celesti whispers
+credits.saxophonePerfomance,Adil Johan
+credits.saxophoneTracking,Ashwin Gobinath (Nadir Studios)
+credits.saxophoneAssisant,Hameer Zawawi
+,
+::credits.oneSlipTooLate,
+credits.composer,fizzd
+credits.lyrics,fizzd and Winston Lee
+credits.guitarBassArrangement,dvdfu
+credits.leadVocalsBacking,Brendan de Cruz
+credits.loganVocals,Ryan Lin 'Linferno'
+credits.haileyVocals,LilyPichu
+credits.trackingMixingVocals,Ashwin Gobinath (Nadir Studios)
+credits.backingVocalsAssistantProducer,Hameer Zawawi
+,
+::credits.oneSlipTooLateChineseVersion,
+credits.lyricsLocalization,craft
+credits.leadVocalsBacking,Mark.Z (甄浩)
+credits.loganVocals,Joey (孟雨)
+credits.hailey,VocalsZeta
+,
+::credits.lofiBeats,
+credits.composer,celesti whispers
+credits.sampled,'Lo-fi Hip-Hop Beats To Treat Patients To' by Picto
+credits.sampledSaxophone,Adil Johan
+,
+::credits.unsustainableInconsolable,
+credits.composer,Patricia Taxxon
+,
+::credits.seventhInningStretch,
+credits.composer,dvdfu
+,
+::credits.dreamsDontStop,
+credits.composer,fizzd
+credits.lyrics,fizzd and Kyle Labriola
+credits.guitarBassArrangement,dvdfu
+credits.vocals,Mardy Leith
+credits.trackingMixing,Ashwin Gobinath (Nadir Studios)
+credits.luckyBreakMelody,celesti whispers
+,
+::credits.dreamsDontStopChineseVersion,
+credits.lyricsLocalization,craft
+credits.vocals,JiLong (王汲龙)
+credits.recordingMonitoring,Mark.Z (甄浩)
+credits.mixing,Ashwin Gobinath (Nadir Studios)
+,
+::credits.corazonesViejos,
+credits.composer,celesti whispers
+credits.bandoneonPerformance,Guido Gavazza
+,
+::credits.somethingToTellYou,
+credits.composer,fizzd
+credits.orchestralArrangement,Rendra Zawawi
+credits.additionalOrchestration,Li-Anne Kong
+credits.lyrics,Winston Lee and fizzd
+credits.loganVocals,Ryan Lin 'Linferno'
+credits.haileyVocals,LilyPichu
+credits.backingVocals,Hameer Zawawi
+credits.mixing,Ashwin Gobinath (Nadir Studios)
+,
+::credits.somethingToTellYouChineseVersion,
+credits.lyricsLocalization,craft
+credits.loganVocals,Joey (孟雨)
+credits.haileyVocals,Zeta
+credits.mixing,Ashwin Gobinath (Nadir Studios)
+,
+::credits.welcomeBack,
+credits.composer,fizzd
+credits.additionalProduction,Riya
+,
+::credits.bossStage,
+credits.composerPianoArrangement,fizzd
+credits.production,Riya
+,
+::credits.blurred,
+credits.composer,SKARBA
+,
+::credits.bitterTimes,
+credits.composer,celesti whispers and Patricia Taxxon
+credits.lyrics,"Kyle Labriola, Winston Lee and fizzd"
+credits.coleVocals,Yeo
+credits.nicoleVocals,Julia Henderson
+credits.guitarSolo,Leo Aram-Downs
+,
+::credits.miracleDefibrillator,
+credits.composer,fizzd
+credits.production,fizzd and Riya
+credits.sampled,'Sleepy Garden' by Aethoro
+credits.sampled,'Lo-fi Hip-Hop Beats To Treat Patients To' by Picto
+,
+::credits.coleSong,
+credits.composer,fizzd and Riya
+credits.lyrics,fizzd and Winston Lee
+credits.paigeVocals,Kai Zawawi
+credits.coleVocals,Yeo
+credits.nicoleVocals,Dianna
+credits.loganVocals,Ryan Lin 'Linferno'
+credits.haileyVocals,LilyPichu
+,
+::credits.tutorialMusic,
+credits.tutorialMusic,Sien Yi Tan
+credits.tutorialRemixesBeansHopper,celesti whispers
+credits.tutorialRemixes67,Riya
+,
+::credits.sounds,
+credits.tomDrumsClosedHat,SM Drums by Scott McLean
+credits.vscl,Versilian Community Sample Library (VCSL)
+credits.jakLocke,JakLocke
+credits.orangeTreeSamples,Orange Tree Samples
+,
+::credits.freesound,
+kit tm 01.wav,acollier123
+kit tm 02.wav,acollier123
+TapeSnare_15.wav,alexthegr81
+closehat.aif,bdu
+drum_stick_01.wav,noisehag
+LR_SN_0026.wav,crispydinner
+Menu Nav 2.wav,deleted_user_103319
+Shk8.wav,menegass
+Switch.Big.Power.wav,jessepash
+scribble.mp3,indigosierra
+Applause,soundmary
+Ride2.wav,leach237
+Fist Punch 3.mp3,CGEffex
+Royal_ping.wav,fastson
+huh-haa!,unfa
+vibraslap.wav,Oh_my_dear_deer
+Pack: Old HDDs,Klerrp
+Floppy disk drive - write,MrAuralization
+CanaryArtie-2.wav,ReadeOnly
+CanaryArtie-3.wav,ReadeOnly
+Bottle_Snare.wav,Pegstep
+FXLM neon lights flicker bathroom.wav,LudwigMueller
+,
+::credits.icons,
+credits.arrowCursor,Delapouite
+,
+credits.specialThanks,
+credits.drAshleyLee,Dr Ashley Lee
+credits.drMarcusSim,Dr Marcus Sim
+credits.taro,TaroNuke (notITG)
+credits.tempoPlayTesting,Evan Andrews (Tempo Lab Games)
+credits.spriteEdit,@aggrotadpole
+credits.earlyDemo,Gefrorenes Herz
+credits.earlyTesting,Yi Jun Loh
+credits.earlyTesting,Evan Griffiths
+credits.earlyStory,Jeremy Ooi
+credits.earlyStory,Danielle Schmidt
+credits.earlyChinese,Fall Ark
+credits.indienova,craft
+credits.indienova,mrup
+credits.indienova,virmint
+credits.indienova,CrapTears
+credits.gameCollaboration,D-CELL GAMES
+credits.gameCollaboration,Tempo Lab Games
+credits.gameCollaboration,PeroPeroGames
+credits.gameCollaboration,WizDream Games
+credits.gameCollaboration,Hajimeli
+credits.farmerDiscord,Kin
+credits.farmerDiscord,Fancybirb
+credits.farmerDiscord,Xeno
+credits.farmerDiscord,Zisos
+credits.farmerDiscord,Helix
+credits.farmerDiscord,Deusovi
+credits.farmerDiscord,notDonte
+credits.farmerDiscord,noche
+credits.farmerDiscord,Octavia
+credits.farmerDiscord,DPS2004
+credits.farmerDiscord,WolfPlay013
+credits.farmerDiscord,Rikri
+credits.farmerDiscord,lyrawh
+::Team Thanks,
+Playtesting and Best Wife (fizzd),Deanna
+For supporting me throughout this journey (giacomo),Family & Sol
+For never letting me give up (HeySora),Shinu
+For being there from the very start (Kyle),Kaity
+For keeping me company when I needed it most (Jenny),Octavia
+Coolest group of people I've ever met (JCI),ZMG
+Wouldn't be the same without you guys (thefinals),Winged Hussars
+For making me feel special (Morphious86),bippy
+For supporting every crazy idea I come up with (antonio),val
+i miss you (celesti),Jane
+,
+ ,
+credits.rhythmDoctorLounge,plastermaster
+credits.rhythmDoctorLounge,CV35W
+credits.rhythmDoctorLounge,Maddy
+credits.rhythmDoctorLounge,auth
+credits.rhythmDoctorLounge,SomeGuyNamedDavid
+credits.rhythmDoctorLounge,noche
+credits.rhythmDoctorLounge,ItzShaun
+credits.rhythmDoctorLounge,okamii
+credits.rhythmDoctorLounge,Helix
+credits.rhythmDoctorLounge,Bot
+credits.rhythmDoctorLounge,fartiliumstation
+credits.rhythmDoctorLounge,Deusovi
+credits.rhythmDoctorLounge,Zisos
+credits.rhythmDoctorLounge,Hex4Nova
+credits.rhythmDoctorLounge,vincentw
+credits.rhythmDoctorLounge,Samario
+credits.rhythmDoctorLounge,DNH
+credits.rhythmDoctorLounge,Blooky
+credits.rhythmDoctorLounge,Gordo
+credits.rhythmDoctorLounge,Kusane
+credits.rhythmDoctorLounge,Mikaru/Azuri
+credits.rhythmDoctorLounge,RaYmondCheung
+credits.rhythmDoctorLounge,AceAR
+credits.rhythmDoctorLounge,noonhead
+credits.rhythmDoctorLounge,DeadlySprinklez
+credits.rhythmDoctorLounge,lugi
+credits.rhythmDoctorLounge,RedsToad
+credits.rhythmDoctorLounge,User670
+credits.rhythmDoctorLounge,ThatOneGuy
+credits.rhythmDoctorLounge,pepperflash
+credits.rhythmDoctorLounge,Kneeckoh
+credits.rhythmDoctorLounge,Some J Name
+credits.rhythmDoctorLounge,Salerj
+credits.rhythmDoctorLounge,qereweyt
+credits.rhythmDoctorLounge,MaxaNum
+credits.rhythmDoctorLounge,PizzaLovers007
+credits.rhythmDoctorLounge,SpikedJackson
+credits.rhythmDoctorLounge,DPS2004
+credits.rhythmDoctorLounge,SimsimHI
+credits.rhythmDoctorLounge,Xeno
+credits.rhythmDoctorLounge,thefinals
+credits.rhythmDoctorLounge,definitely_not_HIM
+credits.rhythmDoctorLounge,Strode
+credits.rhythmDoctorLounge,Nichipe
+credits.rhythmDoctorLounge,Firestix
+credits.rhythmDoctorLounge,Rhythmfactory
+credits.rhythmDoctorLounge,Bot
+credits.rhythmDoctorLounge,BluPen
+credits.rhythmDoctorLounge,Emdyion
+credits.rhythmDoctorLounge,MarioMak
+credits.rhythmDoctorLounge,Het
+credits.rhythmDoctorLounge,WillFlame
+credits.rhythmDoctorLounge,Random Guy JCI
+,
+credits.tools,
+Unity,Unity Technologies
+Tempo Engine,Tempo Lab Games
+Visual Studio Code,Microsoft
+FL Studio,Image-Line
+Aseprite,David Capello
+Discord,Discord Inc.
+Notion,"Notion Labs, Inc."
+Sketch,Sketch B.V
+itch.io,itch.io Team
+butler,Amos Wenger
+KinoMirror,Keijiro Takahashi
+Sublime Text,Sublime HQ Pty Ltd
+Glyphs Mini,Georg Seifert
+2D Toolkit,Unikron Studios
+Ink Library,inkle
+Steamworks.NET,Riley Labrecque
+Camera Filter Pack,Vetasoft
+DOTween Pro,Daniele Giardini - Demigiant
+Discord RPC,Discord
+MP3Sharp,Zane Wagner
+.NET Ogg Vorbis Encoder,Steve Lillis
+OpenTK,Stefanos Apostolopoulos
+StandaloneFileBrowser,Gökhan Gökçe
+uTomate,Calvin Rien
+AudioManager.cs,Jonathan Palmer
+Voxel Garden,Lisa Rye of Pup Up Productions
+Flashpunk,Chevy Ray Johnston
+REAPER,Cockos Inc.
+Youlean Loudness Meter,Youlean
+RX 7 Audio Editor,iZotope
+Rider,JetBrains
+Git Commands For Unity,Stewart L. McCready
+,
+Web Port,
+Port Developer,网页版重置：梦犹YEG

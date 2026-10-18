@@ -1,0 +1,15 @@
+{
+	"size": [ 65, 58 ],
+	"rowPreviewFrame": 1,
+	"rowPreviewOffset": [ -5, 5.5 ],
+	"portraitOffset": [ 18, 17 ],
+	"pivotOffset": [ 0, -4 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [  0, 1, 2, 3 ],
+			"loop": "yes",
+			"fps": 6.666
+		},
+	]
+}

@@ -1,0 +1,116 @@
+{
+	"settings":
+	{
+		"version": 56, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.7444162, 
+		"songLabelGrayscale": false, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "character": "AthletePhysio", "rowType": "Classic", "row": 0, "rooms": [0], "player": "P1", "hideAtStart": true, "pulseSound": "Shaker", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0 },
+	],
+	"decorations":
+	[
+		{ "id": "tfwiqq3", "row": 0, "rooms": [0], "filename": "SamuraiRope", "depth": -3, "visible": true },
+		{ "id": "ao2n03y", "row": 1, "rooms": [0], "filename": "SamuraiTherapy", "depth": -2, "visible": true },
+		{ "id": "3qpv85r", "row": 2, "rooms": [0], "filename": "Rope", "depth": -1, "visible": true },
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 1, "type": "PlaySong", "song": {"filename": "sndTherapyIntro2", "volume": 100, "pitch": 100, "pan": 0, "offset": 0}, "loop": false, "bpm": 124 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "MoveCamera", "rooms": [0], "zoom": 200, "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "PlayExpression", "row": 0, "expression": "pull", "replace": false },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "HideRow", "active": false, "row": 0, "transition": "Instant", "show": "OnlyCharacter" },
+		{ "bar": 1, "beat": 1, "y": 3, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [50, null], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "type": "Move", "target": "ao2n03y", "position": [16.76136, 46.9697], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "type": "Move", "target": "tfwiqq3", "position": [16.76136, 46.9697], "duration": 0, "ease": "InSine" },
+		{ "bar": 1, "beat": 1, "type": "Move", "target": "3qpv85r", "position": [41.47727, null], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release3" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetCrotchetsPerBar", "visualBeatMultiplier": 1, "crotchetsPerBar": 6 },
+		{ "bar": 1, "beat": 4, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "pull3" },
+		{ "bar": 1, "beat": 5, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release3" },
+		{ "bar": 2, "beat": 1, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "pull3" },
+		{ "bar": 2, "beat": 2, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release3" },
+		{ "bar": 2, "beat": 4, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "pull3" },
+		{ "bar": 2, "beat": 4.25, "type": "Move", "target": "ao2n03y", "position": [23.86364, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 2, "beat": 4.25, "type": "Move", "target": "tfwiqq3", "position": [23.86364, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 2, "beat": 5, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release2" },
+		{ "bar": 3, "beat": 1, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "pull2" },
+		{ "bar": 3, "beat": 1.25, "type": "Move", "target": "ao2n03y", "position": [30.96591, 46.9697], "duration": 0.5, "ease": "OutSine" },
+		{ "bar": 3, "beat": 1.25, "type": "Move", "target": "tfwiqq3", "position": [30.96591, 46.9697], "duration": 0.5, "ease": "OutSine" },
+		{ "bar": 3, "beat": 2, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release1" },
+		{ "bar": 3, "beat": 4, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "pull1" },
+		{ "bar": 3, "beat": 4.25, "type": "Move", "target": "ao2n03y", "position": [38.06818, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 3, "beat": 4.25, "type": "Move", "target": "tfwiqq3", "position": [38.06818, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 3, "beat": 5, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release0" },
+		{ "bar": 4, "beat": 1, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "pull0" },
+		{ "bar": 4, "beat": 1.25, "type": "Move", "target": "ao2n03y", "position": [38.06818, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 4, "beat": 1.25, "type": "Move", "target": "tfwiqq3", "position": [38.06818, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 4, "beat": 2, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release0" },
+		{ "bar": 4, "beat": 4, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "pull0" },
+		{ "bar": 4, "beat": 4.25, "type": "Move", "target": "tfwiqq3", "position": [38.06818, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 4, "beat": 4.25, "type": "Move", "target": "ao2n03y", "position": [38.06818, 46.9697], "duration": 0.75, "ease": "OutSine" },
+		{ "bar": 4, "beat": 5, "y": 2, "type": "PlayAnimation", "target": "3qpv85r", "expression": "release0" },
+	],
+	"conditionals":
+	[
+	],
+	"bookmarks":
+	[
+	],
+	"colorPalette":
+	[
+		"000000ff",
+		"ffffffff",
+		"7f7f7fff",
+		"c3c3c3ff",
+		"880015ff",
+		"b97a57ff",
+		"ff0000ff",
+		"ffaec9ff",
+		"ff7f27ff",
+		"ffc90eff",
+		"fff200ff",
+		"efe4b0ff",
+		"22b14cff",
+		"b5e61dff",
+		"00a2e8ff",
+		"99d9eaff",
+		"3f48ccff",
+		"7092beff",
+		"a349a4ff",
+		"c8bfe7ff",
+		"00000000"
+	]
+}

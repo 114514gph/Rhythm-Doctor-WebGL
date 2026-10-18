@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Level Editor Properties",
+  "description": "Describes components of the RD Level Editor.",
+
+  "type": "object",
+  "required": [ "tabs", "conditionals", "levelEvents" ],
+  "properties": {
+    "tabs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "pro": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        }
+      }
+    },
+
+    "conditionals": {
+      "description": "List of conditionals and their properties",
+      "type": "object",
+      "additionalProperties": {
+        "description": "Name of the conditional.",
+        "type": "object",
+        "required": [ "properties" ],
+        "properties": {
+          "properties": {
+            "description": "Associated conditional settings.",
+            "type": "object",
+            "additionalProperties": {
+              "description": "Name of the json key of this property",
+              "$ref": "#/$defs/eventProperty"
+            }
+          }
+        }
+      }
+    },
+
+    "levelEvents": {
+      "description": "Object of events names and their properties.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "Name of the level event.",
+        "type": "object",
+        "required": [ "executionTime", "properties" ],
+        "properties": {
+          "executionTime": {
+            "description": "Execution time of the event.",
+            "type": "string",
+            "enum": [ "OnBar", "OnPrebar" ]
+          },
+          "usesBeat": {
+            "description": "If this event can be placed on any beat, or only at the start of a bar.",
+            "type": "boolean",
+            "default": true
+          },
+          "usesRow": {
+            "description": "If this event applies to specific rows.",
+            "type": "boolean",
+            "default": false
+          },
+          "roomsUsage": {
+            "description": "Which user options are allowed for which room this event applies to.",
+            "type": "string",
+            "enum": [ "NotUsed", "OneRoom", "ManyRooms", "ManyRoomsAndOnTop" ],
+            "default": "NotUsed"
+          },
+          "properties": {
+            "description": "Associated event settings.",
+            "type": "object",
+            "additionalProperties": {
+              "description": "Name of the json key of this property",
+              "$ref": "#/$defs/eventProperty"
+            }
+          }
+        },
+        "if": {
+          "required": [ "usesRow" ],
+          "properties": {
+            "usesRow": {
+              "const": true
+            }
+          }
+        },
+        "then": {
+          "required": [ "defaultRow" ],
+          "properties": {
+            "defaultRow": {
+              "type": "integer",
+              "description": "What row value to initialize the event with."
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "eventProperty": {
+      "type": "object",
+      "required": [ "type" ],
+      "properties": {
+        "type": {
+          "description": "Type of the value of this property",
+          "type": "string",
+          "enum": [ "Bool", "Int", "Float", "FloatExpression", "String", "Vector2", "FloatExpression2", "Color", "Enum" ]
+        },
+        "unit": {
+          "type": "string",
+          "default": ""
+        },
+        "key": {
+          "type": "string",
+          "default": ""
+        },
+        "placeholder": {
+          "type": "string",
+          "default": ""
+        },
+        "required": {
+          "type": "boolean",
+          "default": false
+        },
+        "enabled": {
+          "type": "boolean",
+          "default": true
+        },
+        "control": {
+          "type": "string",
+          "enum": [ "NotAssigned", "InputField", "ColorPicker", "Dropdown", "ToggleGroup" ],
+          "default": "NotAssigned"
+        },
+        "disableIf": {
+          "description": "This is validated with ToString, so the second item of the list should be the result you'd expect from ToString.",
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "array",
+            "minLength": 2,
+            "maxLength": 2,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "enableIf": {
+          "description": "This is validated with ToString, so the second item of the list should be the result you'd expect from ToString.",
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "array",
+            "minLength": 2,
+            "maxLength": 2,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"type": {"const": "Bool"}}},
+          "then": {"properties": {
+            "default": {"type": "boolean", "default": false}
+          }}
+        },
+        {
+          "if": {"properties": {"type": {"const": "Float"}}},
+          "then": {"properties": {
+            "default": {"type": "number", "default": 0.0},
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          }}
+        },
+        {
+          "if": {"properties": {"type": {"const": "FloatExpression"}}},
+          "then": {"properties": {
+            "default": {"type": "number", "default": 0.0},
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          }}
+        },
+        {
+          "if": {"properties": {"type": {"const": "Int"}}},
+          "then": {"properties": {
+            "default": {"type": "integer", "default": 0},
+            "min": {"type": "integer"},
+            "max": {"type": "integer"}
+          }}
+        },
+        {
+          "if": {"properties": {"type": {"const": "String"}}},
+          "then": {"properties": {
+            "default": {"type": "string", "default": ""}
+          }}
+        },
+        {
+          "if": {"properties": {"type": {"const": "Enum"}}},
+          "then": {
+            "required": [ "default", "enum" ],
+            "properties": {
+              "enum": {"type": "string"},
+              "default": {"type": "string"}
+            }
+          }
+        },
+        {
+          "if": {"properties": {"type": {"const": "Color"}}},
+          "then": {
+            "properties": {
+              "default": {
+                "type": "string",
+                "default": "ffffffff",
+                "pattern": "^[a-fA-F0-9]{8}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {"properties": {"type": {"const": "Vector2"}}},
+          "then": {
+            "properties": {
+              "default": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minLength": 2, "maxLength": 2,
+                "default": [0, 0]
+              },
+              "min": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minLength": 2, "maxLength": 2
+              },
+              "max": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minLength": 2, "maxLength": 2
+              }
+            }
+          }
+        },
+        {
+          "if": {"properties": {"type": {"const": "FloatExpression2"}}},
+          "then": {
+            "properties": {
+              "default": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minLength": 2, "maxLength": 2,
+                "default": [0, 0]
+              },
+              "min": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minLength": 2, "maxLength": 2
+              },
+              "max": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minLength": 2, "maxLength": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

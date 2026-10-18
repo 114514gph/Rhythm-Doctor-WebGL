@@ -1,0 +1,11 @@
+{
+	"name": "Rodney",
+	"portraitOffset": [ 2, 13 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"size": [25, 41],
+	"clips": [
+		{ "name": "neutral", "frames": [1, 0, 0, 0], "loop": "onBeat", "fps": 0, "portraitScale": 2 },
+		{ "name": "clip", "frames": [3, 2, 2, 2], "loop": "onBeat", "fps": 0, "portraitScale": 2 } 
+	]
+}

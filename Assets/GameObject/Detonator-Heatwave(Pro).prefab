@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 12
+  m_Name: Detonator-Heatwave(Pro)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.007928729, y: 1.0146024, z: -0.0032983422}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31da431656eeedd8e70475a2ef3727d5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  size: 20
+  color: {r: 1, g: 0.058823533, b: 0.058823533, a: 0.5}
+  explodeOnStart: 1
+  duration: 3.78
+  detail: 1
+  upwardsBias: 0
+  destroyTime: 3
+  cached: 1
+  useWorldSpace: 1
+  direction: {x: 0, y: 0, z: 0}
+  heatwaveMaterial: {fileID: 0}
+  autoCreateHeatwave: 0
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff09596fe232e77ffea5bf6e92b9092, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  on: 1
+  detonatorControlled: 1
+  durationMultiplier: 0
+  sizeMultiplier: 0
+  startSize: 1
+  size: 0.7
+  explodeDelayMin: 0
+  explodeDelayMax: 0
+  duration: 0.5
+  timeScale: 1
+  startDetail: 1
+  detail: 5
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 0.6911765, g: 0.08639706, b: 0.08639706, a: 1}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 0, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  detailThreshold: 0
+  distortionMultiplier: 1
+  zOffset: 1
+  distortion: 30
+  heatwaveMaterial: {fileID: 0}
+  dead: 1

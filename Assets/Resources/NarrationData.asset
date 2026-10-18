@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427f563716f0bea8be4ecab411b11441, type: 3}
+  m_Name: NarrationData
+  m_EditorClassIdentifier:
+  actions:
+  - actionName: 1
+    keys: 20000000
+    combo: 0
+  - actionName: 2
+    keys: 20000000
+    combo: 0
+  - actionName: 3
+    keys: 1401000013010000
+    combo: 0
+  - actionName: 5
+    keys: 1101000012010000
+    combo: 0
+  - actionName: 4
+    keys: 1b000000
+    combo: 0
+  - actionName: 6
+    keys: 20000000
+    combo: 0
+  - actionName: 7
+    keys: 11010000
+    combo: 0
+  - actionName: 8
+    keys: 11010000
+    combo: 0
+  - actionName: 9
+    keys: 20000000
+    combo: 0
+  - actionName: 10
+    keys: 13010000
+    combo: 0
+  - actionName: 11
+    keys: 1101000012010000
+    combo: 0
+  - actionName: 12
+    keys: 1401000013010000
+    combo: 0
+  - actionName: 13
+    keys: 1101000012010000
+    combo: 0
+  - actionName: 14
+    keys: 1b000000
+    combo: 0
+  - actionName: 15
+    keys: 20000000
+    combo: 0
+  - actionName: 17
+    keys: 12010000
+    combo: 0
+  - actionName: 18
+    keys: 1401000013010000
+    combo: 0
+  - actionName: 19
+    keys: 1401000013010000
+    combo: 0
+  - actionName: 20
+    keys: 1b000000
+    combo: 0
+  - actionName: 21
+    keys: 11010000
+    combo: 0
+  - actionName: 22
+    keys: 12010000
+    combo: 0
+  - actionName: 23
+    keys: 1401000013010000
+    combo: 0
+  - actionName: 24
+    keys: 20000000
+    combo: 0
+  - actionName: 25
+    keys: 1b000000
+    combo: 0
+  - actionName: 26
+    keys: 14010000
+    combo: 0
+  - actionName: 27
+    keys: 13010000
+    combo: 0
+  - actionName: 28
+    keys: 21010000
+    combo: 0
+  - actionName: 29
+    keys: 1a010000
+    combo: 0
+  - actionName: 30
+    keys: 1e010000
+    combo: 0
+  - actionName: 31
+    keys: 11010000
+    combo: 0
+  - actionName: 32
+    keys: 12010000
+    combo: 0
+  - actionName: 33
+    keys: 73000000
+    combo: 0
+  - actionName: 34
+    keys: 20000000
+    combo: 0
+  - actionName: 35
+    keys: 69000000
+    combo: 0
+  - actionName: 36
+    keys: 0d000000
+    combo: 0
+  - actionName: 37
+    keys: 320100000d000000
+    combo: 1
+  - actionName: 38
+    keys: 1b000000
+    combo: 0
+  - actionName: 39
+    keys: 0d000000
+    combo: 0
+  - actionName: 130
+    keys: 1101000012010000
+    combo: 0

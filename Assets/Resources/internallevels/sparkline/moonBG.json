@@ -1,0 +1,19 @@
+{
+        "name": "Castle",
+	"size": [352, 198],
+	"clips": [
+		{ "name": "neutral", "frames": [12, 12], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "happy", "frames": [12, 12], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "barely", "frames": [12, 12], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "missed", "frames": [12, 12], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "glow", "frames": [6, 6], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg0", "frames": [0, 0], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg0var1", "frames": [12, 12], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg0var2", "frames": [18, 18], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg1", "frames": [1, 7, 13, 19], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg2", "frames": [2, 8, 14, 20], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg3", "frames": [3, 9, 15, 21], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg4", "frames": [4, 10, 16, 22], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 },
+		{ "name": "bg5", "frames": [5, 11, 17, 23], "loop": "onBeat", "fps": 0, "loopStart": 0, "portraitOffset": [12, 10], "portraitSize": [25, 26], "portraitScale": 2 }
+	]
+}

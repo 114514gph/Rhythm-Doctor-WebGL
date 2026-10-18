@@ -1,0 +1,76 @@
+{
+	"size": [ 46, 41 ],
+	"portraitOffset": [ 21, 8 ],
+	"rowPreviewFrame": 4,
+	"rowPreviewOffset": [ 3, 3 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 5, 4 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 0, 1, 2 ],
+			"loop": "no",
+			"fps": 7.5
+		},
+		{
+			"name": "barely",
+			"frames": [ 7, 8, 9 ],
+			"loop": "yes",
+			"fps": 7.5
+		},
+		{
+			"name": "missed",
+			"frames": [ 7, 8, 9 ],
+			"loop": "yes",
+			"fps": 7.5
+		},
+		{
+			"name": "conversing",
+			"frames": [ 5, 4 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "gameover",
+			"frames": [ 11, 12, 13, 14 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 2
+		},
+		{
+			"name": "happywalking",
+			"frames": [ 0, 1, 2 ],
+			"loop": "no",
+			"fps": 7.5
+		},
+		{
+			"name": "walking",
+			"frames": [ 16, 17, 18, 19 ],
+			"loop": "yes",
+			"fps": 7.5
+		},
+		{
+			"name": "needsomehelp",
+			"frames": [ 11, 12, 13, 14 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 2
+		},
+		{
+			"name": "singing",
+			"frames": [ 5, 4 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "running",
+			"frames": [ 16, 17, 18, 19 ],
+			"loop": "yes",
+			"fps": 6.666667
+		}
+	]
+}

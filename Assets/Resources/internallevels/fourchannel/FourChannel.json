@@ -1,0 +1,47 @@
+{
+	"settings":
+	{
+		"version": 40, 
+		"artist": "", 
+		"song": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.44, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "character": "Girl", "rowType": "Classic", "row": 0, "rooms": [0], "player": "P1", "pulseSound": "Shaker", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "Samurai", "rowType": "Classic", "row": 1, "rooms": [0], "player": "P1", "pulseSound": "Shaker", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  }
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 0, "type": "PlaySong", "filename": "sndOrientalTechno", "volume": 100, "pitch": 100, "pan": 0, "offset": 0, "bpm": 100 },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "FloatingText", "rooms": [0], "id": 0, "text": "This is a placeholder level.", "times": "", "textPosition": [50, 50], "size": 16, "angle": 0, "mode": "FadeOut", "showChildren": true, "color": "C93131FF", "outlineColor": "000000ff", "anchor": "MiddleCenter", "fadeOutRate": 10 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetBackgroundColor", "rooms": [0], "backgroundType": "Color", "contentMode": "ScaleToFill", "color": "4765ABFF", "image": [], "filter": "NearestNeighbor", "scrollX": 0, "scrollY": 0 },
+		{ "bar": 1, "beat": 6, "y": 0, "type": "FinishLevel" },
+		{ "bar": 1, "beat": 7, "y": 1, "type": "FinishLevel" },
+		{ "bar": 1, "beat": 8, "y": 2, "type": "FinishLevel" }
+	]
+}

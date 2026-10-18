@@ -1,0 +1,165 @@
+{
+	"size": [ 108, 76 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ -27, -7.5 ],
+	"pivotOffset": [ -28, -15 ],
+	"portraitOffset": [ 12, 17 ],
+	"reflectionOffset": 33,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 1, 2, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 56, 57, 58, 59, 56, 57, 58, 59 ],
+			"loop": "no",
+			"fps": 6
+		},
+		{
+			"name": "barely",
+			"portraitOffset": [ 30, 5 ],
+			"frames": [ 60, 61, 62, 63 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "missed",
+			"portraitOffset": [ 30, 5 ],
+			"frames": [ 60, 61, 62, 63 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "runNeutral",
+			"pivotOffset": [ -8, -13 ],
+			"portraitOffset": [ 55, 17 ],
+			"frames": [ 4, 5, 6, 7 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "runHappy",
+			"pivotOffset": [ -8, -13 ],
+			"portraitOffset": [ 55, 17 ],
+			"frames": [ 10, 11, 12, 13, 14 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "runBarely",
+			"pivotOffset": [ -8, -13 ],
+			"portraitOffset": [ 55, 17 ],
+			"frames": [ 17, 18, 19, 20, 21 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "runMissed",
+			"pivotOffset": [ -8, -13 ],
+			"portraitOffset": [ 55, 17 ],
+			"frames": [ 17, 18, 19, 20, 21 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "skateNeutral",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 16, 17 ],
+			"frames": [ 25, 26, 27, 24 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "skateHappy",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 16, 17 ],
+			"frames": [ 30, 31, 32, 29 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "skateBarely",
+			"pivotOffset": [ -25, -15 ],
+			"frames": [ 34, 35, 36, 37 ],
+			"portraitOffset": [ 18, 7 ],
+			"loop": "no",
+			"fps": 8
+		},
+		{
+			"name": "skateMissed",
+			"pivotOffset": [ -25, -15 ],
+			"frames": [ 34, 35, 36, 37 ],
+			"portraitOffset": [ 18, 7 ],
+			"loop": "no",
+			"fps": 8
+		},
+		{
+			"name": "skateNeutralDonut",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 16, 17 ],
+			"frames": [ 41, 42, 43, 40 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "skateHappyDonut",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 16, 17 ],
+			"frames": [ 46, 47, 48, 45 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "skateBarelyDonut",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 18, 7 ],
+			"frames": [ 50, 51, 52, 53 ],
+			"loop": "no",
+			"fps": 8
+		},
+		{
+			"name": "skateMissedDonut",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 18, 7 ],
+			"frames": [ 50, 51, 52, 53 ],
+			"loop": "no",
+			"fps": 8
+		},
+		
+		{
+			"name": "skateNeutralDonutBox",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 16, 17 ],
+			"frames": [ 66, 67, 68, 65 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "skateHappyDonutBox",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 16, 17 ],
+			"frames": [ 71, 72, 73, 70 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "skateBarelyDonutBox",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 18, 7 ],
+			"frames": [ 75, 76, 77, 78 ],
+			"loop": "no",
+			"fps": 8
+		},
+		{
+			"name": "skateMissedDonutBox",
+			"pivotOffset": [ -25, -15 ],
+			"portraitOffset": [ 18, 7 ],
+			"frames": [ 75, 76, 77, 78 ],
+			"loop": "no",
+			"fps": 8
+		}
+	]
+}

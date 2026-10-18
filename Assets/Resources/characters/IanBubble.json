@@ -1,0 +1,18 @@
+{
+	"size": [ 32, 37 ],
+	"portraitOffset": [ 4, 10 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 1 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "static",
+			"frames": [ 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		}
+	]
+}

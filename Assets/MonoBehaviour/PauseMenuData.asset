@@ -1,0 +1,1451 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2a527845d2ba9dd6be6d8a8f19d17b, type: 3}
+  m_Name: PauseMenuData
+  m_EditorClassIdentifier:
+  contents:
+  - name: 11
+    icon: {fileID: 21300000, guid: 020c177d8ea7de145876a3554a63b072, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 1
+    icon: {fileID: 21300000, guid: 1d59dd6056881144e9b83f7839fd3f17, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 2
+    icon: {fileID: 21300000, guid: 069812508ed9804499c30feb23b99195, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 64
+    icon: {fileID: 21300000, guid: ca1d1bdd8a4752f4087ebe57e1ffb427, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 3
+    icon: {fileID: 21300000, guid: fc8355eb48c19824cb9a4c5f9bb770fd, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 4
+    icon: {fileID: 21300000, guid: f6fb871c9f84e10419a6a07674d7977e, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 1
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 5
+    icon: {fileID: 21300000, guid: 5478dd74050cb9c40886dde9f531f8b1, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 6
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 7
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 11
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 32
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 33
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 34
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 35
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 36
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 37
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 38
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 8
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 20
+    stringSelectablesValue: []
+    minIntValue: -1000
+    maxIntValue: 1000
+    changeIntValue: 10
+    shiftChangeIntValue: 1
+    trueText:
+    falseText:
+  - name: 9
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 20
+    stringSelectablesValue: []
+    minIntValue: -1000
+    maxIntValue: 1000
+    changeIntValue: 10
+    shiftChangeIntValue: 1
+    trueText:
+    falseText:
+  - name: 10
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: -1000
+    maxIntValue: 1000
+    changeIntValue: 10
+    shiftChangeIntValue: 1
+    trueText:
+    falseText:
+  - name: 13
+    icon: {fileID: 21300000, guid: 1d59dd6056881144e9b83f7839fd3f17, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 14
+    icon: {fileID: 21300000, guid: 069812508ed9804499c30feb23b99195, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 15
+    icon: {fileID: 21300000, guid: fc8355eb48c19824cb9a4c5f9bb770fd, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 16
+    icon: {fileID: 21300000, guid: 04ec3c635fb3ac64e923296f6d5f79f0, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 17
+    icon: {fileID: 21300000, guid: 5478dd74050cb9c40886dde9f531f8b1, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 18
+    icon: {fileID: 21300000, guid: 571cc686169e8aa4895d0272203b1803, type: 2}
+    iconSize: 10
+    needsConfirmation: 1
+    valueType: 6
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 19
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 6
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 12
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 7
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 20
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 21
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 22
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 8
+    currentIndex: 1
+    stringSelectablesValue:
+    - enum.DefibMode.Easy
+    - enum.DefibMode.Normal
+    - enum.DefibMode.Hard
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 23
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 8
+    currentIndex: 1
+    stringSelectablesValue:
+    - enum.DefibMode.Easy
+    - enum.DefibMode.Normal
+    - enum.DefibMode.Hard
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 24
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 29
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 25
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 1
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 26
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 9
+    currentIndex: 0
+    stringSelectablesValue:
+    - Full
+    - OneScreen
+    - Simulate
+    - Off
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 27
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: pauseMenu.ReducePixelFontUsage.normal
+    falseText: pauseMenu.ReducePixelFontUsage.pixel
+  - name: 28
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 100
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 100
+    changeIntValue: 25
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 30
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 1
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 31
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 1
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 39
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 100
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 200
+    changeIntValue: 10
+    shiftChangeIntValue: 5
+    trueText:
+    falseText:
+  - name: 40
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 41
+    icon: {fileID: 21300000, guid: e24ef2a9c4821f440b30cc3cc6ddedb9, type: 2}
+    iconSize: 10
+    needsConfirmation: 1
+    valueType: 0
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 42
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 10
+    currentIndex: 0
+    stringSelectablesValue:
+    - StoryLevelsOnly
+    - AllLevels
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 43
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 100
+    changeIntValue: 25
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 44
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 100
+    changeIntValue: 25
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 45
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 100
+    changeIntValue: 25
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 46
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 47
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 48
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 1
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 52
+    icon: {fileID: 21300000, guid: bf1276e0ed847b64a9324bd703d2963f, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 1
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 49
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 50
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 11
+    currentIndex: 2
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 51
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 11
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 53
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 54
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 5
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 50
+    changeIntValue: 5
+    shiftChangeIntValue: 1
+    trueText: editor.on
+    falseText: editor.off
+  - name: 55
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 50
+    changeIntValue: 5
+    shiftChangeIntValue: 1
+    trueText: editor.on
+    falseText: editor.off
+  - name: 56
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 50
+    changeIntValue: 5
+    shiftChangeIntValue: 1
+    trueText: editor.on
+    falseText: editor.off
+  - name: 57
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 50
+    changeIntValue: 5
+    shiftChangeIntValue: 1
+    trueText: editor.on
+    falseText: editor.off
+  - name: 58
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 50
+    changeIntValue: 5
+    shiftChangeIntValue: 1
+    trueText: editor.on
+    falseText: editor.off
+  - name: 59
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 50
+    changeIntValue: 5
+    shiftChangeIntValue: 1
+    trueText: pauseMenu.BeatsoundPitchMode.even
+    falseText: pauseMenu.BeatsoundPitchMode.odd
+  - name: 60
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 10
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 61
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 9
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 62
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 65
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 63
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 66
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 67
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 10
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 68
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: pauseMenu.always
+    falseText: pauseMenu.manual
+  - name: 69
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 70
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 71
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 72
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - editor.off
+    - editor.on
+    - pauseMenu.Safe
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 73
+    icon: {fileID: 21300000, guid: bf1276e0ed847b64a9324bd703d2963f, type: 2}
+    iconSize: 10
+    needsConfirmation: 1
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue:
+    - Off
+    - On
+    - Safe
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 74
+    icon: {fileID: 21300000, guid: 1d59dd6056881144e9b83f7839fd3f17, type: 2}
+    iconSize: 10
+    needsConfirmation: 0
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 75
+    icon: {fileID: 0}
+    iconSize: 10
+    needsConfirmation: 1
+    valueType: 0
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 76
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: pauseMenu.ReducePixelFontUsage.normal
+    falseText: pauseMenu.ReducePixelFontUsage.pixel
+  - name: 77
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 2
+    currentIndex: 4
+    stringSelectablesValue:
+    - enum.DiscordPresence.Full
+    - enum.DiscordPresence.NoEditor
+    - enum.DiscordPresence.NoCustom
+    - enum.DiscordPresence.Never
+    - editor.off
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 78
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 700
+    icon: {fileID: 21300000, guid: 7d18e97500473b54cb80f65a6061c6a5, type: 2}
+    iconSize: 10
+    needsConfirmation: 1
+    valueType: 1
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 702
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - enum.NarrateInfoType.Connect
+    - enum.NarrateInfoType.Update
+    - enum.NarrateInfoType.Disconnect
+    - enum.NarrateInfoType.Online
+    - enum.NarrateInfoType.Offline
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 703
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - enum.SoundEffect.Shaker
+    - enum.SoundEffect.Stick
+    - enum.SoundEffect.Sidestick
+    - enum.SoundEffect.Punch
+    - enum.SoundEffect.Ride2
+    - enum.SoundEffect.Kick
+    - enum.SoundEffect.KickChroma
+    - enum.SoundEffect.KickClean
+    - enum.SoundEffect.KickTight
+    - enum.SoundEffect.KickHouse
+    - enum.SoundEffect.KickRupture
+    - enum.SoundEffect.KickEcho
+    - enum.SoundEffect.Hammer
+    - enum.SoundEffect.Chuck
+    - enum.SoundEffect.ClosedHat
+    - enum.SoundEffect.HatTight
+    - enum.SoundEffect.HatHouse
+    - enum.SoundEffect.Sizzle
+    - enum.SoundEffect.ClavesLow
+    - enum.SoundEffect.ClavesHigh
+    - enum.SoundEffect.TomLowE
+    - enum.SoundEffect.TomMidG
+    - enum.SoundEffect.TomMidB
+    - enum.SoundEffect.TomHighD
+    - enum.SoundEffect.WoodblockHigh
+    - enum.SoundEffect.WoodblockLow
+    - enum.SoundEffect.TriangleMute
+    - enum.SoundEffect.Cowbell
+    - enum.SoundEffect.TimbaleHigh
+    - enum.SoundEffect.TimbaleLow
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 704
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - enum.SoundEffect.ClapHitCPU
+    - enum.SoundEffect.ClapHit
+    - enum.SoundEffect.ClapHitP2
+    - enum.SoundEffect.ReverbClap
+    - enum.SoundEffect.ReverbClapP2
+    - enum.SoundEffect.ClapHitEcho
+    - enum.SoundEffect.ClapHitEchoP2
+    - enum.SoundEffect.ClapHitMassivePreEcho
+    - enum.SoundEffect.ClapHitMassivePreEchoP2
+    - enum.SoundEffect.SnareAcoustic2
+    - enum.SoundEffect.SnareAcoustic4
+    - enum.SoundEffect.SnareHouse
+    - enum.SoundEffect.SnareHouseP2
+    - enum.SoundEffect.SnareVapor
+    - enum.SoundEffect.SnareVaporP2
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 701
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - enum.SoundGlossary.HeartExplosion1
+    - enum.SoundGlossary.HeartExplosion2
+    - enum.SoundGlossary.HeartExplosion3
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 705
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - enum.SoundGlossary.MistakeSmallEarly
+    - enum.SoundGlossary.MistakeSmallLate
+    - enum.SoundGlossary.MistakeLargeEarly
+    - enum.SoundGlossary.MistakeLargeLate
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 706
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - enum.CountingVoiceSource.BirdCount
+    - enum.CountingVoiceSource.WhistleCount
+    - enum.CountingVoiceSource.OwlCount
+    - enum.SoundGlossary.HeldbeatsP1
+    - enum.SoundGlossary.HeldbeatsP2
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 707
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 1
+    valueType: 2
+    currentIndex: 0
+    stringSelectablesValue:
+    - enum.SoundGlossary.Vibraslap
+    - enum.SoundGlossary.Squareshot
+    - enum.SoundGlossary.Triangleshots
+    - enum.SoundGlossary.FreezeshotCue
+    - enum.SoundGlossary.FreezeshotHit
+    - enum.SoundGlossary.BurnshotCue
+    - enum.SoundGlossary.BurnshotHit
+    - enum.SoundGlossary.BlastbeatStart
+    - enum.SoundGlossary.BlastbeatEnd
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 79
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 80
+    stringSelectablesValue: []
+    minIntValue: 40
+    maxIntValue: 100
+    changeIntValue: 10
+    shiftChangeIntValue: 5
+    trueText:
+    falseText:
+  - name: 300
+    icon: {fileID: 21300000, guid: abd0b91bde38b08488f02272dd9790a4, type: 2}
+    iconSize: 10
+    needsConfirmation: 1
+    valueType: 1
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 3254
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 7
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 4990
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 100
+    changeIntValue: 5
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 4995
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 3
+    currentIndex: 11
+    stringSelectablesValue: []
+    minIntValue: 1
+    maxIntValue: 11
+    changeIntValue: 1
+    shiftChangeIntValue: 0
+    trueText:
+    falseText:
+  - name: 81
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 0
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: pauseMenu.always
+    falseText: pauseMenu.whenUsed
+  - name: 82
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  - name: 83
+    icon: {fileID: 0}
+    iconSize: 0
+    needsConfirmation: 0
+    valueType: 5
+    currentIndex: 1
+    stringSelectablesValue: []
+    minIntValue: 0
+    maxIntValue: 0
+    changeIntValue: 0
+    shiftChangeIntValue: 0
+    trueText: editor.on
+    falseText: editor.off
+  modes:
+  - name: 3
+    localizedText: pauseMenu.Settings
+    useLevelDetail: 1
+    useCategories: 1
+    defaultCategoryLocalizationKey: pauseMenu.GeneralSettings
+    categoryIcon: {fileID: 21300000, guid: 5c943056f59d73047bc75ec397dd3bcd, type: 2}
+    contentNames: 1e000000060000000c000000140000001200000013000000190000001f0000000b000000
+  - name: 11
+    localizedText: pauseMenu.Settings
+    useLevelDetail: 0
+    useCategories: 0
+    defaultCategoryLocalizationKey:
+    categoryIcon: {fileID: 0}
+    contentNames: 300000001e000000190000001f0000000b000000
+  - name: 12
+    localizedText: pauseMenu.GeneralSettings
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey:
+    categoryIcon: {fileID: 21300000, guid: 5c943056f59d73047bc75ec397dd3bcd, type: 2}
+    contentNames: 060000000c0000001400000012000000130000000b000000
+  - name: 1
+    localizedText: pauseMenu.paused
+    useLevelDetail: 0
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.paused
+    categoryIcon: {fileID: 0}
+    contentNames: 010000000300000040000000020000000400000005000000
+  - name: 4
+    localizedText: pauseMenu.Settings
+    useLevelDetail: 1
+    useCategories: 1
+    defaultCategoryLocalizationKey: pauseMenu.GeneralSettings
+    categoryIcon: {fileID: 21300000, guid: 5c943056f59d73047bc75ec397dd3bcd, type: 2}
+    contentNames: 1e0000001600000017000000060000000c000000140000001300000015000000190000001f0000000b000000
+  - name: 16
+    localizedText: pauseMenu.EditorSettings
+    useLevelDetail: 1
+    useCategories: 1
+    defaultCategoryLocalizationKey: pauseMenu.EditorSettings
+    categoryIcon: {fileID: 21300000, guid: 5c2ec0f795e7a6740b0a6a9bc795a52c, type: 2}
+    contentNames: 4300000044000000450000004600000051000000300000001e000000190000001f0000000b000000
+  - name: 13
+    localizedText: pauseMenu.Settings
+    useLevelDetail: 0
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.AudioSettings
+    categoryIcon: {fileID: 21300000, guid: 514ee93213e0fad4381b1b1fbb9ac373, type: 2}
+    contentNames: 300000001e00000015000000190000001f0000000b000000
+  - name: 14
+    localizedText: pauseMenu.GeneralSettings
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.GeneralSettings
+    categoryIcon: {fileID: 21300000, guid: 5c943056f59d73047bc75ec397dd3bcd, type: 2}
+    contentNames: 1600000017000000060000000c00000014000000130000000b000000
+  - name: 5
+    localizedText: rhythmDogtor.pauseMenu.paused
+    useLevelDetail: 0
+    useCategories: 0
+    defaultCategoryLocalizationKey: rhythmDogtor.pauseMenu.paused
+    categoryIcon: {fileID: 0}
+    contentNames: 0d0000000e0000000f0000001000000011000000
+  - name: 2
+    localizedText: pauseMenu.paused
+    useLevelDetail: 0
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.paused
+    categoryIcon: {fileID: 0}
+    contentNames: 010000000400000005000000
+  - name: 6
+    localizedText: pauseMenu.AccessibilitySettings
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.AccessibilitySettings
+    categoryIcon: {fileID: 21300000, guid: 09f5cd7aafba74945a569a0644e71021, type: 2}
+    contentNames: 34000000180000001a000000530000003a0000001b0000003e0000003f000000290000000b000000
+  - name: 8
+    localizedText: pauseMenu.AdvancedSettings
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.AdvancedSettings
+    categoryIcon: {fileID: 21300000, guid: a2d6e6eb940e9164d91400be3709fe25, type: 2}
+    contentNames: 08000000090000000a0000002d0000002e0000002f0000004100000052000000420000004d0000003c0000004b0000000b000000
+  - name: 7
+    localizedText: pauseMenu.AudioSettings
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.AudioSettings
+    categoryIcon: {fileID: 21300000, guid: 514ee93213e0fad4381b1b1fbb9ac373, type: 2}
+    contentNames: 0700000020000000210000002600000035000000b60c000022000000230000003d000000240000002500000047000000290000002c010000bc0200000b000000
+  - name: 15
+    localizedText: pauseMenu.NarrationSettings
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.NarrationSettings
+    categoryIcon: {fileID: 21300000, guid: 514ee93213e0fad4381b1b1fbb9ac373, type: 2}
+    contentNames: 310000007e1300008313000037000000380000003200000033000000390000004e000000290000000b000000
+  - name: 17
+    localizedText: pauseMenu.FirstTimeSetup
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.FirstTimeSetup
+    categoryIcon: {fileID: 21300000, guid: 5c943056f59d73047bc75ec397dd3bcd, type: 2}
+    contentNames: 49000000060000000c000000120000004c0000001a000000480000004a000000
+  - name: 700
+    localizedText: pauseMenu.SoundGlossary
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.SoundGlossary
+    categoryIcon: {fileID: 21300000, guid: 7433bbcde93b82e4090e1e1d9ede91f6, type: 2}
+    contentNames: be020000bf020000c0020000bd020000c1020000c2020000c30200000b000000
+  - name: 300
+    localizedText: pauseMenu.AdvancedAudioSettings
+    useLevelDetail: 1
+    useCategories: 0
+    defaultCategoryLocalizationKey: pauseMenu.AdvancedAudioSettings
+    categoryIcon: {fileID: 21300000, guid: abd0b91bde38b08488f02272dd9790a4, type: 2}
+    contentNames: 270000004f00000028000000360000003b000000290000000b000000

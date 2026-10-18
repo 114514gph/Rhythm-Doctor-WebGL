@@ -1,0 +1,64 @@
+{
+	"settings":
+	{
+		"version": 43, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.6839293, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "character": "Miner", "rowType": "Classic", "row": 0, "rooms": [1], "player": "P1", "pulseSound": "Shaker", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "Girl", "rowType": "Classic", "row": 1, "rooms": [1], "player": "P1", "pulseSound": "ClosedHatOld", "pulseSoundVolume": 180, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "Politician", "rowType": "Classic", "row": 2, "rooms": [1], "player": "P1", "pulseSound": "Shaker", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "Samurai", "rowType": "Classic", "row": 3, "rooms": [3], "player": "P1", "pulseSound": "Chuck", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 1, "type": "SetTheme", "rooms": [3], "preset": "OrientalTechno" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "PlaySong", "filename": "Invisible.mp3", "volume": 80, "pitch": 100, "pan": 0, "offset": 51, "bpm": 95 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetBackgroundColor", "rooms": [0, 1, 2], "backgroundType": "Color", "contentMode": "ScaleToFill", "color": "aabbcbff", "image": [""], "fps": 30, "filter": "NearestNeighbor", "scrollX": 0, "scrollY": 0 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetBackgroundColor", "rooms": [0], "backgroundType": "Image", "contentMode": "Tiled", "color": "EAFEFFFF", "image": ["skaie.png"], "fps": 30, "filter": "NearestNeighbor", "scrollX": -10, "scrollY": 0 },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "ShowRooms", "rooms": [1], "transitionTime": 1, "ease": "InOutSine", "heights": [0, 0, 0, 0] },
+		{ "bar": 1, "beat": 2, "y": 3, "type": "TintRows", "row": -1, "border": "Glow", "borderColor": "484757", "borderOpacity": 50, "tint": true, "tintColor": "9BBCCF", "tintOpacity": 100 },
+		{ "bar": 1, "beat": 4, "y": 3, "type": "TintRows", "row": -1, "border": "Glow", "borderColor": "000000", "borderOpacity": 50, "tint": false, "tintColor": "FFFFFF", "tintOpacity": 100 },
+		{ "bar": 1, "beat": 6, "y": 0, "type": "AddClassicBeat", "row": 0, "tick": 1, "swing": 0, "hold": 1 },
+		{ "bar": 2, "beat": 6, "y": 0, "type": "AddClassicBeat", "row": 0, "tick": 1, "swing": 0, "hold": 1 },
+		{ "bar": 3, "beat": 2.5, "y": 1, "type": "AddClassicBeat", "row": 1, "tick": 0.5, "swing": 0, "hold": 0 },
+		{ "bar": 3, "beat": 6, "y": 0, "type": "AddClassicBeat", "row": 0, "tick": 1, "swing": 0, "hold": 1 },
+		{ "bar": 4, "beat": 6, "y": 0, "type": "AddClassicBeat", "row": 0, "tick": 1, "swing": 0, "hold": 1 },
+		{ "bar": 5, "beat": 2.5, "y": 1, "type": "AddClassicBeat", "row": 1, "tick": 0.5, "swing": 0, "hold": 0 },
+	],
+	"conditionals":
+	[
+	]
+}

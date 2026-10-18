@@ -1,0 +1,51 @@
+{
+	"size": [ 46, 44 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"portraitOffset": [ 15, 14 ],
+	"reflectionOffset": 30,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 1, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 3, 4, 5, 6, 6, 6 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "barely",
+			"frames": [ 9, 8 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "missed",
+			"frames": [ 11, 12 ],
+			"loop": "no",
+			"fps": 2
+		},
+		{
+			"name": "jammin",
+			"frames": [ 14, 15, 16 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "jamminFlip",
+			"frames": [ 17, 18, 19 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "gaming",
+			"frames": [ 21, 22, 23 ],
+			"loop": "yes",
+			"fps": 6
+		}
+	]
+}

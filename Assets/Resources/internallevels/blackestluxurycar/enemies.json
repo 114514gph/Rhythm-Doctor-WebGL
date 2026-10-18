@@ -1,0 +1,277 @@
+{
+    "size": [
+        60,
+        60
+    ],
+    "rowPreviewFrame": 0,
+    "rowPreviewOffset": [
+        0,
+        0
+    ],
+    "clips": [
+        {
+            "name": "neutral",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "happy",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "barely",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "missed",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 0,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "blueGhost",
+            "frames": [
+                0
+            ],
+            "loop": "yes",
+            "fps": 1,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "pinkGhost",
+            "frames": [
+                1
+            ],
+            "loop": "yes",
+            "fps": 1,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "blueHat",
+            "frames": [
+                2,
+                3
+            ],
+            "loop": "yes",
+            "fps": 6,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "pinkHat",
+            "frames": [
+                4,
+                5
+            ],
+            "loop": "yes",
+            "fps": 6,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "blueFace",
+            "frames": [
+                6,
+                7
+            ],
+            "loop": "yes",
+            "fps": 8,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "pinkFace",
+            "frames": [
+                8,
+                9
+            ],
+            "loop": "yes",
+            "fps": 8,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "blueRider",
+            "frames": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "loop": "yes",
+            "fps": 12,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "pinkRider",
+            "frames": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "loop": "yes",
+            "fps": 12,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "blueBullet",
+            "frames": [
+                18,
+                19
+            ],
+            "loop": "yes",
+            "fps": 8,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "pinkBullet",
+            "frames": [
+                20,
+                21
+            ],
+            "loop": "yes",
+            "fps": 8,
+            "loopStart": 0,
+            "portraitOffset": [
+                0,
+                0
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        }
+    ]
+}

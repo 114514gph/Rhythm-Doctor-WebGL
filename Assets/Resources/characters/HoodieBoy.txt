@@ -1,0 +1,240 @@
+{
+	"size": [ 46, 46 ],
+	"rowPreviewFrame": 1,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"portraitOffset": [ 10, 11 ],
+	"reflectionOffset": 34,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 1, 2, 3, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 29, 30, 29, 30, 31, 32, 31, 32 ],
+			"loop": "no",
+			"fps": 8
+		},
+		{
+			"name": "barely",
+			"frames": [ 34, 35, 36, 37, 38, 39, 40, 39, 40, 39, 40 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "missed",
+			"frames": [ 42, 43, 44, 45, 46, 45, 46, 45, 46, 45, 46 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "beep1",
+			"frames": [ 25, 26, 27, 27, 26 ],
+			"loop": "no",
+			"fps": 8
+		},
+		{
+			"name": "beep2",
+			"frames": [ 26, 27, 27, 26 ],
+			"loop": "no",
+			"fps": 8
+		},
+		{
+			"name": "gameover",
+			"frames": [ 45, 46 ],
+			"loop": "yes",
+			"fps": 10
+		},
+		{
+			"name": "running",
+			"frames": [ 48, 49, 50, 51, 52, 53 ],
+			"loop": "yes",
+			"fps": 10
+		},
+		{
+			"name": "synth",
+			"frames": [ 56, 55 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "guitar",
+			"frames": [ 59, 60, 61, 58 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "guitarlow",
+			"frames": [ 60, 61 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "guitarhigh",
+			"frames": [ 58, 59 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "strumhigh1",
+			"frames": [ 64 ],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "strumhigh2",
+			"frames": [ 65 ],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "strumlow1",
+			"frames": [ 66 ],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "strumlow2",
+			"frames": [ 67 ],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "guitarNeutral",
+			"frames": [ 67 ],
+			"loop": "yes",
+			"fps": 0
+		},
+		{
+			"name": "guitarBob",
+			"frames": [ 84, 83 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "missingCup",
+			"frames": [ 6, 5 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "neutralNoCup",
+			"frames": [ 8, 9, 10, 11 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "sneakCup",
+			"frames": [ 13, 14, 15, 16 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "neutralSitting",
+			"frames": [ 18, 19, 20 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "typing",
+			"frames": [ 23, 22 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "sighing",
+			"frames": [ 70, 69 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "sighingStop",
+			"frames": [ 71, 72 ],
+			"loop": "yes",
+			"fps": 1,
+			"loopStart": 1
+		},
+		{
+			"name": "train",
+			"frames": [ 75, 74 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "trainHappy",
+			"frames": [ 78, 77 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "trainMiss",
+			"frames": [ 81, 80 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "back",
+			"frames": [ 87, 88, 89, 86 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "phone",
+			"frames": [ 92, 93, 94, 91 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "falling",
+			"frames": [ 96, 97, 98, 99, 100, 101 ],
+			"loop": "yes",
+			"fps": 6.66
+		},
+		{
+			"name": "drinkHeavy",
+			"frames": [ 25, 26, 27, 103, 104 ],
+			"loop": "yes",
+			"fps": 3,
+			"loopStart": 3
+		},
+		{
+			"name": "backNew",
+			"frames": [ 107, 108, 109, 106 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "backAngry",
+			"frames": [ 112 ],
+			"loop": "yes",
+			"fps": 1
+		},
+		{
+			"name": "backSad",
+			"frames": [ 111 ],
+			"loop": "yes",
+			"fps": 1
+		},
+		{
+			"name": "walkingAngry",
+			"frames": [ 114, 115, 116, 117, 118, 119 ],
+			"loop": "yes",
+			"fps": 6.6
+		},
+		{
+			"name": "walkingAngrier",
+			"frames": [ 121, 122, 123, 124, 125, 126 ],
+			"loop": "yes",
+			"fps": 6.6
+		},
+		{
+			"name": "snatched",
+			"frames": [ 128, 129, 130 ],
+			"loop": "yes",
+			"loopStart": 2,
+			"fps": 6.66667
+		},
+	]
+}

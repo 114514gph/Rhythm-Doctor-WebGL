@@ -1,0 +1,65 @@
+{
+	"settings":
+	{
+		"version": 44, 
+		"artist": "", 
+		"song": "", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "", 
+		"author": "", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.9110821, 
+		"description": "", 
+		"tags": "", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunEventsOnPrebar", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "character": "Samurai", "rowType": "Classic", "row": 0, "rooms": [1], "player": "P1", "pulseSound": "Shaker", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+		{ "character": "Paige", "rowType": "Classic", "row": 1, "rooms": [1], "player": "P1", "pulseSound": "Shaker", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0  },
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 3, "type": "SetTheme", "rooms": [1], "preset": "CoffeeShop" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "PlaySong", "filename": "sndTutorial", "volume": 100, "pitch": 100, "pan": 0, "offset": 0, "bpm": 100, "loop": false },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "MoveRow", "row": 0, "customPosition": true, "rowPosition": [28, 36], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "HideRow", "row": 0, "show": "OnlyCharacter", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "MoveRow", "row": 1, "customPosition": true, "rowPosition": [57, 34], "duration": 0, "ease": "Linear" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "HideRow", "row": 1, "show": "OnlyCharacter", "transition": "Instant" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "ShowRooms", "rooms": [1], "transitionTime": 0, "ease": "InOutSine", "heights": [0, 0, 0, 0] },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "CustomFlash", "rooms": [1], "background": false, "duration": 1, "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 0, "ease": "Unset" },
+		{ "bar": 1, "beat": 2, "y": 2, "type": "ShowDialogue", "text": "Samurai: Samurai...\nSamurai: ...\nSamurai: Needs help...", "panelSide": "Bottom", "portraitSide": "Left", "speed": 1, "playTextSounds": true },
+		{ "bar": 2, "beat": 3, "y": 2, "type": "ShowDialogue", "text": "Paige: Hey sam, but you were cured just hours ago!\nPaige: What happened?", "panelSide": "Bottom", "portraitSide": "Left", "speed": 1, "playTextSounds": true },
+		{ "bar": 3, "beat": 3, "y": 2, "type": "ShowDialogue", "text": "Samurai: Not me... Logan...\nSamurai: Heartbreak...", "panelSide": "Bottom", "portraitSide": "Left", "speed": 1, "playTextSounds": true },
+		{ "bar": 4, "beat": 2.75, "y": 2, "type": "ShowDialogue", "text": "Paige: Oh, ok!\nPaige: I'll go to check him out.", "panelSide": "Bottom", "portraitSide": "Left", "speed": 1, "playTextSounds": true },
+		{ "bar": 4, "beat": 8.5, "y": 2, "type": "CustomFlash", "rooms": [1], "background": false, "duration": 4, "startColor": "000000", "startOpacity": 0, "endColor": "000000", "endOpacity": 100, "ease": "Unset" },
+		{ "bar": 5, "beat": 3.5, "y": 1, "type": "FinishLevel" },
+		{ "bar": 5, "beat": 4.5, "y": 1, "type": "FinishLevel" },
+		{ "bar": 5, "beat": 5.5, "y": 1, "type": "FinishLevel" },
+	],
+	"conditionals":
+	[
+	]
+}

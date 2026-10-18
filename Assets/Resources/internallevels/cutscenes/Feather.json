@@ -1,0 +1,23 @@
+{
+	"size": [ 32, 32 ],
+	"clips": [
+        {
+			"name": "neutral",
+			"frames": [ 0, 1 ],
+			"loop": "yes",
+			"fps": 3
+		},
+		{
+			"name": "fall",
+			"frames": [ 0, 1 ],
+			"loop": "loop",
+			"fps": 3
+		},
+        {
+			"name": "stop",
+			"frames": [ 0 ],
+			"loop": "loop",
+			"fps": 3
+		}
+	]
+}

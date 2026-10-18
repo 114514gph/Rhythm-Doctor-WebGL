@@ -1,0 +1,28 @@
+{
+    "size": [
+        40,
+        40
+    ],
+    "clips": [
+        {
+            "name": "neutral",
+            "frames": [
+                1,
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 4,
+            "loopStart": 0
+        },
+		{
+            "name": "neutralHeavy",
+            "frames": [
+                3,
+                2
+            ],
+            "loop": "onBeat",
+            "fps": 4,
+            "loopStart": 0
+        }
+    ]
+}

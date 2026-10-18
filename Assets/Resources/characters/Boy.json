@@ -1,0 +1,120 @@
+{
+	"size": [ 40, 36 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"portraitOffset": [ 8, 7 ],
+	"reflectionOffset": 26,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 1, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happySimple",
+			"frames": [ 19, 18 ],
+			"loop": "no",
+			"fps": 2
+		},
+		{
+			"name": "happy",
+			"frames": [ 15, 16 ],
+			"loop": "no",
+			"fps": 2
+		},
+		{
+			"name": "barely",
+			"frames": [ 4, 3 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "missed",
+			"frames": [ 6, 7, 8, 9, 10, 11, 10, 9, 10, 11, 10, 9 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "surprised",
+			"frames": [ 23, 23, 22, 22 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "duet_neutral",
+			"frames": [ 26, 25 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "duet_happy",
+			"frames": [ 52, 53 ],
+			"loop": "no",
+			"fps": 2
+		},
+		{
+			"name": "duet_barely",
+			"frames": [ 50, 49 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "duet_missed",
+			"frames": [ 50, 49 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "duet_surprisedAlt",
+			"frames": [ 61, 61, 60, 60 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "duet_stutter1",
+			"frames": [ 60 ],
+			"loop": "yes",
+			"fps": 1
+		},
+		{
+			"name": "duet_stutter2",
+			"frames": [ 61 ],
+			"loop": "yes",
+			"fps": 1
+		},
+		{
+			"name": "duet_stutter1",
+			"frames": [ 60 ],
+			"loop": "yes",
+			"fps": 1
+		},
+		{
+			"name": "singing",
+			"frames": [ 30, 31, 32, 33 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "bonk",
+			"frames": [ 36, 37, 38 ],
+			"loop": "yes",
+			"fps": 6,
+			"loopStart": 2
+		},
+		{
+			"name": "bonk",
+			"frames": [ 36, 37, 38 ],
+			"loop": "yes",
+			"fps": 6,
+			"loopStart": 2
+		},
+		{
+			"name": "shout",
+			"frames": [ 40, 40,  41, 41,  42, 42,  43,  44, 44 ],
+			"loop": "yes",
+			"fps": 10,
+			"loopStart": 8
+		}
+	]
+}

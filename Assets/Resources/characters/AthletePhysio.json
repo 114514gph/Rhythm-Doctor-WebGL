@@ -1,0 +1,162 @@
+{
+	"size": [ 130, 60 ],
+	"portraitOffset": [ 48, 24 ],
+	"rowPreviewFrame": 113,
+	"rowPreviewOffset": [ 1, 7 ],
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 111 ],
+			"loop": "onBeat",
+			"fps": 1,
+			"loopStart": 0
+		},
+		{
+			"name": "leftCup_idle",
+			"frames": [ 111 ],
+			"loop": "yes",
+			"fps": 1,
+			"loopStart": 0
+		},
+		{
+			"name": "leftCup_thumbsUp",
+			"frames": [ 112, 113 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 1
+		},
+		{
+			"name": "leftCup_thumbsDown",
+			"frames": [ 114 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 0
+		},
+		{
+			"name": "leftCup_grab",
+			"frames": [ 115, 116 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 1
+		},
+		{
+			"name": "leftCup_grabShort",
+			"frames": [ 116 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 0
+		},
+		{
+			"name": "leftCup_lift",
+			"frames": [ 116, 116, 117, 117, 118, 118, 119, 119, 120, 120, 120, 120, 121, 121,      122, 123, 124, 125, 126, 127, 128, 129 ],
+			"loop": "yes",
+			"fps": 24,
+			"loopStart": 14
+		},
+		{
+			"name": "leftCup_release",
+			"frames": [ 130, 131, 132, 133 ],
+			"loop": "yes",
+			"fps": 8,
+			"loopStart": 3
+		},
+		{
+			"name": "leftCup_releaseEarly",
+			"frames": [ 117, 116 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 1
+		},
+		{
+			"name": "rightCup_idle",
+			"frames": [ 135 ],
+			"loop": "yes",
+			"fps": 1,
+			"loopStart": 0
+		},
+		{
+			"name": "rightCup_thumbsUp",
+			"frames": [ 136, 137 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 1
+		},
+		{
+			"name": "rightCup_thumbsDown",
+			"frames": [ 138 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 0
+		},
+		{
+			"name": "rightCup_grab",
+			"frames": [ 139, 140 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 1
+		},
+		{
+			"name": "rightCup_grabShort",
+			"frames": [ 140 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 0
+		},
+		{
+			"name": "rightCup_lift",
+			"frames": [ 140, 140, 141, 141, 142, 142, 143, 143, 144, 144, 144, 144, 145, 145,    146, 147, 148, 149, 150, 151, 152, 153 ],
+			"loop": "yes",
+			"fps": 24,
+			"loopStart": 14
+		},
+		{
+			"name": "rightCup_release",
+			"frames": [ 154, 155, 156, 157 ],
+			"loop": "yes",
+			"fps": 8,
+			"loopStart": 3
+		},
+		{
+			"name": "rightCup_releaseEarly",
+			"frames": [ 141, 140 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 1
+		},
+		{
+			"name": "rummage",
+			"frames": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 ],
+			"loop": "yes",
+			"fps": 8,
+			"loopStart": 7
+		},
+		{
+			"name": "ropeFound",
+			"frames": [ 55, 56, 57, 58, 59, 60, 61, 62, 63, 64 ],
+			"loop": "yes",
+			"fps": 4,
+			"loopStart": 2
+		},
+		{
+			"name": "pull",
+			"frames": [ 71, 71, 72, 72, 73, 73, 74, 74, 75, 75, 76, 76, 77, 77, 78, 78,    79, 80, 81, 82, 83, 84, 85, 86 ],
+			"loop": "onBeat",
+			"fps": 24,
+			"loopStart": 16
+		},
+		{
+			"name": "leftCup_lift95",
+			"frames": [ 116, 116, 117, 117, 118, 118, 119, 119, 120, 120, 120, 120, 121, 121,      122, 123, 124, 125, 126, 127, 128, 129 ],
+			"loop": "yes",
+			"fps": 17.8125,
+			"loopStart": 14
+		},
+		{
+			"name": "leftCup_release95",
+			"frames": [ 130, 131, 132, 133 ],
+			"loop": "yes",
+			"fps": 5.9375,
+			"loopStart": 3
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"size": [ 47, 46 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"pivotOffset": [ -2.5, -4 ],
+	"portraitOffset": [ 6, 12 ],
+	"reflectionOffset": 30,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 0, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"portraitOffset": [ 15, 12 ],
+			"frames": [ 19, 20, 21, 22, 23, 24, 25 ],
+			"loop": "yes",
+			"fps": 5
+		},
+		{
+			"name": "barely",
+			"portraitOffset": [ 14, 12 ],
+			"frames": [ 27, 28, 29, 30, 31, 32 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "missed",
+			"frames": [ 34, 35, 36, 37 ],
+			"portraitOffset": [ 14, 12 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "lyingdown",
+			"frames": [ 0 ],
+			"loop": "no",
+			"fps": 0
+		},
+		{
+			"name": "gettingup",
+			"portraitOffset": [ 15, 12 ],
+			"frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 ],
+			"loop": "no",
+			"fps": 8
+		}
+	]
+}

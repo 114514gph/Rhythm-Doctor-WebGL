@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas0 material
+  m_Shader: {fileID: 4800000, guid: a2220ad6b39f7f64881b691dc130df95, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 1999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _GlowTex:
+        m_Texture: {fileID: 2800000, guid: 6fa62a226ac1ff04890a8102beafde85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1252bee57db19a645abe40096b7ab72f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: b0a6d071170253b46a47811c9c44f4a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OutlineTex:
+        m_Texture: {fileID: 2800000, guid: 88c2ddbf07a9c5c449c4a7c676fd037a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OverlayTexture:
+        m_Texture: {fileID: 2800000, guid: 3f09f6c0bfc256c4a96d93bb31363fe3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaletteTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BlendFirst: 1
+      _BlendOp: 0
+      _BlendSecond: 10
+      _Flash: 0
+      _GlowPower: 0.5
+      _GlowRingValue0: 0
+      _GlowRingValue1: 0
+      _GlowRingValue2: 0
+      _GlowRingValue3: 0
+      _HideOutline: 0
+      _Hue: 0
+      _NoiseSpeed: 5
+      _NoiseTexturePower: 0
+      _Opacity: 1
+      _Outline: 0
+      _OverlayTexturePower: 0
+      _PixelArtScale: 4
+      _PixelScale: 4
+      _Shine: 0
+      _Sides: 0.4
+      _UseGlowForNoiseAlpha: 1
+      _UsesPalette: 0
+      _UsesShine: 0
+    m_Colors:
+      _AdditiveColor: {r: 1, g: 1, b: 1, a: 0}
+      _BrighterCol: {r: 1, g: 0.5294118, b: 0, a: 1}
+      _ColorOverlay: {r: 1, g: 1, b: 1, a: 0}
+      _DarkerCol: {r: 0.94509804, g: 0.22745098, b: 0, a: 1}
+      _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+      _MiddleCol: {r: 1, g: 0.4, b: 0, a: 1}
+      _SpecialFade: {r: 0.5, g: 0, b: 0, a: 1}
+      _UVBounds: {r: 0, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

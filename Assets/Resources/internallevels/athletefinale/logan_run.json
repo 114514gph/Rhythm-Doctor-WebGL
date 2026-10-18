@@ -1,0 +1,105 @@
+{
+    "size": [
+        44,
+        38
+    ],
+    "rowPreviewFrame": 0,
+    "rowPreviewOffset": [
+        -1,
+        15
+    ],
+    "clips": [
+        {
+            "name": "neutral",
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "loop": "yes",
+            "fps": 10,
+            "loopStart": 0,
+            "portraitOffset": [
+                12,
+                -2
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "happy",
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "loop": "yes",
+            "fps": 10,
+            "loopStart": 0,
+            "portraitOffset": [
+                12,
+                -2
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "barely",
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "loop": "yes",
+            "fps": 10,
+            "loopStart": 0,
+            "portraitOffset": [
+                12,
+                -2
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        },
+        {
+            "name": "missed",
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "loop": "yes",
+            "fps": 10,
+            "loopStart": 0,
+            "portraitOffset": [
+                12,
+                -2
+            ],
+            "portraitSize": [
+                25,
+                25
+            ],
+            "portraitScale": 2
+        }
+    ]
+}

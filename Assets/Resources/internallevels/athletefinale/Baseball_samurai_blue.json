@@ -1,0 +1,61 @@
+{
+    "size": [
+        84,
+        50
+    ],
+    "rowPreviewFrame": 0,
+    "rowPreviewOffset": [
+        -3,
+        10
+    ],
+    "clips": [
+        {
+			"name": "neutral",
+			"frames": [ 0, 1, 2, 3, 4, 5 ],
+			"loop": "onBeat",
+			"fps": 6,
+			"loopStart": 0
+		},
+		{
+			"name": "prehit",
+			"frames": [ 6, 7 ],
+			"loop": "yes",
+			"fps": 10,
+			"loopStart": 1
+		},
+		{
+			"name": "happy",
+			"frames": [ 8, 9, 9, 10, 10, 11, 11, 11 ],
+			"loop": "no",
+			"fps": 20
+		},
+		{
+			"name": "barely",
+			"frames": [ 12, 13 ],
+			"loop": "onBeat",
+			"fps": 0,
+			"loopStart": 0
+		},
+		{
+			"name": "missed",
+			"frames": [ 14, 14, 14, 14, 14, 15, 16, 17, 16, 16],
+			"loop": "no",
+			"fps": 10,
+			"loopStart": 0
+		},
+		{
+			"name": "missedSimple",
+			"frames": [ 14, 14, 14, 14, 14, 18, 18, 18, 18, 18 ],
+			"loop": "no",
+			"fps": 10,
+			"loopStart": 0
+		},
+		{
+			"name": "hitAndStay",
+			"frames": [ 8, 9, 9, 10, 10, 11, 11, 11 ],
+			"loop": "yes",
+			"fps": 20,
+			"loopStart": 7
+		}
+    ]
+}

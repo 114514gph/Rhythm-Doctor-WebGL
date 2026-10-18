@@ -1,0 +1,39 @@
+{
+	"size": [ 48, 46 ],
+	"rowPreviewFrame": 0,
+	"rowPreviewOffset": [ -5, 5.5 ],
+	"portraitOffset": [ 6, 11 ],
+	"reflectionOffset": 34,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 1, 0 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "happy",
+			"frames": [ 2, 3 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "barely",
+			"frames": [ 5, 4 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "missed",
+			"frames": [ 7, 6 ],
+			"loop": "onBeat",
+			"fps": 0
+		},
+		{
+			"name": "fearful",
+			"frames": [ 8, 9 ],
+			"loop": "onBeat",
+			"fps": 0
+		}
+	]
+}

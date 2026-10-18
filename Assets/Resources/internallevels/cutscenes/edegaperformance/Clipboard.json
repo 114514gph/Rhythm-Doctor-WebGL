@@ -1,0 +1,14 @@
+{
+    "size": [150,200],
+    "clips": [
+        { "name": "neutral", "frames": [0], "loop": "yes", "fps": 1 },
+		{ "name": "paige1", "frames": [1], "loop": "yes", "fps": 1 },
+		{ "name": "paige2", "frames": [2], "loop": "yes", "fps": 1 },
+		{ "name": "paige3", "frames": [3], "loop": "yes", "fps": 1 },
+		{ "name": "intern", "frames": [4], "loop": "yes", "fps": 1 },
+		{ "name": "intern1", "frames": [5], "loop": "yes", "fps": 1 },
+		{ "name": "intern2", "frames": [6], "loop": "yes", "fps": 1 },
+		{ "name": "intern3", "frames": [7], "loop": "yes", "fps": 1 },
+		{ "name": "paper", "frames": [8], "loop": "yes", "fps": 1 }
+    ]
+}

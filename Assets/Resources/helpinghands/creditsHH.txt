@@ -1,0 +1,73 @@
+Rhythm Doctor Credits,
+,
+,
+credits.7thBeatGameIs,
+credits.hafizAzman,Hafiz Azman (fizzd)
+credits.winstonLee,Winston Lee
+credits.giacomoPreciado,Giacomo Preciado
+credits.kyleLabriola,Kyle Labriola
+credits.s9menine,celesti whispers
+credits.jennyCrowe,Jenny Crowe
+credits.morphious86,V. Lupu (Morphious86)
+credits.joseCahuana,Jose Cahuana
+credits.davidLi,David Li (huantian)
+credits.antonioSalazar,Antonio Salazar
+credits.randomGuyJCI,Random Guy JCI
+credits.danielWong,Daniel Wong (WOPUNK!)
+credits.fancybread,Fancybread
+credits.gdColon,Craig T. (GDColon)
+credits.thefinals,thefinals
+credits.albertoGonzalez,Alberto Gonzalez
+credits.paring,paring
+credits.riya,Riya
+credits.auth,auth
+credits.craft,craft (Indienova)
+credits.nocallia,Nocallia
+credits.heySora,Sora de Sousa Pereira (HeySora)
+credits.sebastianSalazar,Sebastián Salazar
+,
+credits.collaborators,
+credits.dvdfu,dvdfu
+credits.auburnsummer,auburnsummer
+credits.imbaInteractive,IMBA Interactive
+credits.davidSalsburg,David Salsburg (SomeGuyNamedDavid)
+credits.hyonsu,hyonsu
+credits.diegoLombardi,Diego Lombardi
+credits.caelan,Caelan O'Toole (Klyzx)
+credits.redWK,RedWK
+credits.patexum,Winston Lee
+credits.patexum,Patexum
+credits.jyiSim,Jyi Sim
+credits.looHanRong,Loo Han Rong
+credits.101Studios,101 Studios
+credits.nadirStudios,Nadir Studios
+credits.nicoleTee,Nicole Tee (Amico)
+credits.manuelPanduro,Manuel Panduro
+credits.jackSutter,Jack Sutter
+credits.adipemDragon,Găvănescu Matei (AdipemDragon)
+credits.leongWaiYin,Leong Wai Yin
+credits.deadlySprinklez,DeadlySprinklez
+credits.tak,Tak
+credits.natalieSillato,Natalie Sillato (Kabii-Kins)
+credits.notDonte,notDonte
+credits.kevinWong,Kevin Wong
+credits.rjlake,rj lake
+,
+credits.localization,
+credits.craft.localization,craft
+credits.auth.localization,auth
+credits.gabrielaArraga,Gabriela Arraga (Coffee)
+credits.pedroLeal,Pedro Leal (Gordo)
+credits.marcosYan,Marcos Yan (Blooky)
+credits.kacperStawicki,Kacper Stawicki (Szprycha)
+credits.kabanFriends,KabanFriends
+credits.tonami,Tonami
+credits.phrygia,Phrygia
+credits.purplpasta,purplpasta
+credits.guigui,Guillaume Grosjean (#Guigui)
+credits.sora.localization,Sora de Sousa Pereira (HeySora)
+,
+credits.organizations,
+credits.indienova,Indienova
+credits.mdec,Malaysia Digital Economy Corporation (MDEC)
+credits.innovatePeru,Innóvate Perú

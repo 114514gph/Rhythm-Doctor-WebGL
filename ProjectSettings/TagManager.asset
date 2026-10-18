@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Beatbox
+  - Playerbox
+  - BeatLoop
+  - RowEntityContainer
+  - Beat
+  - scrExecuteOnHit
+  - scrExecuteOnEveryBeat
+  - scrExecuteOnEveryHB
+  - scrExecuteOnCertainBeat
+  - scrExecuteOnCertainTime
+  - scrExecuteOnPeriodicBeat
+  - scrExecuteOnUpdate
+  - VolumeTracker
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Outline
+  - BG
+  - Quad
+  - GameHUD
+  - Effects
+  - InfiniteZoom
+  - Stars
+  - Blades
+  - PauseMenu
+  - Pixelation
+  - HandsOnTop
+  - VirtualWindowDance
+  - Window
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1762255533
+    locked: 0
+  - name: BackgroundParticles
+    uniqueID: 3885813723
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3477746841
+    locked: 0
+  - name: ForegroundParticles
+    uniqueID: 2634197213
+    locked: 0
+  - name: Dialogue
+    uniqueID: 991685673
+    locked: 0
+  m_RenderingLayers:
+  - Default

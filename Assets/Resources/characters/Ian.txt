@@ -1,0 +1,137 @@
+{
+	"size": [ 54, 50 ],
+	"rowPreviewOffset": [ 0, 5.5 ],
+	"portraitOffset": [ 14, 16 ],
+	"reflectionOffset": 32,
+	"clips": [
+		{
+			"name": "neutral",
+			"frames": [ 25, 26, 27, 28 ],
+			"loop": "onBeat",
+			"fps": 6.8
+		},
+		{
+			"name": "idle",
+			"frames": [ 25, 26, 27, 28 ],
+			"loop": "onBeat",
+			"fps": 6.8
+		},
+		{
+			"name": "sighing",
+			"frames": [ 0, 1, 2, 3, 4 ],
+			"loop": "yes",
+			"fps": 4
+		},
+		{
+			"name": "explaining",
+			"frames": [ 6, 7, 8 ],
+			"loop": "yes",
+			"fps": 6.8
+		},
+		{
+			"name": "explainingstop",
+			"frames": [ 6, 7, 8 ],
+			"loop": "no",
+			"fps": 2
+		},
+		{
+			"name": "running",
+			"frames": [ 10, 11, 12, 13 ],
+			"loop": "yes",
+			"fps": 8
+		},
+		{
+			"name": "typing",
+			"frames": [ 15, 16, 17, 18 ],
+			"loop": "yes",
+			"fps": 10
+		},
+		{
+			"name": "back",
+			"frames": [ 58, 59, 60, 61 ],
+			"loop": "yes",
+			"fps": 3
+		},
+		{
+			"name": "walking",
+			"frames": [ 20, 21, 22, 23 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "snatchCup",
+			"frames": [ 30, 31, 32, 33 ],
+			"loop": "no",
+			"fps": 10
+		},
+		{
+			"name": "walkingCup",
+			"frames": [ 35, 36, 37, 38 ],
+			"loop": "yes",
+			"fps": 6
+		},
+		{
+			"name": "falling",
+			"frames": [ 43, 44, 45, 46 ],
+			"loop": "yes",
+			"fps": 5
+		},
+		{
+			"name": "fainting",
+			"frames": [ 53, 54, 55, 56 ],
+			"loop": "yes",
+			"fps": 6.66
+		},
+		{
+			"name": "collapsed",
+			"frames": [ 48, 49, 50, 51 ],
+			"pivotOffset": [ 0, -9 ],
+			"portraitOffset": [ 14, 10 ],
+			"loop": "yes",
+			"fps": 6.66
+		},
+		{
+			"name": "uncollapse",
+			"frames": [ 63, 64 ],
+			"pivotOffset": [ 0, -9 ],
+			"portraitOffset": [ 14, 10 ],
+			"loop": "yes",
+			"loopStart": -1,
+			"fps": 2
+		},
+		{
+			"name": "sitUp",
+			"frames": [ 65 ],
+			"pivotOffset": [ 0, -9 ],
+			"portraitOffset": [ 14, 10 ],
+			"loop": "yes",
+			"fps": 1
+		},
+		{
+			"name": "sitUpTalking",
+			"frames": [ 65, 66 ],
+			"pivotOffset": [ 0, -9 ],
+			"portraitOffset": [ 14, 10 ],
+			"loop": "yes",
+			"fps": 3
+		},
+		{
+			"name": "headphones",
+			"frames": [ 69, 70, 71, 68 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "headphonesSofa",
+			"frames": [ 74, 75, 76, 73 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+		{
+			"name": "headphonesIceCream",
+			"frames": [ 79, 80, 81, 78 ],
+			"loop": "onBeat",
+			"fps": 4
+		},
+	]
+}

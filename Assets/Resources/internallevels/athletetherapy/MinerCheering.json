@@ -1,0 +1,27 @@
+{
+    "size": [
+        130,
+        60
+    ],
+    "clips": [
+		{
+            "name": "neutral",
+            "frames": [
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 4,
+            "loopStart": 0
+        },
+        {
+            "name": "cheer",
+            "frames": [
+                1,
+                0
+            ],
+            "loop": "onBeat",
+            "fps": 4,
+            "loopStart": 0
+        }
+    ]
+}
