@@ -4,6 +4,17 @@
 
 ---
 
+## 快速开始
+
+1. 从 [Releases](https://github.com/114514gph/Rhythm-Doctor-WebGL/releases) 下载 `Rhythm-Doctor-WebGL.zip`
+2. 解压压缩包
+3. 用 Chrome 或 Edge 浏览器打开 `index.html`
+4. 等待资源加载（约 328 MB 数据文件）
+
+**操作方式：** `Z`（主要操作）· `方向键`（导航）· `Enter`（确认）· `Esc`（暂停/返回）
+
+---
+
 ## 技术栈
 
 | 组件 | 技术 |

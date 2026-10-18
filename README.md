@@ -4,6 +4,17 @@ A WebGL port of the rhythm puzzle game *Rhythm Doctor*, rebuilt from decompiled 
 
 ---
 
+## Quick Start
+
+1. Download `Rhythm-Doctor-WebGL.zip` from [Releases](https://github.com/114514gph/Rhythm-Doctor-WebGL/releases)
+2. Extract the archive
+3. Open `index.html` in Chrome or Edge
+4. Wait for assets to load (~328 MB data file)
+
+**Controls:** `Z` (primary action) · `Arrow Keys` (navigation) · `Enter` (confirm) · `Esc` (pause/back)
+
+---
+
 ## Technical Stack
 
 | Component | Technology |
