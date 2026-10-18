@@ -27,14 +27,24 @@ jobs:
       - name: Online Activate
         run: |
           docker run --rm \
+            -e UNITY_EMAIL="${{ secrets.UNITY_EMAIL }}" \
+            -e UNITY_PASSWORD="${{ secrets.UNITY_PASSWORD }}" \
+            -e UNITY_ORGANIZATION="mengyou456" \
             -v ${{ github.workspace }}:/project \
             -v ${{ github.workspace }}/unity-config:/root/.local/share/unity3d \
             -w /project \
             unityci/editor:ubuntu-2022.3.62f1-webgl-3.2.2 \
-            /opt/unity/Editor/Unity -batchmode -nographics \
-            -username "${{ secrets.UNITY_EMAIL }}" \
-            -password "${{ secrets.UNITY_PASSWORD }}" \
-            -quit -logFile -
+            bash -c '
+              echo "=== Attempting online activation with organization ==="
+              /opt/unity/Editor/Unity -batchmode -nographics \
+                -username "$UNITY_EMAIL" \
+                -password "$UNITY_PASSWORD" \
+                -organization "mengyou456" \
+                -quit -logFile - 2>&1 || true
+              echo "=== License file check ==="
+              find /root/.local/share/unity3d -name "*.ulf" 2>/dev/null || echo "No .ulf found"
+              cat /root/.local/share/unity3d/Unity_lic.ulf 2>/dev/null || echo "No Unity_lic.ulf"
+            '
 
       - name: Check License Files
         run: |
