@@ -11,13 +11,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Unity Activation
-        uses: game-ci/unity-activate@v2
-        env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          unityVersion: 2022.3.62f1
+      - name: Generate Alf File
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/project \
+            -w /project \
+            unityci/editor:ubuntu-2022.3.62f1-linux-il2cpp-3.2.2 \
+            Unity -batchmode -nographics -createManualActivationFile -quit -logFile -
+
+      - name: List Alf Files
+        run: ls -la *.alf
 
       - name: Upload Alf File
         uses: actions/upload-artifact@v4
