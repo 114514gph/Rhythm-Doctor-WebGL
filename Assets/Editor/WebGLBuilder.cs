@@ -23,7 +23,7 @@ public class WebGLBuilder
             "Assets/Fizzd/Scenes/scnSleevePaint.unity"
         };
 
-        string outputPath = "Builds/WebGL";
+        string outputPath = "build/WebGL";
         Debug.Log("Output path: " + outputPath);
 
         BuildPlayerOptions options = new BuildPlayerOptions
