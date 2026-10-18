@@ -11,12 +11,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Free Disk Space
+        run: |
+          echo "Disk space before cleanup:"
+          df -h /
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /opt/hostedtoolcache/CodeQL
+          sudo rm -rf /usr/local/lib/android
+          docker system prune -af
+          echo "Disk space after cleanup:"
+          df -h /
+
       - name: Generate Alf File
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/project \
             -w /project \
-            unityci/editor:ubuntu-2022.3.62f1-linux-il2cpp-3.2.2 \
+            unityci/editor:ubuntu-2022.3.62f1-webgl-3.2.2 \
             Unity -batchmode -nographics -createManualActivationFile -quit -logFile -
 
       - name: List Alf Files
