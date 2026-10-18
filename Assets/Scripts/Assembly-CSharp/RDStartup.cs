@@ -42,6 +42,7 @@ public static class RDStartup
 		StartupLog("SetBuildDateAndCommit");
 		SetBuildDateAndCommit();
 		StartupLog("Loading Steam SDK");
+#if !UNITY_WEBGL
 		if (!DebugSettings.instance.ForceNoSteamworks)
 		{
 			SteamIntegration.Setup();
@@ -51,6 +52,7 @@ public static class RDStartup
 				SteamWorkshop.Initialize();
 			}
 		}
+#endif
 		StartupLog("Instantiating Rewired");
 		UnityEngine.Object.Instantiate(RDC.data.rewiredManager.gameObject);
 		StartupLog("Instantiating Narration");
@@ -88,14 +90,18 @@ public static class RDStartup
 		scrGameManager.LoadSavedVolumes();
 		if (!scnBase.isMobile)
 		{
+#if !UNITY_WEBGL
 			StartupLog("GetSteamBranch");
 			GetSteamBranch();
+#endif
 			StartupLog("DeleteTempUnzippingFolder");
 			DeleteTempUnzippingFolder();
+#if !UNITY_WEBGL
 			StartupLog("LoadRichPresence");
 			LoadRichPresence();
 			StartupLog("SetupFileURLHandler");
 			SetupFileURLHandler();
+#endif
 			StartupLog("InitResolution");
 			InitResolution();
 		}
@@ -300,6 +306,7 @@ public static class RDStartup
 		}
 	}
 
+#if !UNITY_WEBGL
 	private static void GetSteamBranch()
 	{
 		if (SteamIntegration.initialized)
@@ -309,6 +316,7 @@ public static class RDStartup
 			GC.steamBranchName = pchName;
 		}
 	}
+#endif
 
 	private static void PrintArguments()
 	{

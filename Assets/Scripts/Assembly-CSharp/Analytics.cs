@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Steamworks;
 using UnityEngine.Analytics;
 
 public static class Analytics
 {
 	public static void UploadBranchToUnity()
 	{
+#if !UNITY_WEBGL
 		int dayOfYear = DateTime.Now.DayOfYear;
 		if (Persistence.GetLastAnalyticsUpdate() != dayOfYear)
 		{
@@ -21,5 +21,6 @@ public static class Analytics
 				UnityEngine.Analytics.Analytics.CustomEvent("VersionInfo", new Dictionary<string, object> { { "branch", pchName } });
 			}
 		}
+#endif
 	}
 }
