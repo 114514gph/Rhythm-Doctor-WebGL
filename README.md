@@ -1,42 +1,65 @@
 # Rhythm Doctor WebGL
 
-A WebGL web browser port of the rhythm puzzle game *Rhythm Doctor*, rebuilt and adapted for online play.
+A WebGL port of the rhythm puzzle game *Rhythm Doctor*, rebuilt from decompiled Mono assemblies and AssetRipper-exported resources.
 
-## Project Overview
+---
 
-Rhythm Doctor is a one-button rhythm game developed by 7th Beat Games. This project is a WebGL build of the game, allowing players to run the game directly in a web browser without installing a native client. The build pipeline uses Unity's WebGL export and is automated through GitHub Actions.
+## Technical Stack
+
+| Component | Technology |
+|-----------|------------|
+| Original Engine | Unity 6000.3.21f1 (Mono backend) |
+| Rebuild Engine | Unity 2022.3.62f1 (Tuanjie Engine) |
+| Target Platform | WebGL (IL2CPP, Emscripten) |
+| Build System | GitHub Actions + game-ci/unity-builder@v4 |
+| Decompiler | ILSpy 11.1 (.NET 8) |
+| Asset Exporter | AssetRipper 2.0.0 (Linux headless) |
+| Third-party | DOTween Pro, Rewired, Ink-Libraries, tk2d, Steamworks.NET |
+
+## Build Pipeline
+
+```
+Source (Windows Beta, Mono)
+  ├─ ILSpy decompilation → 3,687 C# files (53 MB)
+  └─ AssetRipper export → 19,504 files (677 MB)
+        ↓
+  Compilation error resolution (67,599 → 0)
+  ├─ Stub generation for missing assemblies
+  ├─ Extension methods and implicit conversions
+  └─ #if UNITY_WEBGL conditional compilation
+        ↓
+  GitHub Actions (ubuntu-latest, 7 GB RAM)
+  └─ game-ci Docker image → WebGL build (324 MB)
+```
+
+## Project Structure
+
+```
+├── Assets/
+│   ├── Scripts/Assembly-CSharp/       # Decompiled game scripts (2,063 types)
+│   ├── Plugins/Assembly-CSharp-firstpass/  # First-pass assemblies (2,060 types)
+│   ├── Editor/WebGLBuilder.cs         # Build automation script
+│   ├── Resources/credits.txt          # Credits (includes WebGL port credit)
+│   └── Fizzd/Scenes/                  # 10 game scenes
+├── ProjectSettings/
+├── Packages/
+└── .github/workflows/build.yml        # CI/CD pipeline
+```
+
+## Scenes
+
+`scnLogo` · `scnMenu` · `scnGame` · `scnLevelSelect` · `scnCalibration` · `scnCLS` · `scnIanDesktop` · `scnRhythmWeightlifter` · `scnSleevePaint`
 
 ## Credits
 
-- Original Game: 7th Beat Games
-- WebGL Port and Rebuild: MengYou YEG (梦犹YEG)
-- Project Copyright: (c) MengYou(R) Studio(TM)
-
-## Build Instructions
-
-This repository uses GitHub Actions with the game-ci/unity-builder action to produce the WebGL build artifact.
-
-### Prerequisites
-
-- A Unity Personal or Plus license activated for the build runner
-- The following GitHub Secrets configured in the repository settings:
-  - `UNITY_EMAIL`: The email address of the Unity account
-  - `UNITY_PASSWORD`: The password of the Unity account
-  - `UNITY_LICENSE`: The content of the activated `.ulf` license file
-
-### Triggering a Build
-
-Builds are triggered automatically on every push to the `main` or `master` branch. You can also trigger a manual build from the Actions tab using the "Build WebGL" workflow.
-
-### Build Output
-
-On a successful build, the workflow uploads the WebGL output as a GitHub Artifact named `WebGL-Build`. The artifact contains:
-
-- `index.html`: The entry point for the web player
-- `Build/`: The compiled Unity WebGL data, including `.data`, `.framework.js`, `.wasm`, and `.loader.js` files
+| Role | Name |
+|------|------|
+| Original Game | 7th Beat Games |
+| WebGL Port & Rebuild | 梦犹YEG (MengYou YEG) |
+| Copyright | © MengYou® Studio™ |
 
 ## License
 
-This WebGL port is for personal use only. See the [LICENSE](LICENSE) file for the full terms and conditions. The original game Rhythm Doctor is the property of 7th Beat Games.
+Personal use only. Modification, redistribution, and commercial use are prohibited. See [LICENSE](LICENSE) for full terms. Original game © 7th Beat Games.
 
 [中文版](README.zh-CN.md)

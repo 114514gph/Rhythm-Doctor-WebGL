@@ -1,42 +1,65 @@
-# 节奏医生 WebGL 网页版
+# 节奏医生 WebGL
 
-音乐节奏解谜游戏《节奏医生》的 WebGL 网页浏览器移植版，经过重新适配和构建以支持在线游玩。
+音乐节奏解谜游戏《节奏医生》的 WebGL 移植版，基于反编译的 Mono 程序集与 AssetRipper 导出的资源重建。
 
-## 项目简介
+---
 
-《节奏医生》是一款由 7th Beat Games 开发的单键节奏游戏。本项目是该游戏的 WebGL 构建版本，玩家无需安装原生客户端，即可直接在网页浏览器中运行游戏。构建流程基于 Unity WebGL 导出，并通过 GitHub Actions 实现自动化。
+## 技术栈
+
+| 组件 | 技术 |
+|------|------|
+| 原版引擎 | Unity 6000.3.21f1（Mono 后端） |
+| 重建引擎 | Unity 2022.3.62f1（团结引擎） |
+| 目标平台 | WebGL（IL2CPP，Emscripten） |
+| 构建系统 | GitHub Actions + game-ci/unity-builder@v4 |
+| 反编译器 | ILSpy 11.1（.NET 8） |
+| 资源导出 | AssetRipper 2.0.0（Linux headless） |
+| 第三方库 | DOTween Pro、Rewired、Ink-Libraries、tk2d、Steamworks.NET |
+
+## 构建流程
+
+```
+源文件（Windows Beta，Mono）
+  ├─ ILSpy 反编译 → 3,687 个 C# 文件（53 MB）
+  └─ AssetRipper 导出 → 19,504 个文件（677 MB）
+        ↓
+  编译错误修复（67,599 → 0）
+  ├─ 缺失程序集的桩代码生成
+  ├─ 扩展方法与隐式转换
+  └─ #if UNITY_WEBGL 条件编译
+        ↓
+  GitHub Actions（ubuntu-latest，7 GB 内存）
+  └─ game-ci Docker 镜像 → WebGL 构建（324 MB）
+```
+
+## 项目结构
+
+```
+├── Assets/
+│   ├── Scripts/Assembly-CSharp/       # 反编译游戏脚本（2,063 个类型）
+│   ├── Plugins/Assembly-CSharp-firstpass/  # 首遍程序集（2,060 个类型）
+│   ├── Editor/WebGLBuilder.cs         # 构建自动化脚本
+│   ├── Resources/credits.txt          # 制作人员（含网页版重置署名）
+│   └── Fizzd/Scenes/                  # 10 个游戏场景
+├── ProjectSettings/
+├── Packages/
+└── .github/workflows/build.yml        # CI/CD 流水线
+```
+
+## 场景列表
+
+`scnLogo` · `scnMenu` · `scnGame` · `scnLevelSelect` · `scnCalibration` · `scnCLS` · `scnIanDesktop` · `scnRhythmWeightlifter` · `scnSleevePaint`
 
 ## 制作人员
 
-- 原版游戏：7th Beat Games
-- 网页版移植与重置：梦犹YEG
-- 项目版权所有：(c) MengYou(R) Studio(TM)
-
-## 构建说明
-
-本仓库使用 GitHub Actions 与 game-ci/unity-builder 动作来生成 WebGL 构建产物。
-
-### 前置条件
-
-- 已为构建运行器激活 Unity Personal 或 Plus 许可证
-- 在仓库设置中配置以下 GitHub Secrets：
-  - `UNITY_EMAIL`：Unity 账号的电子邮箱
-  - `UNITY_PASSWORD`：Unity 账号的密码
-  - `UNITY_LICENSE`：已激活的 `.ulf` 许可证文件内容
-
-### 触发构建
-
-每次向 `main` 或 `master` 分支推送代码时会自动触发构建。你也可以在 Actions 标签页中通过 "Build WebGL" 工作流手动触发构建。
-
-### 构建产物
-
-构建成功后，工作流会将 WebGL 输出作为名为 `WebGL-Build` 的 GitHub Artifact 上传。产物包含：
-
-- `index.html`：网页玩家的入口文件
-- `Build/`：编译后的 Unity WebGL 数据，包括 `.data`、`.framework.js`、`.wasm` 和 `.loader.js` 文件
+| 角色 | 姓名 |
+|------|------|
+| 原版游戏 | 7th Beat Games |
+| 网页版移植与重置 | 梦犹YEG (MengYou YEG) |
+| 版权所有 | © MengYou® Studio™ |
 
 ## 许可证
 
-本 WebGL 移植版仅供个人游玩。完整条款与条件请参见 [LICENSE.zh-CN](LICENSE.zh-CN)。原版游戏《节奏医生》版权归 7th Beat Games 所有。
+仅供个人游玩。禁止修改、再分发及商业使用。完整条款参见 [LICENSE.zh-CN](LICENSE.zh-CN)。原版游戏 © 7th Beat Games。
 
 [English Version](README.md)
