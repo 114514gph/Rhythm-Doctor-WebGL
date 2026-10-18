@@ -67,10 +67,14 @@
 |------|------|
 | 原版游戏 | 7th Beat Games |
 | 网页版移植与重置 | 梦犹YEG (MengYou YEG) |
-| 版权所有 | © MengYou® Studio™ |
+| 网页版版权 | © MengYou® Studio™（仅移植部分）|
 
 ## 许可证
 
-仅供个人游玩。禁止修改、再分发及商业使用。完整条款参见 [LICENSE.zh-CN](LICENSE.zh-CN)。原版游戏 © 7th Beat Games。
+所有游戏资源、源代码及原创内容均 © 7th Beat Games。本 WebGL 移植版为爱好者自制的重建项目，与 7th Beat Games 无关联，亦未获其官方认可。
+
+网页版移植与重置工作 © MengYou® Studio™，但仅涵盖移植相关的修改与构建配置部分。
+
+仅供个人游玩。禁止修改、再分发及商业使用。完整条款参见 [LICENSE.zh-CN](LICENSE.zh-CN)。
 
 [English Version](README.md)

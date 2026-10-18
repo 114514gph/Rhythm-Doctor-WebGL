@@ -67,10 +67,14 @@ Source (Windows Beta, Mono)
 |------|------|
 | Original Game | 7th Beat Games |
 | WebGL Port & Rebuild | 梦犹YEG (MengYou YEG) |
-| Copyright | © MengYou® Studio™ |
+| WebGL Port Copyright | © MengYou® Studio™ (port work only) |
 
 ## License
 
-Personal use only. Modification, redistribution, and commercial use are prohibited. See [LICENSE](LICENSE) for full terms. Original game © 7th Beat Games.
+All game assets, source code, and original content are © 7th Beat Games. This WebGL port is a fan-made reconstruction and is not affiliated with or endorsed by 7th Beat Games.
+
+The WebGL porting and rebuild work is © MengYou® Studio™, but this covers only the port-specific modifications and build configuration.
+
+Personal use only. Modification, redistribution, and commercial use are prohibited. See [LICENSE](LICENSE) for full terms.
 
 [中文版](README.zh-CN.md)
