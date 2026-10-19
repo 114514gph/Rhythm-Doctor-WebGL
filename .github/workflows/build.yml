@@ -55,25 +55,24 @@ jobs:
           buildMethod: WebGLBuilder.Build
           versioning: Semantic
 
-      - name: List build output
+      - name: Fix permissions and prepare Pages artifact
         run: |
-          echo "=== build directory ==="
-          ls -la build/ 2>/dev/null || echo "build/ not found"
-          echo "=== build/WebGL directory ==="
-          ls -la build/WebGL/ 2>/dev/null || echo "build/WebGL/ not found"
-          find build -name "index.html" 2>/dev/null || echo "no index.html found"
-
-      - name: Prepare Pages artifact
-        run: |
+          # game-ci runs in Docker, files are owned by root - fix permissions
+          sudo chown -R runner:runner build/
+          sudo chmod -R u+rw build/
+          
           # Find the actual build output directory
           BUILD_DIR=$(find build -name "index.html" -exec dirname {} \; | head -1)
           echo "Build directory: $BUILD_DIR"
+          
           if [ -z "$BUILD_DIR" ]; then
             echo "ERROR: Could not find build output"
             exit 1
           fi
+          
           touch "$BUILD_DIR/.nojekyll"
           echo "BUILD_DIR=$BUILD_DIR" >> $GITHUB_ENV
+          ls -la "$BUILD_DIR/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
