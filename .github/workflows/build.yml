@@ -55,8 +55,25 @@ jobs:
           buildMethod: WebGLBuilder.Build
           versioning: Semantic
 
-      - name: Add .nojekyll
-        run: touch build/WebGL/.nojekyll
+      - name: List build output
+        run: |
+          echo "=== build directory ==="
+          ls -la build/ 2>/dev/null || echo "build/ not found"
+          echo "=== build/WebGL directory ==="
+          ls -la build/WebGL/ 2>/dev/null || echo "build/WebGL/ not found"
+          find build -name "index.html" 2>/dev/null || echo "no index.html found"
+
+      - name: Prepare Pages artifact
+        run: |
+          # Find the actual build output directory
+          BUILD_DIR=$(find build -name "index.html" -exec dirname {} \; | head -1)
+          echo "Build directory: $BUILD_DIR"
+          if [ -z "$BUILD_DIR" ]; then
+            echo "ERROR: Could not find build output"
+            exit 1
+          fi
+          touch "$BUILD_DIR/.nojekyll"
+          echo "BUILD_DIR=$BUILD_DIR" >> $GITHUB_ENV
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -64,7 +81,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build/WebGL
+          path: ${{ env.BUILD_DIR }}
 
       - name: Deploy to GitHub Pages
         id: deployment
@@ -74,5 +91,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: WebGL-Build
-          path: build/WebGL
+          path: ${{ env.BUILD_DIR }}
           retention-days: 30
